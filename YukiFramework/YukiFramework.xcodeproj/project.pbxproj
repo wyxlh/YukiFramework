@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A94C031FB44BBF0048B4C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C021FB44BBF0048B4C2 /* AppDelegate.m */; };
+		88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C051FB44BBF0048B4C2 /* ViewController.m */; };
+		88A94C091FB44BBF0048B4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C071FB44BBF0048B4C2 /* Main.storyboard */; };
+		88A94C0B1FB44BBF0048B4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C0A1FB44BBF0048B4C2 /* Assets.xcassets */; };
+		88A94C0E1FB44BBF0048B4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C0C1FB44BBF0048B4C2 /* LaunchScreen.storyboard */; };
+		88A94C111FB44BBF0048B4C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C101FB44BBF0048B4C2 /* main.m */; };
+		88A94C1B1FB44BBF0048B4C2 /* YukiFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C1A1FB44BBF0048B4C2 /* YukiFrameworkTests.m */; };
+		88A94C261FB44BBF0048B4C2 /* YukiFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C251FB44BBF0048B4C2 /* YukiFrameworkUITests.m */; };
+		88A94C341FB44C060048B4C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C331FB44C060048B4C2 /* Images.xcassets */; };
+		88A94C481FB44E1D0048B4C2 /* YukiHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C461FB44E1D0048B4C2 /* YukiHomeViewController.m */; };
+		88A94C491FB44E1D0048B4C2 /* YukiHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C471FB44E1D0048B4C2 /* YukiHomeViewController.xib */; };
+		88A94C4D1FB44E2C0048B4C2 /* YukuClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C4B1FB44E2C0048B4C2 /* YukuClassViewController.m */; };
+		88A94C4E1FB44E2C0048B4C2 /* YukuClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C4C1FB44E2C0048B4C2 /* YukuClassViewController.xib */; };
+		88A94C521FB44E410048B4C2 /* YukiShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C501FB44E410048B4C2 /* YukiShoppingCartViewController.m */; };
+		88A94C531FB44E410048B4C2 /* YukiShoppingCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C511FB44E410048B4C2 /* YukiShoppingCartViewController.xib */; };
+		88A94C571FB44E510048B4C2 /* YukiUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */; };
+		88A94C581FB44E510048B4C2 /* YukiUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */; };
+		88A94C5C1FB458D30048B4C2 /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C5A1FB458D30048B4C2 /* WKTabbarController.m */; };
+		88A94C621FB460840048B4C2 /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C601FB460840048B4C2 /* WKNavigationController.m */; };
+		88A94C651FB46B910048B4C2 /* YukiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C641FB46B910048B4C2 /* YukiBaseViewController.m */; };
+		88A94C6A1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */; };
+		88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88A94C171FB44BBF0048B4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A94BF61FB44BBF0048B4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A94BFD1FB44BBF0048B4C2;
+			remoteInfo = YukiFramework;
+		};
+		88A94C221FB44BBF0048B4C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A94BF61FB44BBF0048B4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A94BFD1FB44BBF0048B4C2;
+			remoteInfo = YukiFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88A94BFE1FB44BBF0048B4C2 /* YukiFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YukiFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A94C011FB44BBF0048B4C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88A94C021FB44BBF0048B4C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88A94C041FB44BBF0048B4C2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88A94C051FB44BBF0048B4C2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88A94C081FB44BBF0048B4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88A94C0A1FB44BBF0048B4C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88A94C0D1FB44BBF0048B4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88A94C0F1FB44BBF0048B4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A94C101FB44BBF0048B4C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88A94C161FB44BBF0048B4C2 /* YukiFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YukiFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A94C1A1FB44BBF0048B4C2 /* YukiFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiFrameworkTests.m; sourceTree = "<group>"; };
+		88A94C1C1FB44BBF0048B4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A94C211FB44BBF0048B4C2 /* YukiFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YukiFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A94C251FB44BBF0048B4C2 /* YukiFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiFrameworkUITests.m; sourceTree = "<group>"; };
+		88A94C271FB44BBF0048B4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A94C331FB44C060048B4C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88A94C451FB44E1D0048B4C2 /* YukiHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiHomeViewController.h; sourceTree = "<group>"; };
+		88A94C461FB44E1D0048B4C2 /* YukiHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiHomeViewController.m; sourceTree = "<group>"; };
+		88A94C471FB44E1D0048B4C2 /* YukiHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YukiHomeViewController.xib; sourceTree = "<group>"; };
+		88A94C4A1FB44E2C0048B4C2 /* YukuClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukuClassViewController.h; sourceTree = "<group>"; };
+		88A94C4B1FB44E2C0048B4C2 /* YukuClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukuClassViewController.m; sourceTree = "<group>"; };
+		88A94C4C1FB44E2C0048B4C2 /* YukuClassViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YukuClassViewController.xib; sourceTree = "<group>"; };
+		88A94C4F1FB44E410048B4C2 /* YukiShoppingCartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiShoppingCartViewController.h; sourceTree = "<group>"; };
+		88A94C501FB44E410048B4C2 /* YukiShoppingCartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiShoppingCartViewController.m; sourceTree = "<group>"; };
+		88A94C511FB44E410048B4C2 /* YukiShoppingCartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YukiShoppingCartViewController.xib; sourceTree = "<group>"; };
+		88A94C541FB44E510048B4C2 /* YukiUserCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiUserCenterViewController.h; sourceTree = "<group>"; };
+		88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiUserCenterViewController.m; sourceTree = "<group>"; };
+		88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YukiUserCenterViewController.xib; sourceTree = "<group>"; };
+		88A94C5A1FB458D30048B4C2 /* WKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTabbarController.m; sourceTree = "<group>"; };
+		88A94C5B1FB458D30048B4C2 /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
+		88A94C601FB460840048B4C2 /* WKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationController.m; sourceTree = "<group>"; };
+		88A94C611FB460840048B4C2 /* WKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationController.h; sourceTree = "<group>"; };
+		88A94C631FB46B910048B4C2 /* YukiBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiBaseViewController.h; sourceTree = "<group>"; };
+		88A94C641FB46B910048B4C2 /* YukiBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiBaseViewController.m; sourceTree = "<group>"; };
+		88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeFourChooseTableViewCell.xib; sourceTree = "<group>"; };
+		88A94C681FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeFourChooseTableViewCell.h; sourceTree = "<group>"; };
+		88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeFourChooseTableViewCell.m; sourceTree = "<group>"; };
+		88A94C6C1FB46EBC0048B4C2 /* YukiHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiHelp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A94BFB1FB44BBF0048B4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A94C131FB44BBF0048B4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A94C1E1FB44BBF0048B4C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A94BF51FB44BBF0048B4C2 = {
+			isa = PBXGroup;
+			children = (
+				88A94C001FB44BBF0048B4C2 /* YukiFramework */,
+				88A94C191FB44BBF0048B4C2 /* YukiFrameworkTests */,
+				88A94C241FB44BBF0048B4C2 /* YukiFrameworkUITests */,
+				88A94BFF1FB44BBF0048B4C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88A94BFF1FB44BBF0048B4C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A94BFE1FB44BBF0048B4C2 /* YukiFramework.app */,
+				88A94C161FB44BBF0048B4C2 /* YukiFrameworkTests.xctest */,
+				88A94C211FB44BBF0048B4C2 /* YukiFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A94C001FB44BBF0048B4C2 /* YukiFramework */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C351FB44D450048B4C2 /* 底部基本界面 */,
+				88A94C011FB44BBF0048B4C2 /* AppDelegate.h */,
+				88A94C021FB44BBF0048B4C2 /* AppDelegate.m */,
+				88A94C041FB44BBF0048B4C2 /* ViewController.h */,
+				88A94C051FB44BBF0048B4C2 /* ViewController.m */,
+				88A94C071FB44BBF0048B4C2 /* Main.storyboard */,
+				88A94C0A1FB44BBF0048B4C2 /* Assets.xcassets */,
+				88A94C0C1FB44BBF0048B4C2 /* LaunchScreen.storyboard */,
+				88A94C0F1FB44BBF0048B4C2 /* Info.plist */,
+				88A94C101FB44BBF0048B4C2 /* main.m */,
+				88A94C591FB450150048B4C2 /* YukiTools */,
+				88A94C331FB44C060048B4C2 /* Images.xcassets */,
+			);
+			path = YukiFramework;
+			sourceTree = "<group>";
+		};
+		88A94C191FB44BBF0048B4C2 /* YukiFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C1A1FB44BBF0048B4C2 /* YukiFrameworkTests.m */,
+				88A94C1C1FB44BBF0048B4C2 /* Info.plist */,
+			);
+			path = YukiFrameworkTests;
+			sourceTree = "<group>";
+		};
+		88A94C241FB44BBF0048B4C2 /* YukiFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C251FB44BBF0048B4C2 /* YukiFrameworkUITests.m */,
+				88A94C271FB44BBF0048B4C2 /* Info.plist */,
+			);
+			path = YukiFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		88A94C351FB44D450048B4C2 /* 底部基本界面 */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C661FB46DF90048B4C2 /* View */,
+				88A94C451FB44E1D0048B4C2 /* YukiHomeViewController.h */,
+				88A94C461FB44E1D0048B4C2 /* YukiHomeViewController.m */,
+				88A94C471FB44E1D0048B4C2 /* YukiHomeViewController.xib */,
+				88A94C4A1FB44E2C0048B4C2 /* YukuClassViewController.h */,
+				88A94C4B1FB44E2C0048B4C2 /* YukuClassViewController.m */,
+				88A94C4C1FB44E2C0048B4C2 /* YukuClassViewController.xib */,
+				88A94C4F1FB44E410048B4C2 /* YukiShoppingCartViewController.h */,
+				88A94C501FB44E410048B4C2 /* YukiShoppingCartViewController.m */,
+				88A94C511FB44E410048B4C2 /* YukiShoppingCartViewController.xib */,
+				88A94C541FB44E510048B4C2 /* YukiUserCenterViewController.h */,
+				88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */,
+				88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */,
+			);
+			path = "底部基本界面";
+			sourceTree = "<group>";
+		};
+		88A94C591FB450150048B4C2 /* YukiTools */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C5B1FB458D30048B4C2 /* WKTabbarController.h */,
+				88A94C5A1FB458D30048B4C2 /* WKTabbarController.m */,
+				88A94C611FB460840048B4C2 /* WKNavigationController.h */,
+				88A94C601FB460840048B4C2 /* WKNavigationController.m */,
+				88A94C631FB46B910048B4C2 /* YukiBaseViewController.h */,
+				88A94C641FB46B910048B4C2 /* YukiBaseViewController.m */,
+				88A94C6C1FB46EBC0048B4C2 /* YukiHelp.h */,
+			);
+			path = YukiTools;
+			sourceTree = "<group>";
+		};
+		88A94C661FB46DF90048B4C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C681FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.h */,
+				88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */,
+				88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A94BFD1FB44BBF0048B4C2 /* YukiFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A94C2A1FB44BBF0048B4C2 /* Build configuration list for PBXNativeTarget "YukiFramework" */;
+			buildPhases = (
+				88A94BFA1FB44BBF0048B4C2 /* Sources */,
+				88A94BFB1FB44BBF0048B4C2 /* Frameworks */,
+				88A94BFC1FB44BBF0048B4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YukiFramework;
+			productName = YukiFramework;
+			productReference = 88A94BFE1FB44BBF0048B4C2 /* YukiFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88A94C151FB44BBF0048B4C2 /* YukiFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A94C2D1FB44BBF0048B4C2 /* Build configuration list for PBXNativeTarget "YukiFrameworkTests" */;
+			buildPhases = (
+				88A94C121FB44BBF0048B4C2 /* Sources */,
+				88A94C131FB44BBF0048B4C2 /* Frameworks */,
+				88A94C141FB44BBF0048B4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A94C181FB44BBF0048B4C2 /* PBXTargetDependency */,
+			);
+			name = YukiFrameworkTests;
+			productName = YukiFrameworkTests;
+			productReference = 88A94C161FB44BBF0048B4C2 /* YukiFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88A94C201FB44BBF0048B4C2 /* YukiFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A94C301FB44BBF0048B4C2 /* Build configuration list for PBXNativeTarget "YukiFrameworkUITests" */;
+			buildPhases = (
+				88A94C1D1FB44BBF0048B4C2 /* Sources */,
+				88A94C1E1FB44BBF0048B4C2 /* Frameworks */,
+				88A94C1F1FB44BBF0048B4C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A94C231FB44BBF0048B4C2 /* PBXTargetDependency */,
+			);
+			name = YukiFrameworkUITests;
+			productName = YukiFrameworkUITests;
+			productReference = 88A94C211FB44BBF0048B4C2 /* YukiFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A94BF61FB44BBF0048B4C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = wy;
+				TargetAttributes = {
+					88A94BFD1FB44BBF0048B4C2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					88A94C151FB44BBF0048B4C2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88A94BFD1FB44BBF0048B4C2;
+					};
+					88A94C201FB44BBF0048B4C2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88A94BFD1FB44BBF0048B4C2;
+					};
+				};
+			};
+			buildConfigurationList = 88A94BF91FB44BBF0048B4C2 /* Build configuration list for PBXProject "YukiFramework" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88A94BF51FB44BBF0048B4C2;
+			productRefGroup = 88A94BFF1FB44BBF0048B4C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A94BFD1FB44BBF0048B4C2 /* YukiFramework */,
+				88A94C151FB44BBF0048B4C2 /* YukiFrameworkTests */,
+				88A94C201FB44BBF0048B4C2 /* YukiFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A94BFC1FB44BBF0048B4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A94C0E1FB44BBF0048B4C2 /* LaunchScreen.storyboard in Resources */,
+				88A94C6A1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.xib in Resources */,
+				88A94C4E1FB44E2C0048B4C2 /* YukuClassViewController.xib in Resources */,
+				88A94C341FB44C060048B4C2 /* Images.xcassets in Resources */,
+				88A94C0B1FB44BBF0048B4C2 /* Assets.xcassets in Resources */,
+				88A94C581FB44E510048B4C2 /* YukiUserCenterViewController.xib in Resources */,
+				88A94C091FB44BBF0048B4C2 /* Main.storyboard in Resources */,
+				88A94C531FB44E410048B4C2 /* YukiShoppingCartViewController.xib in Resources */,
+				88A94C491FB44E1D0048B4C2 /* YukiHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A94C141FB44BBF0048B4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A94C1F1FB44BBF0048B4C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A94BFA1FB44BBF0048B4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A94C521FB44E410048B4C2 /* YukiShoppingCartViewController.m in Sources */,
+				88A94C5C1FB458D30048B4C2 /* WKTabbarController.m in Sources */,
+				88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */,
+				88A94C651FB46B910048B4C2 /* YukiBaseViewController.m in Sources */,
+				88A94C621FB460840048B4C2 /* WKNavigationController.m in Sources */,
+				88A94C4D1FB44E2C0048B4C2 /* YukuClassViewController.m in Sources */,
+				88A94C481FB44E1D0048B4C2 /* YukiHomeViewController.m in Sources */,
+				88A94C571FB44E510048B4C2 /* YukiUserCenterViewController.m in Sources */,
+				88A94C111FB44BBF0048B4C2 /* main.m in Sources */,
+				88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */,
+				88A94C031FB44BBF0048B4C2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A94C121FB44BBF0048B4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A94C1B1FB44BBF0048B4C2 /* YukiFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A94C1D1FB44BBF0048B4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A94C261FB44BBF0048B4C2 /* YukiFrameworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88A94C181FB44BBF0048B4C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A94BFD1FB44BBF0048B4C2 /* YukiFramework */;
+			targetProxy = 88A94C171FB44BBF0048B4C2 /* PBXContainerItemProxy */;
+		};
+		88A94C231FB44BBF0048B4C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A94BFD1FB44BBF0048B4C2 /* YukiFramework */;
+			targetProxy = 88A94C221FB44BBF0048B4C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88A94C071FB44BBF0048B4C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A94C081FB44BBF0048B4C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88A94C0C1FB44BBF0048B4C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A94C0D1FB44BBF0048B4C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A94C281FB44BBF0048B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88A94C291FB44BBF0048B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A94C2B1FB44BBF0048B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				INFOPLIST_FILE = YukiFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88A94C2C1FB44BBF0048B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				INFOPLIST_FILE = YukiFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88A94C2E1FB44BBF0048B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YukiFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YukiFramework.app/YukiFramework";
+			};
+			name = Debug;
+		};
+		88A94C2F1FB44BBF0048B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YukiFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YukiFramework.app/YukiFramework";
+			};
+			name = Release;
+		};
+		88A94C311FB44BBF0048B4C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YukiFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YukiFramework;
+			};
+			name = Debug;
+		};
+		88A94C321FB44BBF0048B4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YukiFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YukiFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A94BF91FB44BBF0048B4C2 /* Build configuration list for PBXProject "YukiFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A94C281FB44BBF0048B4C2 /* Debug */,
+				88A94C291FB44BBF0048B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A94C2A1FB44BBF0048B4C2 /* Build configuration list for PBXNativeTarget "YukiFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A94C2B1FB44BBF0048B4C2 /* Debug */,
+				88A94C2C1FB44BBF0048B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A94C2D1FB44BBF0048B4C2 /* Build configuration list for PBXNativeTarget "YukiFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A94C2E1FB44BBF0048B4C2 /* Debug */,
+				88A94C2F1FB44BBF0048B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A94C301FB44BBF0048B4C2 /* Build configuration list for PBXNativeTarget "YukiFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A94C311FB44BBF0048B4C2 /* Debug */,
+				88A94C321FB44BBF0048B4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A94BF61FB44BBF0048B4C2 /* Project object */;
+}
