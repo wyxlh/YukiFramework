@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */; };
+		8865CC651FB97E720032B484 /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC5B1FB97E700032B484 /* WKNavigationController.m */; };
+		8865CC661FB97E720032B484 /* YukiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */; };
+		8865CC691FB97E720032B484 /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC621FB97E710032B484 /* WKTabbarController.m */; };
+		8865CC761FB97F490032B484 /* WKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC751FB97F490032B484 /* WKRequest.m */; };
+		8865CC791FB97F610032B484 /* WKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC781FB97F610032B484 /* WKBaseModel.m */; };
 		88A94C031FB44BBF0048B4C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C021FB44BBF0048B4C2 /* AppDelegate.m */; };
 		88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C051FB44BBF0048B4C2 /* ViewController.m */; };
 		88A94C091FB44BBF0048B4C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C071FB44BBF0048B4C2 /* Main.storyboard */; };
@@ -24,9 +30,6 @@
 		88A94C531FB44E410048B4C2 /* YukiShoppingCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C511FB44E410048B4C2 /* YukiShoppingCartViewController.xib */; };
 		88A94C571FB44E510048B4C2 /* YukiUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */; };
 		88A94C581FB44E510048B4C2 /* YukiUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */; };
-		88A94C5C1FB458D30048B4C2 /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C5A1FB458D30048B4C2 /* WKTabbarController.m */; };
-		88A94C621FB460840048B4C2 /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C601FB460840048B4C2 /* WKNavigationController.m */; };
-		88A94C651FB46B910048B4C2 /* YukiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C641FB46B910048B4C2 /* YukiBaseViewController.m */; };
 		88A94C6A1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */; };
 		88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */; };
 /* End PBXBuildFile section */
@@ -49,6 +52,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YukiFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B319400642AAD808E5D75F4 /* Pods-YukiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.release.xcconfig"; sourceTree = "<group>"; };
+		8865CC5B1FB97E700032B484 /* WKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationController.m; sourceTree = "<group>"; };
+		8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YukiBaseViewController.m; sourceTree = "<group>"; };
+		8865CC5E1FB97E710032B484 /* WKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationController.h; sourceTree = "<group>"; };
+		8865CC5F1FB97E710032B484 /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
+		8865CC621FB97E710032B484 /* WKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTabbarController.m; sourceTree = "<group>"; };
+		8865CC631FB97E720032B484 /* YukiHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiHelp.h; sourceTree = "<group>"; };
+		8865CC641FB97E720032B484 /* YukiBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiBaseViewController.h; sourceTree = "<group>"; };
+		8865CC741FB97F490032B484 /* WKRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKRequest.h; sourceTree = "<group>"; };
+		8865CC751FB97F490032B484 /* WKRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKRequest.m; sourceTree = "<group>"; };
+		8865CC771FB97F610032B484 /* WKBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKBaseModel.h; sourceTree = "<group>"; };
+		8865CC781FB97F610032B484 /* WKBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKBaseModel.m; sourceTree = "<group>"; };
+		8865CC7C1FB981C30032B484 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8865CC7D1FB9847E0032B484 /* YukiConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiConfig.h; sourceTree = "<group>"; };
 		88A94BFE1FB44BBF0048B4C2 /* YukiFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YukiFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A94C011FB44BBF0048B4C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88A94C021FB44BBF0048B4C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,16 +96,10 @@
 		88A94C541FB44E510048B4C2 /* YukiUserCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiUserCenterViewController.h; sourceTree = "<group>"; };
 		88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiUserCenterViewController.m; sourceTree = "<group>"; };
 		88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YukiUserCenterViewController.xib; sourceTree = "<group>"; };
-		88A94C5A1FB458D30048B4C2 /* WKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTabbarController.m; sourceTree = "<group>"; };
-		88A94C5B1FB458D30048B4C2 /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
-		88A94C601FB460840048B4C2 /* WKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationController.m; sourceTree = "<group>"; };
-		88A94C611FB460840048B4C2 /* WKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationController.h; sourceTree = "<group>"; };
-		88A94C631FB46B910048B4C2 /* YukiBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiBaseViewController.h; sourceTree = "<group>"; };
-		88A94C641FB46B910048B4C2 /* YukiBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiBaseViewController.m; sourceTree = "<group>"; };
 		88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeFourChooseTableViewCell.xib; sourceTree = "<group>"; };
 		88A94C681FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeFourChooseTableViewCell.h; sourceTree = "<group>"; };
 		88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeFourChooseTableViewCell.m; sourceTree = "<group>"; };
-		88A94C6C1FB46EBC0048B4C2 /* YukiHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiHelp.h; sourceTree = "<group>"; };
+		B776A9DD4D2D5C7D54CA6F17 /* Pods-YukiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +128,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1591883255E7B200D21670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8865CC511FB96BFC0032B484 /* TabbarAndNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				8865CC5E1FB97E710032B484 /* WKNavigationController.h */,
+				8865CC5B1FB97E700032B484 /* WKNavigationController.m */,
+				8865CC5F1FB97E710032B484 /* WKTabbarController.h */,
+				8865CC621FB97E710032B484 /* WKTabbarController.m */,
+				8865CC641FB97E720032B484 /* YukiBaseViewController.h */,
+				8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */,
+				8865CC631FB97E720032B484 /* YukiHelp.h */,
+				8865CC7D1FB9847E0032B484 /* YukiConfig.h */,
+				8865CC7C1FB981C30032B484 /* PrefixHeader.pch */,
+			);
+			path = TabbarAndNavBar;
+			sourceTree = "<group>";
+		};
+		8865CC521FB96BFC0032B484 /* YukiTools */ = {
+			isa = PBXGroup;
+			children = (
+				8865CC731FB97F310032B484 /* WKRequest */,
+				8865CC511FB96BFC0032B484 /* TabbarAndNavBar */,
+			);
+			name = YukiTools;
+			path = /Users/wangyu/YukiFramework/YukiFramework/YukiFramework/YukiTools;
+			sourceTree = "<absolute>";
+		};
+		8865CC731FB97F310032B484 /* WKRequest */ = {
+			isa = PBXGroup;
+			children = (
+				8865CC741FB97F490032B484 /* WKRequest.h */,
+				8865CC751FB97F490032B484 /* WKRequest.m */,
+				8865CC771FB97F610032B484 /* WKBaseModel.h */,
+				8865CC781FB97F610032B484 /* WKBaseModel.m */,
+			);
+			name = WKRequest;
+			path = ../WKRequest;
+			sourceTree = "<group>";
+		};
 		88A94BF51FB44BBF0048B4C2 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +181,8 @@
 				88A94C191FB44BBF0048B4C2 /* YukiFrameworkTests */,
 				88A94C241FB44BBF0048B4C2 /* YukiFrameworkUITests */,
 				88A94BFF1FB44BBF0048B4C2 /* Products */,
+				8D8E5D7F9A1817AC3F9E2DED /* Pods */,
+				0D1591883255E7B200D21670 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,7 +199,7 @@
 		88A94C001FB44BBF0048B4C2 /* YukiFramework */ = {
 			isa = PBXGroup;
 			children = (
-				88A94C351FB44D450048B4C2 /* 底部基本界面 */,
+				88A94C351FB44D450048B4C2 /* MainController */,
 				88A94C011FB44BBF0048B4C2 /* AppDelegate.h */,
 				88A94C021FB44BBF0048B4C2 /* AppDelegate.m */,
 				88A94C041FB44BBF0048B4C2 /* ViewController.h */,
@@ -148,8 +209,8 @@
 				88A94C0C1FB44BBF0048B4C2 /* LaunchScreen.storyboard */,
 				88A94C0F1FB44BBF0048B4C2 /* Info.plist */,
 				88A94C101FB44BBF0048B4C2 /* main.m */,
-				88A94C591FB450150048B4C2 /* YukiTools */,
 				88A94C331FB44C060048B4C2 /* Images.xcassets */,
+				8865CC521FB96BFC0032B484 /* YukiTools */,
 			);
 			path = YukiFramework;
 			sourceTree = "<group>";
@@ -172,7 +233,7 @@
 			path = YukiFrameworkUITests;
 			sourceTree = "<group>";
 		};
-		88A94C351FB44D450048B4C2 /* 底部基本界面 */ = {
+		88A94C351FB44D450048B4C2 /* MainController */ = {
 			isa = PBXGroup;
 			children = (
 				88A94C661FB46DF90048B4C2 /* View */,
@@ -189,21 +250,7 @@
 				88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */,
 				88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */,
 			);
-			path = "底部基本界面";
-			sourceTree = "<group>";
-		};
-		88A94C591FB450150048B4C2 /* YukiTools */ = {
-			isa = PBXGroup;
-			children = (
-				88A94C5B1FB458D30048B4C2 /* WKTabbarController.h */,
-				88A94C5A1FB458D30048B4C2 /* WKTabbarController.m */,
-				88A94C611FB460840048B4C2 /* WKNavigationController.h */,
-				88A94C601FB460840048B4C2 /* WKNavigationController.m */,
-				88A94C631FB46B910048B4C2 /* YukiBaseViewController.h */,
-				88A94C641FB46B910048B4C2 /* YukiBaseViewController.m */,
-				88A94C6C1FB46EBC0048B4C2 /* YukiHelp.h */,
-			);
-			path = YukiTools;
+			path = MainController;
 			sourceTree = "<group>";
 		};
 		88A94C661FB46DF90048B4C2 /* View */ = {
@@ -216,6 +263,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		8D8E5D7F9A1817AC3F9E2DED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B776A9DD4D2D5C7D54CA6F17 /* Pods-YukiFramework.debug.xcconfig */,
+				4B319400642AAD808E5D75F4 /* Pods-YukiFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88A94C2A1FB44BBF0048B4C2 /* Build configuration list for PBXNativeTarget "YukiFramework" */;
 			buildPhases = (
+				9AA91D6761D691A201581E13 /* [CP] Check Pods Manifest.lock */,
 				88A94BFA1FB44BBF0048B4C2 /* Sources */,
 				88A94BFB1FB44BBF0048B4C2 /* Frameworks */,
 				88A94BFC1FB44BBF0048B4C2 /* Resources */,
+				1DBD8E85F4D7061C5F328207 /* [CP] Embed Pods Frameworks */,
+				E7849E6D2B06A49A3B675D93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -350,20 +409,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DBD8E85F4D7061C5F328207 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA91D6761D691A201581E13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YukiFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7849E6D2B06A49A3B675D93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88A94BFA1FB44BBF0048B4C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8865CC691FB97E720032B484 /* WKTabbarController.m in Sources */,
 				88A94C521FB44E410048B4C2 /* YukiShoppingCartViewController.m in Sources */,
-				88A94C5C1FB458D30048B4C2 /* WKTabbarController.m in Sources */,
 				88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */,
-				88A94C651FB46B910048B4C2 /* YukiBaseViewController.m in Sources */,
-				88A94C621FB460840048B4C2 /* WKNavigationController.m in Sources */,
 				88A94C4D1FB44E2C0048B4C2 /* YukuClassViewController.m in Sources */,
+				8865CC791FB97F610032B484 /* WKBaseModel.m in Sources */,
+				8865CC661FB97E720032B484 /* YukiBaseViewController.m in Sources */,
+				8865CC651FB97E720032B484 /* WKNavigationController.m in Sources */,
 				88A94C481FB44E1D0048B4C2 /* YukiHomeViewController.m in Sources */,
 				88A94C571FB44E510048B4C2 /* YukiUserCenterViewController.m in Sources */,
 				88A94C111FB44BBF0048B4C2 /* main.m in Sources */,
+				8865CC761FB97F490032B484 /* WKRequest.m in Sources */,
 				88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */,
 				88A94C031FB44BBF0048B4C2 /* AppDelegate.m in Sources */,
 			);
@@ -526,11 +641,14 @@
 		};
 		88A94C2B1FB44BBF0048B4C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B776A9DD4D2D5C7D54CA6F17 /* Pods-YukiFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YukiFramework/YukiTools/TabbarAndNavBar/PrefixHeader.pch";
 				INFOPLIST_FILE = YukiFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,11 +660,14 @@
 		};
 		88A94C2C1FB44BBF0048B4C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B319400642AAD808E5D75F4 /* Pods-YukiFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YukiFramework/YukiTools/TabbarAndNavBar/PrefixHeader.pch";
 				INFOPLIST_FILE = YukiFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
