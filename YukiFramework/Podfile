@@ -1,0 +1,11 @@
+platform :ios, ‘8.0’
+
+target “YukiFramework” do
+
+pod 'AFNetworking', '~> 3.1.0' #网络请求
+pod 'LxDBAnything', '~> 1.1.0' #打印各种数据类型
+pod 'MJExtension', '~> 3.0.13' #model
+pod 'MJRefresh', '~> 3.1.12'   #刷新
+pod 'SDWebImage', '~> 4.1.2'   #加载图片
+pod 'ReactiveCocoa', '~> 2.5'  #rac
+end
