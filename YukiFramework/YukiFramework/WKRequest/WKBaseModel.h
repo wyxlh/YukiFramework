@@ -11,6 +11,7 @@
 @interface WKBaseModel : NSObject
 @property (nonatomic, strong, nullable) NSMutableDictionary     *mDictionary;
 @property (nonatomic, copy, nullable)   NSString                *result;
-@property (nonatomic, copy, nullable)   NSString                *message;
+@property (nonatomic, copy, nullable)   NSString                *reason;
+@property (nonatomic, copy, nullable)   NSString                *errorCode;
 -(instancetype _Nullable )initWithJsonObject:(NSDictionary *_Nonnull)aJson;
 @end

@@ -39,5 +39,6 @@
 #pragma mark ------------------------------Bolck Self--------------------------------------------------
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
-#define HOST_URL  @"http://app-dev.mikwine.com"
+#define HOST_URL  @"http://v.juhe.cn/historyWeather/province"
+#define HOST_JOKEURL  @"http://apis.juhe.cn/cook/category"
 #endif /* YukiHelp_h */

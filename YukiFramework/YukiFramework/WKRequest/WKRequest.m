@@ -25,12 +25,11 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     //可以接受的类型
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
-    //添加一种支持的类型
-//    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",@"application/json", @"text/json", nil];
     //请求超时的时间
     manager.requestSerializer.timeoutInterval = TIMEOUT;
     //请求url
     NSString *hostUrl = [NSString stringWithFormat:@"%@%@",HOST_URL,urlString];
+    
     [manager GET:hostUrl parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (successBlock) {
             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
@@ -63,8 +62,8 @@
     //请求超时的时间
     manager.requestSerializer.timeoutInterval = TIMEOUT;
     //请求url
-    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",HOST_URL,urlString];
-    [manager POST:hostUrl parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+//    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",HOST_JOKEURL,urlString];
+    [manager POST:urlString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (successBlock) {
             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
             WKBaseModel *baseModel = [[WKBaseModel alloc]initWithJsonObject:dic];
@@ -77,5 +76,22 @@
     }];
     
 }
+
+/**
+ 字典转 Json
+
+ @param parms 传入的字典,
+ @return 返回的 json 字符串
+ */
++(NSString *)dictionTransformationJson:(NSDictionary *)parms{
+    NSError *error;
+    NSString *jsonStr = @"";
+    if ([parms isKindOfClass:[NSDictionary class]]) {
+         NSData *jsonData = [NSJSONSerialization dataWithJSONObject:parms options:NSJSONWritingPrettyPrinted error:&error];
+         jsonStr = [[NSString alloc]initWithData:jsonData encoding:NSUTF8StringEncoding];
+    }
+    return jsonStr;
+}
+
 
 @end

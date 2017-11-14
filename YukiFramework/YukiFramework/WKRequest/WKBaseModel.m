@@ -17,7 +17,8 @@
         if (aJson && [aJson isKindOfClass:[NSDictionary class]]) {
             self.mDictionary = [NSMutableDictionary dictionaryWithDictionary:aJson];
             self.result       = [aJson objectForKey:@"result"];
-            self.message      = [aJson objectForKey:@"message"];
+            self.reason       = [aJson objectForKey:@"reason"];
+            self.errorCode    = [aJson objectForKey:@"error_code"];
         }
     }
     
@@ -29,7 +30,12 @@
 }
 
 -(NSString *)message{
-    return [self.mDictionary objectForKey:@"message"];
+    return [self.mDictionary objectForKey:@"reason"];
+}
+
+-(NSString *)errorCode{
+    return [self.mDictionary objectForKey:@"error_Code"];
+    
 }
 
 @end

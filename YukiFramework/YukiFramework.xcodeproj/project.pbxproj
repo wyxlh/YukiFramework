@@ -32,6 +32,20 @@
 		88A94C581FB44E510048B4C2 /* YukiUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */; };
 		88A94C6A1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */; };
 		88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */; };
+		88C5F5C71FBA95270025D9CA /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C61FBA95270025D9CA /* HomeModel.m */; };
+		88C5F5CB1FBABBAF0025D9CA /* YKShoppingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C91FBABBAF0025D9CA /* YKShoppingTableViewCell.m */; };
+		88C5F5CC1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5CA1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib */; };
+		88C5F5DF1FBAC3C60025D9CA /* YKShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5DE1FBAC3C60025D9CA /* YKShopModel.m */; };
+		88C5F5E21FBAC79E0025D9CA /* YKShopHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5E11FBAC79E0025D9CA /* YKShopHeadView.m */; };
+		88C5F5E41FBAC7A60025D9CA /* YKShopHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5E31FBAC7A60025D9CA /* YKShopHeadView.xib */; };
+		88C5F5E81FBACB410025D9CA /* YKShopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5E61FBACB410025D9CA /* YKShopListViewController.m */; };
+		88C5F5E91FBACB410025D9CA /* YKShopListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5E71FBACB410025D9CA /* YKShopListViewController.xib */; };
+		88C5F5ED1FBACD0D0025D9CA /* YKShopStepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5EB1FBACD0D0025D9CA /* YKShopStepTableViewCell.m */; };
+		88C5F5EE1FBACD0D0025D9CA /* YKShopStepTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5EC1FBACD0D0025D9CA /* YKShopStepTableViewCell.xib */; };
+		88C5F5F11FBAD1630025D9CA /* YKShopListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5F01FBAD1630025D9CA /* YKShopListModel.m */; };
+		88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5F31FBAD8B30025D9CA /* YKShopListHeadView.m */; };
+		88C5F5F61FBAD8BC0025D9CA /* YKShopListHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5F51FBAD8BC0025D9CA /* YKShopListHeadView.xib */; };
+		88C5F5FB1FBADE580025D9CA /* HSGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5FA1FBADE580025D9CA /* HSGifHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +113,29 @@
 		88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeFourChooseTableViewCell.xib; sourceTree = "<group>"; };
 		88A94C681FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeFourChooseTableViewCell.h; sourceTree = "<group>"; };
 		88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeFourChooseTableViewCell.m; sourceTree = "<group>"; };
+		88C5F5C51FBA95270025D9CA /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		88C5F5C61FBA95270025D9CA /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		88C5F5C81FBABBAF0025D9CA /* YKShoppingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShoppingTableViewCell.h; sourceTree = "<group>"; };
+		88C5F5C91FBABBAF0025D9CA /* YKShoppingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShoppingTableViewCell.m; sourceTree = "<group>"; };
+		88C5F5CA1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShoppingTableViewCell.xib; sourceTree = "<group>"; };
+		88C5F5DD1FBAC3C60025D9CA /* YKShopModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShopModel.h; sourceTree = "<group>"; };
+		88C5F5DE1FBAC3C60025D9CA /* YKShopModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShopModel.m; sourceTree = "<group>"; };
+		88C5F5E01FBAC79E0025D9CA /* YKShopHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShopHeadView.h; sourceTree = "<group>"; };
+		88C5F5E11FBAC79E0025D9CA /* YKShopHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShopHeadView.m; sourceTree = "<group>"; };
+		88C5F5E31FBAC7A60025D9CA /* YKShopHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShopHeadView.xib; sourceTree = "<group>"; };
+		88C5F5E51FBACB410025D9CA /* YKShopListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShopListViewController.h; sourceTree = "<group>"; };
+		88C5F5E61FBACB410025D9CA /* YKShopListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShopListViewController.m; sourceTree = "<group>"; };
+		88C5F5E71FBACB410025D9CA /* YKShopListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShopListViewController.xib; sourceTree = "<group>"; };
+		88C5F5EA1FBACD0D0025D9CA /* YKShopStepTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShopStepTableViewCell.h; sourceTree = "<group>"; };
+		88C5F5EB1FBACD0D0025D9CA /* YKShopStepTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShopStepTableViewCell.m; sourceTree = "<group>"; };
+		88C5F5EC1FBACD0D0025D9CA /* YKShopStepTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShopStepTableViewCell.xib; sourceTree = "<group>"; };
+		88C5F5EF1FBAD1630025D9CA /* YKShopListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShopListModel.h; sourceTree = "<group>"; };
+		88C5F5F01FBAD1630025D9CA /* YKShopListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShopListModel.m; sourceTree = "<group>"; };
+		88C5F5F21FBAD8B30025D9CA /* YKShopListHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShopListHeadView.h; sourceTree = "<group>"; };
+		88C5F5F31FBAD8B30025D9CA /* YKShopListHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShopListHeadView.m; sourceTree = "<group>"; };
+		88C5F5F51FBAD8BC0025D9CA /* YKShopListHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShopListHeadView.xib; sourceTree = "<group>"; };
+		88C5F5F91FBADE580025D9CA /* HSGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGifHeader.h; sourceTree = "<group>"; };
+		88C5F5FA1FBADE580025D9CA /* HSGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGifHeader.m; sourceTree = "<group>"; };
 		B776A9DD4D2D5C7D54CA6F17 /* Pods-YukiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +192,7 @@
 		8865CC521FB96BFC0032B484 /* YukiTools */ = {
 			isa = PBXGroup;
 			children = (
+				88C5F5F81FBADE430025D9CA /* mj 自定义动画 */,
 				8865CC731FB97F310032B484 /* WKRequest */,
 				8865CC511FB96BFC0032B484 /* TabbarAndNavBar */,
 			);
@@ -199,7 +237,7 @@
 		88A94C001FB44BBF0048B4C2 /* YukiFramework */ = {
 			isa = PBXGroup;
 			children = (
-				88A94C351FB44D450048B4C2 /* MainController */,
+				88A94C351FB44D450048B4C2 /* UI */,
 				88A94C011FB44BBF0048B4C2 /* AppDelegate.h */,
 				88A94C021FB44BBF0048B4C2 /* AppDelegate.m */,
 				88A94C041FB44BBF0048B4C2 /* ViewController.h */,
@@ -233,27 +271,47 @@
 			path = YukiFrameworkUITests;
 			sourceTree = "<group>";
 		};
-		88A94C351FB44D450048B4C2 /* MainController */ = {
+		88A94C351FB44D450048B4C2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				88A94C661FB46DF90048B4C2 /* View */,
+				88C5F5CD1FBAC25E0025D9CA /* Home */,
+				88C5F5D11FBAC2C00025D9CA /* Class */,
+				88C5F5D51FBAC31F0025D9CA /* ShoppingCart */,
+				88C5F5D91FBAC3380025D9CA /* UserCenter */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		88C5F5CD1FBAC25E0025D9CA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5D01FBAC2800025D9CA /* View */,
+				88C5F5CF1FBAC2730025D9CA /* Controller */,
+				88C5F5CE1FBAC2650025D9CA /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		88C5F5CE1FBAC2650025D9CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5C51FBA95270025D9CA /* HomeModel.h */,
+				88C5F5C61FBA95270025D9CA /* HomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88C5F5CF1FBAC2730025D9CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				88A94C451FB44E1D0048B4C2 /* YukiHomeViewController.h */,
 				88A94C461FB44E1D0048B4C2 /* YukiHomeViewController.m */,
 				88A94C471FB44E1D0048B4C2 /* YukiHomeViewController.xib */,
-				88A94C4A1FB44E2C0048B4C2 /* YukuClassViewController.h */,
-				88A94C4B1FB44E2C0048B4C2 /* YukuClassViewController.m */,
-				88A94C4C1FB44E2C0048B4C2 /* YukuClassViewController.xib */,
-				88A94C4F1FB44E410048B4C2 /* YukiShoppingCartViewController.h */,
-				88A94C501FB44E410048B4C2 /* YukiShoppingCartViewController.m */,
-				88A94C511FB44E410048B4C2 /* YukiShoppingCartViewController.xib */,
-				88A94C541FB44E510048B4C2 /* YukiUserCenterViewController.h */,
-				88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */,
-				88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */,
 			);
-			path = MainController;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		88A94C661FB46DF90048B4C2 /* View */ = {
+		88C5F5D01FBAC2800025D9CA /* View */ = {
 			isa = PBXGroup;
 			children = (
 				88A94C681FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.h */,
@@ -261,6 +319,137 @@
 				88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		88C5F5D11FBAC2C00025D9CA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5D41FBAC2E30025D9CA /* View */,
+				88C5F5D31FBAC2DA0025D9CA /* Model */,
+				88C5F5D21FBAC2C90025D9CA /* Controller */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		88C5F5D21FBAC2C90025D9CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C4A1FB44E2C0048B4C2 /* YukuClassViewController.h */,
+				88A94C4B1FB44E2C0048B4C2 /* YukuClassViewController.m */,
+				88A94C4C1FB44E2C0048B4C2 /* YukuClassViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88C5F5D31FBAC2DA0025D9CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88C5F5D41FBAC2E30025D9CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88C5F5D51FBAC31F0025D9CA /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5D81FBAC3280025D9CA /* View */,
+				88C5F5D71FBAC3250025D9CA /* Model */,
+				88C5F5D61FBAC3220025D9CA /* Controller */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		88C5F5D61FBAC3220025D9CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C4F1FB44E410048B4C2 /* YukiShoppingCartViewController.h */,
+				88A94C501FB44E410048B4C2 /* YukiShoppingCartViewController.m */,
+				88A94C511FB44E410048B4C2 /* YukiShoppingCartViewController.xib */,
+				88C5F5E51FBACB410025D9CA /* YKShopListViewController.h */,
+				88C5F5E61FBACB410025D9CA /* YKShopListViewController.m */,
+				88C5F5E71FBACB410025D9CA /* YKShopListViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88C5F5D71FBAC3250025D9CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5DD1FBAC3C60025D9CA /* YKShopModel.h */,
+				88C5F5DE1FBAC3C60025D9CA /* YKShopModel.m */,
+				88C5F5EF1FBAD1630025D9CA /* YKShopListModel.h */,
+				88C5F5F01FBAD1630025D9CA /* YKShopListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88C5F5D81FBAC3280025D9CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5C81FBABBAF0025D9CA /* YKShoppingTableViewCell.h */,
+				88C5F5C91FBABBAF0025D9CA /* YKShoppingTableViewCell.m */,
+				88C5F5CA1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib */,
+				88C5F5E01FBAC79E0025D9CA /* YKShopHeadView.h */,
+				88C5F5E11FBAC79E0025D9CA /* YKShopHeadView.m */,
+				88C5F5E31FBAC7A60025D9CA /* YKShopHeadView.xib */,
+				88C5F5EA1FBACD0D0025D9CA /* YKShopStepTableViewCell.h */,
+				88C5F5EB1FBACD0D0025D9CA /* YKShopStepTableViewCell.m */,
+				88C5F5EC1FBACD0D0025D9CA /* YKShopStepTableViewCell.xib */,
+				88C5F5F21FBAD8B30025D9CA /* YKShopListHeadView.h */,
+				88C5F5F31FBAD8B30025D9CA /* YKShopListHeadView.m */,
+				88C5F5F51FBAD8BC0025D9CA /* YKShopListHeadView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88C5F5D91FBAC3380025D9CA /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5DC1FBAC3480025D9CA /* View */,
+				88C5F5DB1FBAC3440025D9CA /* Model */,
+				88C5F5DA1FBAC3410025D9CA /* Controller */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		88C5F5DA1FBAC3410025D9CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88A94C541FB44E510048B4C2 /* YukiUserCenterViewController.h */,
+				88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */,
+				88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		88C5F5DB1FBAC3440025D9CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88C5F5DC1FBAC3480025D9CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88C5F5F81FBADE430025D9CA /* mj 自定义动画 */ = {
+			isa = PBXGroup;
+			children = (
+				88C5F5F91FBADE580025D9CA /* HSGifHeader.h */,
+				88C5F5FA1FBADE580025D9CA /* HSGifHeader.m */,
+			);
+			name = "mj 自定义动画";
+			path = "../mj 自定义动画";
 			sourceTree = "<group>";
 		};
 		8D8E5D7F9A1817AC3F9E2DED /* Pods */ = {
@@ -381,6 +570,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C5F5F61FBAD8BC0025D9CA /* YKShopListHeadView.xib in Resources */,
 				88A94C0E1FB44BBF0048B4C2 /* LaunchScreen.storyboard in Resources */,
 				88A94C6A1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.xib in Resources */,
 				88A94C4E1FB44E2C0048B4C2 /* YukuClassViewController.xib in Resources */,
@@ -390,6 +580,10 @@
 				88A94C091FB44BBF0048B4C2 /* Main.storyboard in Resources */,
 				88A94C531FB44E410048B4C2 /* YukiShoppingCartViewController.xib in Resources */,
 				88A94C491FB44E1D0048B4C2 /* YukiHomeViewController.xib in Resources */,
+				88C5F5CC1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib in Resources */,
+				88C5F5E91FBACB410025D9CA /* YKShopListViewController.xib in Resources */,
+				88C5F5E41FBAC7A60025D9CA /* YKShopHeadView.xib in Resources */,
+				88C5F5EE1FBACD0D0025D9CA /* YKShopStepTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,15 +665,24 @@
 				8865CC691FB97E720032B484 /* WKTabbarController.m in Sources */,
 				88A94C521FB44E410048B4C2 /* YukiShoppingCartViewController.m in Sources */,
 				88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */,
+				88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */,
+				88C5F5FB1FBADE580025D9CA /* HSGifHeader.m in Sources */,
 				88A94C4D1FB44E2C0048B4C2 /* YukuClassViewController.m in Sources */,
 				8865CC791FB97F610032B484 /* WKBaseModel.m in Sources */,
+				88C5F5CB1FBABBAF0025D9CA /* YKShoppingTableViewCell.m in Sources */,
+				88C5F5E21FBAC79E0025D9CA /* YKShopHeadView.m in Sources */,
 				8865CC661FB97E720032B484 /* YukiBaseViewController.m in Sources */,
+				88C5F5DF1FBAC3C60025D9CA /* YKShopModel.m in Sources */,
 				8865CC651FB97E720032B484 /* WKNavigationController.m in Sources */,
 				88A94C481FB44E1D0048B4C2 /* YukiHomeViewController.m in Sources */,
+				88C5F5F11FBAD1630025D9CA /* YKShopListModel.m in Sources */,
 				88A94C571FB44E510048B4C2 /* YukiUserCenterViewController.m in Sources */,
+				88C5F5E81FBACB410025D9CA /* YKShopListViewController.m in Sources */,
 				88A94C111FB44BBF0048B4C2 /* main.m in Sources */,
+				88C5F5ED1FBACD0D0025D9CA /* YKShopStepTableViewCell.m in Sources */,
 				8865CC761FB97F490032B484 /* WKRequest.m in Sources */,
 				88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */,
+				88C5F5C71FBA95270025D9CA /* HomeModel.m in Sources */,
 				88A94C031FB44BBF0048B4C2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
