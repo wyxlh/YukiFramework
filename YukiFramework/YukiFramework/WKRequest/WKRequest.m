@@ -62,7 +62,7 @@
     //请求超时的时间
     manager.requestSerializer.timeoutInterval = TIMEOUT;
     //请求url
-//    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",HOST_JOKEURL,urlString];
+//    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",HOST_URL,urlString];
     [manager POST:urlString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (successBlock) {
             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];

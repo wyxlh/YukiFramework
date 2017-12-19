@@ -6,12 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YukuClassViewController">
             <connections>
+                <outlet property="bgView" destination="a0f-Tl-UVc" id="tvT-fI-nyQ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -27,15 +29,25 @@
                         <segment title="Second"/>
                     </segments>
                 </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a0f-Tl-UVc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                    <color key="backgroundColor" red="0.89411764709999997" green="0.31764705879999999" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="a0f-Tl-UVc" secondAttribute="height" multiplier="1:1" id="OS6-8H-kS7"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="xrb-ra-9IQ" firstAttribute="trailing" secondItem="AY8-wa-bYh" secondAttribute="trailing" id="AIY-e7-DRI"/>
                 <constraint firstItem="AY8-wa-bYh" firstAttribute="leading" secondItem="xrb-ra-9IQ" secondAttribute="leading" id="CX9-c2-2GD"/>
                 <constraint firstItem="xrb-ra-9IQ" firstAttribute="bottom" secondItem="AY8-wa-bYh" secondAttribute="bottom" id="V2i-wa-nZf"/>
+                <constraint firstItem="a0f-Tl-UVc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bor-yR-kFO"/>
+                <constraint firstItem="a0f-Tl-UVc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kDe-FY-UTk"/>
+                <constraint firstItem="xrb-ra-9IQ" firstAttribute="trailing" secondItem="a0f-Tl-UVc" secondAttribute="trailing" id="sqc-GR-VRF"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="xrb-ra-9IQ"/>
-            <point key="canvasLocation" x="-86" y="29"/>
+            <point key="canvasLocation" x="-204.5" y="12.5"/>
         </view>
     </objects>
 </document>

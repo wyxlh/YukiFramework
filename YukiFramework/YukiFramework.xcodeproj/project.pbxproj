@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */; };
+		88224D3C1FBC0F53003ADDBA /* DogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3B1FBC0F53003ADDBA /* DogModel.m */; };
+		88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3E1FBC10B3003ADDBA /* YKPerson.m */; };
+		88224D421FBC1545003ADDBA /* YKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D411FBC1545003ADDBA /* YKPost.m */; };
+		88224D451FBC168F003ADDBA /* YKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D441FBC168F003ADDBA /* YKUser.m */; };
 		8865CC651FB97E720032B484 /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC5B1FB97E700032B484 /* WKNavigationController.m */; };
 		8865CC661FB97E720032B484 /* YukiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */; };
 		8865CC691FB97E720032B484 /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC621FB97E710032B484 /* WKTabbarController.m */; };
@@ -68,6 +72,14 @@
 /* Begin PBXFileReference section */
 		140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YukiFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B319400642AAD808E5D75F4 /* Pods-YukiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.release.xcconfig"; sourceTree = "<group>"; };
+		88224D3A1FBC0F53003ADDBA /* DogModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogModel.h; sourceTree = "<group>"; };
+		88224D3B1FBC0F53003ADDBA /* DogModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogModel.m; sourceTree = "<group>"; };
+		88224D3D1FBC10B3003ADDBA /* YKPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKPerson.h; sourceTree = "<group>"; };
+		88224D3E1FBC10B3003ADDBA /* YKPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPerson.m; sourceTree = "<group>"; };
+		88224D401FBC1545003ADDBA /* YKPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKPost.h; sourceTree = "<group>"; };
+		88224D411FBC1545003ADDBA /* YKPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPost.m; sourceTree = "<group>"; };
+		88224D431FBC168F003ADDBA /* YKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKUser.h; sourceTree = "<group>"; };
+		88224D441FBC168F003ADDBA /* YKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKUser.m; sourceTree = "<group>"; };
 		8865CC5B1FB97E700032B484 /* WKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationController.m; sourceTree = "<group>"; };
 		8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YukiBaseViewController.m; sourceTree = "<group>"; };
 		8865CC5E1FB97E710032B484 /* WKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationController.h; sourceTree = "<group>"; };
@@ -431,6 +443,14 @@
 		88C5F5DB1FBAC3440025D9CA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				88224D3A1FBC0F53003ADDBA /* DogModel.h */,
+				88224D3B1FBC0F53003ADDBA /* DogModel.m */,
+				88224D3D1FBC10B3003ADDBA /* YKPerson.h */,
+				88224D3E1FBC10B3003ADDBA /* YKPerson.m */,
+				88224D401FBC1545003ADDBA /* YKPost.h */,
+				88224D411FBC1545003ADDBA /* YKPost.m */,
+				88224D431FBC168F003ADDBA /* YKUser.h */,
+				88224D441FBC168F003ADDBA /* YKUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -531,6 +551,7 @@
 				TargetAttributes = {
 					88A94BFD1FB44BBF0048B4C2 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					88A94C151FB44BBF0048B4C2 = {
@@ -671,12 +692,16 @@
 				8865CC791FB97F610032B484 /* WKBaseModel.m in Sources */,
 				88C5F5CB1FBABBAF0025D9CA /* YKShoppingTableViewCell.m in Sources */,
 				88C5F5E21FBAC79E0025D9CA /* YKShopHeadView.m in Sources */,
+				88224D421FBC1545003ADDBA /* YKPost.m in Sources */,
 				8865CC661FB97E720032B484 /* YukiBaseViewController.m in Sources */,
 				88C5F5DF1FBAC3C60025D9CA /* YKShopModel.m in Sources */,
+				88224D3C1FBC0F53003ADDBA /* DogModel.m in Sources */,
 				8865CC651FB97E720032B484 /* WKNavigationController.m in Sources */,
+				88224D451FBC168F003ADDBA /* YKUser.m in Sources */,
 				88A94C481FB44E1D0048B4C2 /* YukiHomeViewController.m in Sources */,
 				88C5F5F11FBAD1630025D9CA /* YKShopListModel.m in Sources */,
 				88A94C571FB44E510048B4C2 /* YukiUserCenterViewController.m in Sources */,
+				88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */,
 				88C5F5E81FBACB410025D9CA /* YKShopListViewController.m in Sources */,
 				88A94C111FB44BBF0048B4C2 /* main.m in Sources */,
 				88C5F5ED1FBACD0D0025D9CA /* YKShopStepTableViewCell.m in Sources */,
@@ -848,6 +873,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UNEFE2V3S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -857,6 +883,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YukiFramework/UI/UserCenter/Controller/YukiFramework-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -867,6 +896,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UNEFE2V3S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -876,6 +906,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YukiFramework/UI/UserCenter/Controller/YukiFramework-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -22,7 +22,8 @@
     self.view.backgroundColor                       = [UIColor whiteColor];
     self.title                                      = @"首页";
     [self setup];
-    [self netWork];
+//    [self netWork];
+
 }
 
 -(void)setup{
@@ -35,7 +36,7 @@
 #pragma mark  网络请求
 -(void)netWork{
     @weakify(self)
-    [WKRequest getWithURLString:@"" parameters:@{@"key":@"cd6a73e91e71f792ca5a70313c37ee23"} success:^(WKBaseModel *baseModel) {
+    [WKRequest getWithURLString:@"/historyWeather/province" parameters:@{@"key":@"cd6a73e91e71f792ca5a70313c37ee23"} success:^(WKBaseModel *baseModel) {
         @strongify(self)
         self.dataArr                               = [HomeModel mj_objectArrayWithKeyValuesArray:baseModel.result];
         [self.tableView reloadData];
