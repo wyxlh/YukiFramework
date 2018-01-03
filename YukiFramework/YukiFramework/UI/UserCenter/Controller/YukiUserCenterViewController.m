@@ -11,8 +11,10 @@
 #import "YKPerson.h"
 #import "YKPost.h"
 #import "YKUser.h"
-@interface YukiUserCenterViewController ()
-
+@import WebKit;
+@interface YukiUserCenterViewController ()<WKUIDelegate,WKNavigationDelegate,UIWebViewDelegate>
+@property (nonatomic, strong)WKWebView *mainWeb;
+//@property (nonatomic, strong) UIWebView *mainWeb;
 @end
 
 
@@ -22,6 +24,7 @@
     [super viewDidLoad];
     self.title = @"个人中心";
     [self addRightTitleBtn:@"swift"];
+    [self.mainWeb loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://appapi.jimvia.com/ProductDetail.aspx?proId=25871"]]];
     //创建一个数据库 记录狗狗的名字和年龄
 //    DogModel *dog = [[DogModel alloc]init];
 //    dog.name = @"pater";
@@ -49,6 +52,67 @@
 //    });
     
 }
+
+- (WKWebView *)mainWeb
+{
+    if (!_mainWeb) {
+        // 根据JS字符串初始化WKUserScript对象
+        static  NSString * const jsGetImages =
+            @"function getImages(){\
+            var objs = document.getElementsByTagName(\"img\");\
+            for(var i=0;i<objs.length;i++){\
+            objs[i].onclick=function(){\
+            document.location=\"myweb:imageClick:\"+this.src;\
+            };\
+            };\
+            return objs.length;\
+            };";
+        WKUserScript *script = [[WKUserScript alloc] initWithSource:jsGetImages injectionTime:WKUserScriptInjectionTimeAtDocumentEnd forMainFrameOnly:YES];
+//
+//        // 根据生成的WKUserScript对象，初始化WKWebViewConfiguration
+        WKWebViewConfiguration *config = [[WKWebViewConfiguration alloc] init];
+        [config.userContentController addUserScript:script];
+        _mainWeb = [[WKWebView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight - TabbarHeight)configuration:config];
+        _mainWeb.navigationDelegate = self;
+        _mainWeb.UIDelegate = self;
+        [self.view addSubview:_mainWeb];
+    }
+    return _mainWeb;
+}
+
+// 页面加载完成之后调用
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation
+{
+    //js方法遍历图片添加点击事件 返回图片个数
+    static  NSString * const jsGetImages =
+    @"function getImages(){\
+    var objs = document.getElementsByTagName(\"img\");\
+    for(var i=0;i<objs.length;i++){\
+    objs[i].onclick=function(){\
+    document.location=\"myweb:imageClick:\"+this.src;\
+    };\
+    };\
+    return objs.length;\
+    };";
+    DLog(@"%@",jsGetImages);
+    [webView evaluateJavaScript:@"getImages()" completionHandler:^(id _Nullable response, NSError * _Nullable error) {
+         NSLog(@"value: %@ error: %@", response, error);
+    }];
+
+}
+
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
+{
+    NSString *urlString =navigationAction.request.URL.absoluteString;
+    DLog(@"%@",urlString);
+    if ([urlString containsString:@"PostDetail/ProductDetail/ProductId="]) {
+        decisionHandler(WKNavigationActionPolicyCancel);
+    }
+    decisionHandler(WKNavigationActionPolicyAllow);
+}
+
+
+
 
 -(void)rightTitleButtonClick:(UIButton *)sender{
 
