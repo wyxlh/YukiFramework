@@ -7,6 +7,7 @@
 //
 
 #import "YukiUserCenterViewController.h"
+#import "ViewController.h"
 #import "DogModel.h"
 #import "YKPerson.h"
 #import "YKPost.h"
@@ -113,10 +114,53 @@
 
 
 
-
+#pragma mark  跳转动画
 -(void)rightTitleButtonClick:(UIButton *)sender{
+    ViewController *vc= [ViewController new];
+    //UIModalTransitionStyleFlipHorizontal 翻转
+    
+    //UIModalTransitionStyleCoverVertical 底部滑出
+    
+    //UIModalTransitionStyleCrossDissolve 渐显
+    
+    //UIModalTransitionStylePartialCurl 翻页
 
+//    vc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+//    [self presentViewController:vc animated:YES completion:nil];
+    vc.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController.view.layer addAnimation:[self createTransitionAnimation] forKey:nil];
+    [self.navigationController pushViewController:vc animated:YES];
 }
+
+-(CATransition *)createTransitionAnimation
+{
+    //切换之前添加动画效果
+    //后面知识: Core Animation 核心动画
+    //不要写成: CATransaction
+    //创建CATransition动画对象
+    CATransition *animation = [CATransition animation];
+    ////转场动画类型
+//    cube---立方体
+//    suckEffect  吸走的效果
+//    oglFlip 前后翻转效果
+//    rippleEffect 波纹效果
+//    pageCurl 翻页起来
+//    pageUnCurl 翻页下来
+//    cameraIrisHollowOpen
+//    镜头开
+//    @"cameraIrisHollowClose " 镜头关
+    //设置动画的类型:
+    animation.type = @"oglFlip";
+    //设置动画的方向
+    animation.subtype = kCATransitionFromBottom;
+    //设置动画的持续时间
+    animation.duration = 1.5;
+    //设置动画速率(可变的)
+    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    //动画添加到切换的过程中
+    return animation;
+}
+
 
 
 

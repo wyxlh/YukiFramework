@@ -17,9 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor  = [UIColor whiteColor];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"详情";
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

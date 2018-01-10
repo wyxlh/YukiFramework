@@ -83,12 +83,22 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     return 0.01f;
 }
+//给tableView家动画
+-(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    cell.layer.transform = CATransform3DMakeScale(0.1, 0.1, 1);
+    //x和y的最终值为1
+    [UIView animateWithDuration:0.5 animations:^{
+        cell.layer.transform = CATransform3DMakeScale(1, 1, 1);
+    }];
+}
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     YKShopListViewController *list                  = [YKShopListViewController new];
     list.menu                                       = [[self.dataArr[indexPath.section] list][indexPath.row] name];
     list.Id                                         = [[self.dataArr[indexPath.section] list][indexPath.row] Id];
+    list.hidesBottomBarWhenPushed                   = YES;
     [self.navigationController pushViewController:list animated:YES];
 }
 
