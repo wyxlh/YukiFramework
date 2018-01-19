@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */; };
+		8821819A201191E0002CE791 /* YukiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88218199201191E0002CE791 /* YukiWebViewController.m */; };
+		8821819D2011942D002CE791 /* YukiWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8821819C2011942D002CE791 /* YukiWebProgressLayer.m */; };
+		882181A02011999E002CE791 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8821819F2011999E002CE791 /* NSTimer+addition.m */; };
+		882181A32011BFBE002CE791 /* YukiShowPhotoWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882181A22011BFBE002CE791 /* YukiShowPhotoWebViewController.m */; };
 		88224D3C1FBC0F53003ADDBA /* DogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3B1FBC0F53003ADDBA /* DogModel.m */; };
 		88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3E1FBC10B3003ADDBA /* YKPerson.m */; };
 		88224D421FBC1545003ADDBA /* YKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D411FBC1545003ADDBA /* YKPost.m */; };
@@ -72,6 +76,14 @@
 /* Begin PBXFileReference section */
 		140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YukiFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B319400642AAD808E5D75F4 /* Pods-YukiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.release.xcconfig"; sourceTree = "<group>"; };
+		88218198201191E0002CE791 /* YukiWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiWebViewController.h; sourceTree = "<group>"; };
+		88218199201191E0002CE791 /* YukiWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiWebViewController.m; sourceTree = "<group>"; };
+		8821819B2011942D002CE791 /* YukiWebProgressLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiWebProgressLayer.h; sourceTree = "<group>"; };
+		8821819C2011942D002CE791 /* YukiWebProgressLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiWebProgressLayer.m; sourceTree = "<group>"; };
+		8821819E2011999E002CE791 /* NSTimer+addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		8821819F2011999E002CE791 /* NSTimer+addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		882181A12011BFBE002CE791 /* YukiShowPhotoWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiShowPhotoWebViewController.h; sourceTree = "<group>"; };
+		882181A22011BFBE002CE791 /* YukiShowPhotoWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiShowPhotoWebViewController.m; sourceTree = "<group>"; };
 		88224D3A1FBC0F53003ADDBA /* DogModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogModel.h; sourceTree = "<group>"; };
 		88224D3B1FBC0F53003ADDBA /* DogModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogModel.m; sourceTree = "<group>"; };
 		88224D3D1FBC10B3003ADDBA /* YKPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKPerson.h; sourceTree = "<group>"; };
@@ -81,12 +93,12 @@
 		88224D431FBC168F003ADDBA /* YKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKUser.h; sourceTree = "<group>"; };
 		88224D441FBC168F003ADDBA /* YKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKUser.m; sourceTree = "<group>"; };
 		8865CC5B1FB97E700032B484 /* WKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationController.m; sourceTree = "<group>"; };
-		8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YukiBaseViewController.m; sourceTree = "<group>"; };
+		8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YukiBaseViewController.m; path = ../TabbarAndNavBar/YukiBaseViewController.m; sourceTree = "<group>"; };
 		8865CC5E1FB97E710032B484 /* WKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationController.h; sourceTree = "<group>"; };
 		8865CC5F1FB97E710032B484 /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
 		8865CC621FB97E710032B484 /* WKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTabbarController.m; sourceTree = "<group>"; };
 		8865CC631FB97E720032B484 /* YukiHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiHelp.h; sourceTree = "<group>"; };
-		8865CC641FB97E720032B484 /* YukiBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiBaseViewController.h; sourceTree = "<group>"; };
+		8865CC641FB97E720032B484 /* YukiBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YukiBaseViewController.h; path = ../TabbarAndNavBar/YukiBaseViewController.h; sourceTree = "<group>"; };
 		8865CC741FB97F490032B484 /* WKRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKRequest.h; sourceTree = "<group>"; };
 		8865CC751FB97F490032B484 /* WKRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKRequest.m; sourceTree = "<group>"; };
 		8865CC771FB97F610032B484 /* WKBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKBaseModel.h; sourceTree = "<group>"; };
@@ -185,6 +197,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8821819320119074002CE791 /* YukiBase */ = {
+			isa = PBXGroup;
+			children = (
+				8865CC641FB97E720032B484 /* YukiBaseViewController.h */,
+				8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */,
+			);
+			name = YukiBase;
+			path = /Users/wangyu/YukiFramework/YukiFramework/YukiFramework/YukiTools/YukiBase;
+			sourceTree = "<absolute>";
+		};
+		88218194201190B9002CE791 /* BaseWebView */ = {
+			isa = PBXGroup;
+			children = (
+				88218198201191E0002CE791 /* YukiWebViewController.h */,
+				88218199201191E0002CE791 /* YukiWebViewController.m */,
+				8821819B2011942D002CE791 /* YukiWebProgressLayer.h */,
+				8821819C2011942D002CE791 /* YukiWebProgressLayer.m */,
+				8821819E2011999E002CE791 /* NSTimer+addition.h */,
+				8821819F2011999E002CE791 /* NSTimer+addition.m */,
+			);
+			name = BaseWebView;
+			path = /Users/wangyu/YukiFramework/YukiFramework/YukiFramework/YukiTools/BaseWebView;
+			sourceTree = "<absolute>";
+		};
 		8865CC511FB96BFC0032B484 /* TabbarAndNavBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,8 +228,6 @@
 				8865CC5B1FB97E700032B484 /* WKNavigationController.m */,
 				8865CC5F1FB97E710032B484 /* WKTabbarController.h */,
 				8865CC621FB97E710032B484 /* WKTabbarController.m */,
-				8865CC641FB97E720032B484 /* YukiBaseViewController.h */,
-				8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */,
 				8865CC631FB97E720032B484 /* YukiHelp.h */,
 				8865CC7D1FB9847E0032B484 /* YukiConfig.h */,
 				8865CC7C1FB981C30032B484 /* PrefixHeader.pch */,
@@ -204,6 +238,8 @@
 		8865CC521FB96BFC0032B484 /* YukiTools */ = {
 			isa = PBXGroup;
 			children = (
+				88218194201190B9002CE791 /* BaseWebView */,
+				8821819320119074002CE791 /* YukiBase */,
 				88C5F5F81FBADE430025D9CA /* mj 自定义动画 */,
 				8865CC731FB97F310032B484 /* WKRequest */,
 				8865CC511FB96BFC0032B484 /* TabbarAndNavBar */,
@@ -436,6 +472,8 @@
 				88A94C541FB44E510048B4C2 /* YukiUserCenterViewController.h */,
 				88A94C551FB44E510048B4C2 /* YukiUserCenterViewController.m */,
 				88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */,
+				882181A12011BFBE002CE791 /* YukiShowPhotoWebViewController.h */,
+				882181A22011BFBE002CE791 /* YukiShowPhotoWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -686,6 +724,7 @@
 				8865CC691FB97E720032B484 /* WKTabbarController.m in Sources */,
 				88A94C521FB44E410048B4C2 /* YukiShoppingCartViewController.m in Sources */,
 				88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */,
+				8821819A201191E0002CE791 /* YukiWebViewController.m in Sources */,
 				88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */,
 				88C5F5FB1FBADE580025D9CA /* HSGifHeader.m in Sources */,
 				88A94C4D1FB44E2C0048B4C2 /* YukuClassViewController.m in Sources */,
@@ -693,6 +732,7 @@
 				88C5F5CB1FBABBAF0025D9CA /* YKShoppingTableViewCell.m in Sources */,
 				88C5F5E21FBAC79E0025D9CA /* YKShopHeadView.m in Sources */,
 				88224D421FBC1545003ADDBA /* YKPost.m in Sources */,
+				882181A02011999E002CE791 /* NSTimer+addition.m in Sources */,
 				8865CC661FB97E720032B484 /* YukiBaseViewController.m in Sources */,
 				88C5F5DF1FBAC3C60025D9CA /* YKShopModel.m in Sources */,
 				88224D3C1FBC0F53003ADDBA /* DogModel.m in Sources */,
@@ -701,9 +741,11 @@
 				88A94C481FB44E1D0048B4C2 /* YukiHomeViewController.m in Sources */,
 				88C5F5F11FBAD1630025D9CA /* YKShopListModel.m in Sources */,
 				88A94C571FB44E510048B4C2 /* YukiUserCenterViewController.m in Sources */,
+				8821819D2011942D002CE791 /* YukiWebProgressLayer.m in Sources */,
 				88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */,
 				88C5F5E81FBACB410025D9CA /* YKShopListViewController.m in Sources */,
 				88A94C111FB44BBF0048B4C2 /* main.m in Sources */,
+				882181A32011BFBE002CE791 /* YukiShowPhotoWebViewController.m in Sources */,
 				88C5F5ED1FBACD0D0025D9CA /* YKShopStepTableViewCell.m in Sources */,
 				8865CC761FB97F490032B484 /* WKRequest.m in Sources */,
 				88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */,

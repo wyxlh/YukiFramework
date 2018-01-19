@@ -7,6 +7,8 @@
 //
 
 #import "YukiUserCenterViewController.h"
+#import "YukiWebViewController.h"
+#import "YukiShowPhotoWebViewController.h"
 #import "ViewController.h"
 #import "DogModel.h"
 #import "YKPerson.h"
@@ -24,7 +26,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"个人中心";
-    [self addRightTitleBtn:@"swift"];
+    [self addRightTitleBtn:@"网页"];
+    [self addLeftTitleBtn:@"网页图片"];
     [self.mainWeb loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://appapi.jimvia.com/ProductDetail.aspx?proId=25871"]]];
     //创建一个数据库 记录狗狗的名字和年龄
 //    DogModel *dog = [[DogModel alloc]init];
@@ -112,11 +115,20 @@
     decisionHandler(WKNavigationActionPolicyAllow);
 }
 
+-(void)leftTitleButtonClick:(UIButton *)sender{
+    YukiShowPhotoWebViewController *photo = [YukiShowPhotoWebViewController new];
+    photo.title = @"网页图片";
+    photo.hidesBottomBarWhenPushed = YES;
+//    photo.progressColor = [UIColor redColor];
+    photo.urlString = @"https://www.baidu.com";
+    [self.navigationController pushViewController:photo animated:YES];
+}
+
 
 
 #pragma mark  跳转动画
 -(void)rightTitleButtonClick:(UIButton *)sender{
-    ViewController *vc= [ViewController new];
+    YukiWebViewController *vc= [YukiWebViewController new];
     //UIModalTransitionStyleFlipHorizontal 翻转
     
     //UIModalTransitionStyleCoverVertical 底部滑出
@@ -129,6 +141,9 @@
 //    [self presentViewController:vc animated:YES completion:nil];
     vc.hidesBottomBarWhenPushed = YES;
 //    [self.navigationController.view.layer addAnimation:[self createTransitionAnimation] forKey:nil];
+    vc.urlString = @"http://appapi.jimvia.com/ProductDetail.aspx?proId=25871";
+    vc.title = @"网页详情";
+    vc.progressColor = [UIColor redColor];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -150,7 +165,7 @@
 //    镜头开
 //    @"cameraIrisHollowClose " 镜头关
     //设置动画的类型:
-    animation.type = @"oglFlip";
+    animation.type = @"rippleEffect";
     //设置动画的方向
     animation.subtype = kCATransitionFromBottom;
     //设置动画的持续时间
