@@ -26,4 +26,5 @@
  进度条颜色
  */
 @property (nonatomic, assign) UIColor   *progressColor;
+
 @end

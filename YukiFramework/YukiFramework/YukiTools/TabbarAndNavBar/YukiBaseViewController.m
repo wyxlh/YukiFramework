@@ -21,6 +21,12 @@
     }
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    //设置导航栏颜色 白色 UIBarStyleDefault 黑色 UIBarStyleBlack 白色
+    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
+}
+
 /**
  加载返回按钮,在第一层的时候就不需要加调用
  */
@@ -33,7 +39,7 @@
 -(UIButton *)backItem{
     if (!_backItem) {
         _backItem                                = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_backItem addTarget:self action:@selector(clickBack:) forControlEvents:UIControlEventTouchUpInside];
+        [_backItem addTarget:self action:@selector(backButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         UIBarButtonItem *leftItem                = [[UIBarButtonItem alloc]initWithCustomView:_backItem];
         self.navigationItem.leftBarButtonItem    = leftItem;
         self.navigationController.interactivePopGestureRecognizer.delegate = self;
@@ -44,7 +50,7 @@
 /**
  返回
  */
--(void)clickBack:(UIButton *)sender{
+-(void)backButtonClick:(UIButton *)sender{
     [self goBack];
 }
 

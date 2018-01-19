@@ -20,6 +20,7 @@
 
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
 {
+    //拦截 url
     NSString *urlString =navigationAction.request.URL.absoluteString;
     DLog(@"%@",urlString);
     if ([urlString containsString:@"PostDetail/ProductDetail/ProductId="]) {

@@ -94,6 +94,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark 几种按钮的点击方法
 
+-(void)backButtonClick:(UIButton *)sender;
+
 -(void)leftTitleButtonClick:(UIButton *)sender;
 
 -(void)leftImageButtonClick:(UIButton *)sender;

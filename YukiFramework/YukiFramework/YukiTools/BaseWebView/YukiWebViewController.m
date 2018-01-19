@@ -59,6 +59,10 @@
     return _webProgressLayer;
 }
 
+-(void)backButtonClick:(UIButton *)sender{
+    [self.webView canGoBack] ? [self.webView goBack] : [self goBack];
+}
+
 
 - (void)dealloc {
     [self.webProgressLayer closeTimer];
