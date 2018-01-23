@@ -9,6 +9,7 @@
 #import "YukiHomeViewController.h"
 #import "WKHomeFourChooseTableViewCell.h"
 #import "YukuClassViewController.h"
+#import "YukiDemoListViewController.h"
 #import "HomeModel.h"
 @interface YukiHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -22,11 +23,18 @@
     self.view.backgroundColor                       = [UIColor whiteColor];
     self.title                                      = @"首页";
     [self setup];
-//    [self netWork];
+    NSArray *cityArr                                = [SKUserDefaults objectForKey:@"HomeData"];
+    if (cityArr.count == 0) {
+        [self netWork];
+    }else{
+        self.dataArr                                = [HomeModel mj_objectArrayWithKeyValuesArray:cityArr];
+        [self.tableView reloadData];
+    }
 
 }
 
 -(void)setup{
+    [self addRightTitleBtn:@"Demo列表"];
     self.tableView.delegate                         = self;
     self.tableView.dataSource                       = self;
     self.tableView.rowHeight                        = 60.0f;
@@ -39,6 +47,7 @@
     [WKRequest getWithURLString:@"/historyWeather/province" parameters:@{@"key":@"cd6a73e91e71f792ca5a70313c37ee23"} success:^(WKBaseModel *baseModel) {
         @strongify(self)
         self.dataArr                               = [HomeModel mj_objectArrayWithKeyValuesArray:baseModel.result];
+        [SKUserDefaults setObject:baseModel.result forKey:@"HomeData"];
         [self.tableView reloadData];
     } failure:^(NSError *error) {
         
@@ -63,9 +72,13 @@
     view.hidesBottomBarWhenPushed                    = YES;
     [self.navigationController pushViewController:view animated:YES];
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark  demo 列表
+
+-(void)rightTitleButtonClick:(UIButton *)sender{
+    YukiDemoListViewController *demo                  = [YukiDemoListViewController new];
+    demo.hidesBottomBarWhenPushed                     = YES;
+    [self.navigationController pushViewController:demo animated:YES];
 }
 
 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="WKCateSectionHeadCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKA-pd-LcU">
+                    <rect key="frame" x="13" y="10" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AWD-wx-GFJ">
+                    <rect key="frame" x="283" y="6" width="77" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="查看全部  &gt;&gt;">
+                        <color key="titleColor" red="0.41563797000000002" green="0.41571408510000002" blue="0.41563314200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zKA-pd-LcU" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" constant="13" id="Awk-wf-bGo"/>
+                <constraint firstItem="AWD-wx-GFJ" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="KT1-an-zd0"/>
+                <constraint firstAttribute="trailing" secondItem="AWD-wx-GFJ" secondAttribute="trailing" constant="15" id="dh5-73-zm7"/>
+                <constraint firstItem="zKA-pd-LcU" firstAttribute="centerY" secondItem="U6b-Vx-4bR" secondAttribute="centerY" id="lkA-d0-QE6"/>
+            </constraints>
+            <connections>
+                <outlet property="lookBtn" destination="AWD-wx-GFJ" id="BlL-yt-pJB"/>
+                <outlet property="title" destination="zKA-pd-LcU" id="vFj-Ll-7Ur"/>
+            </connections>
+            <point key="canvasLocation" x="-76" y="15"/>
+        </collectionReusableView>
+    </objects>
+</document>

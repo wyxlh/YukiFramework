@@ -15,10 +15,18 @@
 // Tabbar 高度
 #define TabbarHeight (ScreenHeight > 736 ? 83.0f : 49.0f)
 
+//导航栏高度
+#define NavHeight (ScreenHeight == 812.0 ? 88.0f : 64.0f)
+
 //自定义颜色
 #define CustomColor(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//主题色
+#define NavColor UIColorFromRGB(0xE26B1C)
+
+#define  SKUserDefaults       [NSUserDefaults  standardUserDefaults]
 
 // 设置view的圆角和边框
 #define SKViewsBorder(View,radius,width,color)\

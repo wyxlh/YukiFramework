@@ -20,4 +20,5 @@
 #import <Realm.h>
 #import <YYModel.h>
 #import <SDCycleScrollView.h>
+#import "UIView+Frame.h"
 #endif /* YukiConfig_h */
