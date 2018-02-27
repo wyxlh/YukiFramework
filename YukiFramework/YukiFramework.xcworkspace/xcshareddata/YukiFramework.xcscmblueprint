@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B0EAD09165E704C0F18617C91C8DAAE34B41BF4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B0EAD09165E704C0F18617C91C8DAAE34B41BF4" : 9223372036854775807,
+    "5DF22DA61A35F1AA62C86BF012BCCC372C47EB8D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "203B747C-8CC0-4EF9-A6D5-0468ECB66C66",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B0EAD09165E704C0F18617C91C8DAAE34B41BF4" : "YukiFramework\/",
+    "5DF22DA61A35F1AA62C86BF012BCCC372C47EB8D" : "WKTitleScorll\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YukiFramework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YukiFramework\/YukiFramework.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wyxlh\/YukiFramework.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B0EAD09165E704C0F18617C91C8DAAE34B41BF4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wyxlh\/WKTitleScorll.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DF22DA61A35F1AA62C86BF012BCCC372C47EB8D"
+    }
+  ]
+}
