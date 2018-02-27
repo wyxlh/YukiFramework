@@ -8,29 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */; };
-		8819EF742015ED7900E416D4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF6C2015ED7800E416D4 /* UIView+Frame.m */; };
-		8819EF752015ED7900E416D4 /* DCPagerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF6E2015ED7800E416D4 /* DCPagerProgressView.m */; };
-		8819EF762015ED7900E416D4 /* TitleScrollHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF702015ED7800E416D4 /* TitleScrollHelper.m */; };
-		8819EF772015ED7900E416D4 /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF732015ED7900E416D4 /* TitleScrollView.m */; };
 		8819EF7A2015EE1D00E416D4 /* YukiTitleScorllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */; };
 		8819EF7D2015EED600E416D4 /* WKChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF7B2015EED600E416D4 /* WKChildViewController.m */; };
-		8819EF862015F0F000E416D4 /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF822015F0F000E416D4 /* UILabel+YBAttributeTextTapAction.m */; };
-		8819EF872015F0F000E416D4 /* AttributedLbl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF832015F0F000E416D4 /* AttributedLbl.m */; };
 		8819EF8B2015F19800E416D4 /* WKAttributdeLblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF892015F19700E416D4 /* WKAttributdeLblViewController.m */; };
 		8819EF8C2015F19800E416D4 /* WKAttributdeLblViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8819EF8A2015F19700E416D4 /* WKAttributdeLblViewController.xib */; };
-		8821819A201191E0002CE791 /* YukiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88218199201191E0002CE791 /* YukiWebViewController.m */; };
-		8821819D2011942D002CE791 /* YukiWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8821819C2011942D002CE791 /* YukiWebProgressLayer.m */; };
-		882181A02011999E002CE791 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8821819F2011999E002CE791 /* NSTimer+addition.m */; };
 		882181A32011BFBE002CE791 /* YukiShowPhotoWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882181A22011BFBE002CE791 /* YukiShowPhotoWebViewController.m */; };
 		88224D3C1FBC0F53003ADDBA /* DogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3B1FBC0F53003ADDBA /* DogModel.m */; };
 		88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3E1FBC10B3003ADDBA /* YKPerson.m */; };
 		88224D421FBC1545003ADDBA /* YKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D411FBC1545003ADDBA /* YKPost.m */; };
 		88224D451FBC168F003ADDBA /* YKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D441FBC168F003ADDBA /* YKUser.m */; };
-		8865CC651FB97E720032B484 /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC5B1FB97E700032B484 /* WKNavigationController.m */; };
-		8865CC661FB97E720032B484 /* YukiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */; };
-		8865CC691FB97E720032B484 /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC621FB97E710032B484 /* WKTabbarController.m */; };
-		8865CC761FB97F490032B484 /* WKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC751FB97F490032B484 /* WKRequest.m */; };
-		8865CC791FB97F610032B484 /* WKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8865CC781FB97F610032B484 /* WKBaseModel.m */; };
+		8891438820450DB100A08ACC /* AttributedLbl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438620450DB100A08ACC /* AttributedLbl.m */; };
+		8891438B20450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438920450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m */; };
+		8891439520450E1000A08ACC /* DCPagerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438D20450E0F00A08ACC /* DCPagerProgressView.m */; };
+		8891439620450E1000A08ACC /* TitleScrollHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438F20450E1000A08ACC /* TitleScrollHelper.m */; };
+		8891439720450E1000A08ACC /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891439120450E1000A08ACC /* TitleScrollView.m */; };
+		8891439820450E1000A08ACC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891439220450E1000A08ACC /* UIView+Frame.m */; };
+		889143A020450E5D00A08ACC /* YukiWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891439B20450E5C00A08ACC /* YukiWebProgressLayer.m */; };
+		889143A120450E5D00A08ACC /* YukiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891439E20450E5D00A08ACC /* YukiWebViewController.m */; };
+		889143A220450E5D00A08ACC /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891439F20450E5D00A08ACC /* NSTimer+addition.m */; };
+		889143A620450E9B00A08ACC /* YukiBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143A420450E9A00A08ACC /* YukiBaseViewController.m */; };
+		889143AA20450EBF00A08ACC /* HSGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143A920450EBF00A08ACC /* HSGifHeader.m */; };
+		889143B020450EE300A08ACC /* WKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143AE20450EE300A08ACC /* WKBaseModel.m */; };
+		889143B120450EE300A08ACC /* WKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143AF20450EE300A08ACC /* WKRequest.m */; };
+		889143BA20450F1D00A08ACC /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143B320450F1C00A08ACC /* WKNavigationController.m */; };
+		889143BB20450F1D00A08ACC /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143B620450F1D00A08ACC /* WKTabbarController.m */; };
 		88A4BAEB2015D5D300558559 /* YukiDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A4BAE92015D5D300558559 /* YukiDemoListViewController.m */; };
 		88A4BAEC2015D5D300558559 /* YukiDemoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A4BAEA2015D5D300558559 /* YukiDemoListViewController.xib */; };
 		88A4BAF32015DBA000558559 /* YukiCollectionSuspensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A4BAF22015DBA000558559 /* YukiCollectionSuspensionViewController.m */; };
@@ -71,7 +72,6 @@
 		88C5F5F11FBAD1630025D9CA /* YKShopListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5F01FBAD1630025D9CA /* YKShopListModel.m */; };
 		88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5F31FBAD8B30025D9CA /* YKShopListHeadView.m */; };
 		88C5F5F61FBAD8BC0025D9CA /* YKShopListHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5F51FBAD8BC0025D9CA /* YKShopListHeadView.xib */; };
-		88C5F5FB1FBADE580025D9CA /* HSGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5FA1FBADE580025D9CA /* HSGifHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,31 +94,13 @@
 /* Begin PBXFileReference section */
 		140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YukiFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B319400642AAD808E5D75F4 /* Pods-YukiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.release.xcconfig"; sourceTree = "<group>"; };
-		8819EF6C2015ED7800E416D4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "../../../../../WKTitleScorll/Demo/Demo/WKTitleScroll/UIView+Frame.m"; sourceTree = "<group>"; };
-		8819EF6D2015ED7800E416D4 /* TitleScrollHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScrollHelper.h; path = ../../../../../WKTitleScorll/Demo/Demo/WKTitleScroll/TitleScrollHelper.h; sourceTree = "<group>"; };
-		8819EF6E2015ED7800E416D4 /* DCPagerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DCPagerProgressView.m; path = ../../../../../WKTitleScorll/Demo/Demo/WKTitleScroll/DCPagerProgressView.m; sourceTree = "<group>"; };
-		8819EF6F2015ED7800E416D4 /* DCPagerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DCPagerProgressView.h; path = ../../../../../WKTitleScorll/Demo/Demo/WKTitleScroll/DCPagerProgressView.h; sourceTree = "<group>"; };
-		8819EF702015ED7800E416D4 /* TitleScrollHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScrollHelper.m; path = ../../../../../WKTitleScorll/Demo/Demo/WKTitleScroll/TitleScrollHelper.m; sourceTree = "<group>"; };
-		8819EF712015ED7900E416D4 /* TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScrollView.h; path = ../../../../../WKTitleScorll/Demo/Demo/WKTitleScroll/TitleScrollView.h; sourceTree = "<group>"; };
-		8819EF722015ED7900E416D4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "../../../../../WKTitleScorll/Demo/Demo/WKTitleScroll/UIView+Frame.h"; sourceTree = "<group>"; };
-		8819EF732015ED7900E416D4 /* TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScrollView.m; path = ../../../../../WKTitleScorll/Demo/Demo/WKTitleScroll/TitleScrollView.m; sourceTree = "<group>"; };
 		8819EF782015EE1D00E416D4 /* YukiTitleScorllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiTitleScorllViewController.h; sourceTree = "<group>"; };
 		8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiTitleScorllViewController.m; sourceTree = "<group>"; };
 		8819EF7B2015EED600E416D4 /* WKChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKChildViewController.m; sourceTree = "<group>"; };
 		8819EF7C2015EED600E416D4 /* WKChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKChildViewController.h; sourceTree = "<group>"; };
-		8819EF822015F0F000E416D4 /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+YBAttributeTextTapAction.m"; path = "../../../../../WKTitleScorll/Demo/Demo/AttributedString/UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
-		8819EF832015F0F000E416D4 /* AttributedLbl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttributedLbl.m; path = ../../../../../WKTitleScorll/Demo/Demo/AttributedString/AttributedLbl.m; sourceTree = "<group>"; };
-		8819EF842015F0F000E416D4 /* AttributedLbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttributedLbl.h; path = ../../../../../WKTitleScorll/Demo/Demo/AttributedString/AttributedLbl.h; sourceTree = "<group>"; };
-		8819EF852015F0F000E416D4 /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+YBAttributeTextTapAction.h"; path = "../../../../../WKTitleScorll/Demo/Demo/AttributedString/UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
 		8819EF882015F19700E416D4 /* WKAttributdeLblViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKAttributdeLblViewController.h; sourceTree = "<group>"; };
 		8819EF892015F19700E416D4 /* WKAttributdeLblViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKAttributdeLblViewController.m; sourceTree = "<group>"; };
 		8819EF8A2015F19700E416D4 /* WKAttributdeLblViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKAttributdeLblViewController.xib; sourceTree = "<group>"; };
-		88218198201191E0002CE791 /* YukiWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiWebViewController.h; sourceTree = "<group>"; };
-		88218199201191E0002CE791 /* YukiWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiWebViewController.m; sourceTree = "<group>"; };
-		8821819B2011942D002CE791 /* YukiWebProgressLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiWebProgressLayer.h; sourceTree = "<group>"; };
-		8821819C2011942D002CE791 /* YukiWebProgressLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiWebProgressLayer.m; sourceTree = "<group>"; };
-		8821819E2011999E002CE791 /* NSTimer+addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
-		8821819F2011999E002CE791 /* NSTimer+addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
 		882181A12011BFBE002CE791 /* YukiShowPhotoWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiShowPhotoWebViewController.h; sourceTree = "<group>"; };
 		882181A22011BFBE002CE791 /* YukiShowPhotoWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiShowPhotoWebViewController.m; sourceTree = "<group>"; };
 		88224D3A1FBC0F53003ADDBA /* DogModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogModel.h; sourceTree = "<group>"; };
@@ -129,19 +111,39 @@
 		88224D411FBC1545003ADDBA /* YKPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPost.m; sourceTree = "<group>"; };
 		88224D431FBC168F003ADDBA /* YKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKUser.h; sourceTree = "<group>"; };
 		88224D441FBC168F003ADDBA /* YKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKUser.m; sourceTree = "<group>"; };
-		8865CC5B1FB97E700032B484 /* WKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationController.m; sourceTree = "<group>"; };
-		8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YukiBaseViewController.m; path = ../TabbarAndNavBar/YukiBaseViewController.m; sourceTree = "<group>"; };
-		8865CC5E1FB97E710032B484 /* WKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationController.h; sourceTree = "<group>"; };
-		8865CC5F1FB97E710032B484 /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
-		8865CC621FB97E710032B484 /* WKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTabbarController.m; sourceTree = "<group>"; };
-		8865CC631FB97E720032B484 /* YukiHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiHelp.h; sourceTree = "<group>"; };
-		8865CC641FB97E720032B484 /* YukiBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YukiBaseViewController.h; path = ../TabbarAndNavBar/YukiBaseViewController.h; sourceTree = "<group>"; };
-		8865CC741FB97F490032B484 /* WKRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKRequest.h; sourceTree = "<group>"; };
-		8865CC751FB97F490032B484 /* WKRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKRequest.m; sourceTree = "<group>"; };
-		8865CC771FB97F610032B484 /* WKBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKBaseModel.h; sourceTree = "<group>"; };
-		8865CC781FB97F610032B484 /* WKBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKBaseModel.m; sourceTree = "<group>"; };
-		8865CC7C1FB981C30032B484 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		8865CC7D1FB9847E0032B484 /* YukiConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiConfig.h; sourceTree = "<group>"; };
+		8891438620450DB100A08ACC /* AttributedLbl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLbl.m; sourceTree = "<group>"; };
+		8891438720450DB100A08ACC /* AttributedLbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLbl.h; sourceTree = "<group>"; };
+		8891438920450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
+		8891438A20450DD600A08ACC /* UILabel+YBAttributeTextTapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YBAttributeTextTapAction.h"; sourceTree = "<group>"; };
+		8891438D20450E0F00A08ACC /* DCPagerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPagerProgressView.m; sourceTree = "<group>"; };
+		8891438E20450E0F00A08ACC /* TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
+		8891438F20450E1000A08ACC /* TitleScrollHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollHelper.m; sourceTree = "<group>"; };
+		8891439020450E1000A08ACC /* DCPagerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPagerProgressView.h; sourceTree = "<group>"; };
+		8891439120450E1000A08ACC /* TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
+		8891439220450E1000A08ACC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		8891439320450E1000A08ACC /* TitleScrollHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollHelper.h; sourceTree = "<group>"; };
+		8891439420450E1000A08ACC /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		8891439A20450E5C00A08ACC /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		8891439B20450E5C00A08ACC /* YukiWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YukiWebProgressLayer.m; sourceTree = "<group>"; };
+		8891439C20450E5C00A08ACC /* YukiWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiWebProgressLayer.h; sourceTree = "<group>"; };
+		8891439D20450E5D00A08ACC /* YukiWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiWebViewController.h; sourceTree = "<group>"; };
+		8891439E20450E5D00A08ACC /* YukiWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YukiWebViewController.m; sourceTree = "<group>"; };
+		8891439F20450E5D00A08ACC /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		889143A420450E9A00A08ACC /* YukiBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YukiBaseViewController.m; sourceTree = "<group>"; };
+		889143A520450E9B00A08ACC /* YukiBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiBaseViewController.h; sourceTree = "<group>"; };
+		889143A820450EBF00A08ACC /* HSGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGifHeader.h; sourceTree = "<group>"; };
+		889143A920450EBF00A08ACC /* HSGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGifHeader.m; sourceTree = "<group>"; };
+		889143AC20450EE300A08ACC /* WKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRequest.h; sourceTree = "<group>"; };
+		889143AD20450EE300A08ACC /* WKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseModel.h; sourceTree = "<group>"; };
+		889143AE20450EE300A08ACC /* WKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseModel.m; sourceTree = "<group>"; };
+		889143AF20450EE300A08ACC /* WKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRequest.m; sourceTree = "<group>"; };
+		889143B320450F1C00A08ACC /* WKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationController.m; sourceTree = "<group>"; };
+		889143B420450F1C00A08ACC /* YukiConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiConfig.h; sourceTree = "<group>"; };
+		889143B520450F1D00A08ACC /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
+		889143B620450F1D00A08ACC /* WKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTabbarController.m; sourceTree = "<group>"; };
+		889143B720450F1D00A08ACC /* WKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationController.h; sourceTree = "<group>"; };
+		889143B820450F1D00A08ACC /* YukiHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiHelp.h; sourceTree = "<group>"; };
+		889143B920450F1D00A08ACC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		88A4BAE82015D5D300558559 /* YukiDemoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiDemoListViewController.h; sourceTree = "<group>"; };
 		88A4BAE92015D5D300558559 /* YukiDemoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiDemoListViewController.m; sourceTree = "<group>"; };
 		88A4BAEA2015D5D300558559 /* YukiDemoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YukiDemoListViewController.xib; sourceTree = "<group>"; };
@@ -208,8 +210,6 @@
 		88C5F5F21FBAD8B30025D9CA /* YKShopListHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShopListHeadView.h; sourceTree = "<group>"; };
 		88C5F5F31FBAD8B30025D9CA /* YKShopListHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShopListHeadView.m; sourceTree = "<group>"; };
 		88C5F5F51FBAD8BC0025D9CA /* YKShopListHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShopListHeadView.xib; sourceTree = "<group>"; };
-		88C5F5F91FBADE580025D9CA /* HSGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSGifHeader.h; sourceTree = "<group>"; };
-		88C5F5FA1FBADE580025D9CA /* HSGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSGifHeader.m; sourceTree = "<group>"; };
 		B776A9DD4D2D5C7D54CA6F17 /* Pods-YukiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -247,97 +247,100 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8819EF6B2015ED4600E416D4 /* TitleScrollView */ = {
+		8891438420450C1D00A08ACC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				8819EF722015ED7900E416D4 /* UIView+Frame.h */,
-				8819EF6C2015ED7800E416D4 /* UIView+Frame.m */,
-				8819EF702015ED7800E416D4 /* TitleScrollHelper.m */,
-				8819EF6D2015ED7800E416D4 /* TitleScrollHelper.h */,
-				8819EF712015ED7900E416D4 /* TitleScrollView.h */,
-				8819EF732015ED7900E416D4 /* TitleScrollView.m */,
-				8819EF6F2015ED7800E416D4 /* DCPagerProgressView.h */,
-				8819EF6E2015ED7800E416D4 /* DCPagerProgressView.m */,
+				889143B220450EFD00A08ACC /* TabbarAndNavBar */,
+				889143AB20450ECE00A08ACC /* WKRequest */,
+				889143A720450EAE00A08ACC /* mj 自定义动画 */,
+				889143A320450E8800A08ACC /* YukiBase */,
+				8891439920450E3300A08ACC /* BaseWebView */,
+				8891438C20450DE700A08ACC /* TitleScrollView */,
+				8891438520450C3000A08ACC /* AttributedString */,
 			);
-			name = TitleScrollView;
-			path = /Users/wangyu/YukiFramework/YukiFramework/YukiFramework/YukiTools/TitleScrollView;
-			sourceTree = "<absolute>";
-		};
-		8819EF812015F0CD00E416D4 /* AttributedString */ = {
-			isa = PBXGroup;
-			children = (
-				8819EF842015F0F000E416D4 /* AttributedLbl.h */,
-				8819EF832015F0F000E416D4 /* AttributedLbl.m */,
-				8819EF852015F0F000E416D4 /* UILabel+YBAttributeTextTapAction.h */,
-				8819EF822015F0F000E416D4 /* UILabel+YBAttributeTextTapAction.m */,
-			);
-			name = AttributedString;
-			path = /Users/wangyu/YukiFramework/YukiFramework/YukiFramework/YukiTools/AttributedString;
-			sourceTree = "<absolute>";
-		};
-		8821819320119074002CE791 /* YukiBase */ = {
-			isa = PBXGroup;
-			children = (
-				8865CC641FB97E720032B484 /* YukiBaseViewController.h */,
-				8865CC5C1FB97E710032B484 /* YukiBaseViewController.m */,
-			);
-			name = YukiBase;
-			path = /Users/wangyu/YukiFramework/YukiFramework/YukiFramework/YukiTools/YukiBase;
-			sourceTree = "<absolute>";
-		};
-		88218194201190B9002CE791 /* BaseWebView */ = {
-			isa = PBXGroup;
-			children = (
-				88218198201191E0002CE791 /* YukiWebViewController.h */,
-				88218199201191E0002CE791 /* YukiWebViewController.m */,
-				8821819B2011942D002CE791 /* YukiWebProgressLayer.h */,
-				8821819C2011942D002CE791 /* YukiWebProgressLayer.m */,
-				8821819E2011999E002CE791 /* NSTimer+addition.h */,
-				8821819F2011999E002CE791 /* NSTimer+addition.m */,
-			);
-			name = BaseWebView;
-			path = /Users/wangyu/YukiFramework/YukiFramework/YukiFramework/YukiTools/BaseWebView;
-			sourceTree = "<absolute>";
-		};
-		8865CC511FB96BFC0032B484 /* TabbarAndNavBar */ = {
-			isa = PBXGroup;
-			children = (
-				8865CC5E1FB97E710032B484 /* WKNavigationController.h */,
-				8865CC5B1FB97E700032B484 /* WKNavigationController.m */,
-				8865CC5F1FB97E710032B484 /* WKTabbarController.h */,
-				8865CC621FB97E710032B484 /* WKTabbarController.m */,
-				8865CC631FB97E720032B484 /* YukiHelp.h */,
-				8865CC7D1FB9847E0032B484 /* YukiConfig.h */,
-				8865CC7C1FB981C30032B484 /* PrefixHeader.pch */,
-			);
-			path = TabbarAndNavBar;
+			path = Tools;
 			sourceTree = "<group>";
 		};
-		8865CC521FB96BFC0032B484 /* YukiTools */ = {
+		8891438520450C3000A08ACC /* AttributedString */ = {
 			isa = PBXGroup;
 			children = (
-				8819EF812015F0CD00E416D4 /* AttributedString */,
-				8819EF6B2015ED4600E416D4 /* TitleScrollView */,
-				88218194201190B9002CE791 /* BaseWebView */,
-				8821819320119074002CE791 /* YukiBase */,
-				88C5F5F81FBADE430025D9CA /* mj 自定义动画 */,
-				8865CC731FB97F310032B484 /* WKRequest */,
-				8865CC511FB96BFC0032B484 /* TabbarAndNavBar */,
+				8891438720450DB100A08ACC /* AttributedLbl.h */,
+				8891438620450DB100A08ACC /* AttributedLbl.m */,
+				8891438A20450DD600A08ACC /* UILabel+YBAttributeTextTapAction.h */,
+				8891438920450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m */,
 			);
-			name = YukiTools;
-			path = /Users/wangyu/YukiFramework/YukiFramework/YukiFramework/YukiTools;
-			sourceTree = "<absolute>";
+			path = AttributedString;
+			sourceTree = "<group>";
 		};
-		8865CC731FB97F310032B484 /* WKRequest */ = {
+		8891438C20450DE700A08ACC /* TitleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				8865CC741FB97F490032B484 /* WKRequest.h */,
-				8865CC751FB97F490032B484 /* WKRequest.m */,
-				8865CC771FB97F610032B484 /* WKBaseModel.h */,
-				8865CC781FB97F610032B484 /* WKBaseModel.m */,
+				8891439020450E1000A08ACC /* DCPagerProgressView.h */,
+				8891438D20450E0F00A08ACC /* DCPagerProgressView.m */,
+				8891439320450E1000A08ACC /* TitleScrollHelper.h */,
+				8891438F20450E1000A08ACC /* TitleScrollHelper.m */,
+				8891438E20450E0F00A08ACC /* TitleScrollView.h */,
+				8891439120450E1000A08ACC /* TitleScrollView.m */,
+				8891439420450E1000A08ACC /* UIView+Frame.h */,
+				8891439220450E1000A08ACC /* UIView+Frame.m */,
 			);
-			name = WKRequest;
-			path = ../WKRequest;
+			path = TitleScrollView;
+			sourceTree = "<group>";
+		};
+		8891439920450E3300A08ACC /* BaseWebView */ = {
+			isa = PBXGroup;
+			children = (
+				8891439A20450E5C00A08ACC /* NSTimer+addition.h */,
+				8891439F20450E5D00A08ACC /* NSTimer+addition.m */,
+				8891439C20450E5C00A08ACC /* YukiWebProgressLayer.h */,
+				8891439B20450E5C00A08ACC /* YukiWebProgressLayer.m */,
+				8891439D20450E5D00A08ACC /* YukiWebViewController.h */,
+				8891439E20450E5D00A08ACC /* YukiWebViewController.m */,
+			);
+			path = BaseWebView;
+			sourceTree = "<group>";
+		};
+		889143A320450E8800A08ACC /* YukiBase */ = {
+			isa = PBXGroup;
+			children = (
+				889143A520450E9B00A08ACC /* YukiBaseViewController.h */,
+				889143A420450E9A00A08ACC /* YukiBaseViewController.m */,
+			);
+			path = YukiBase;
+			sourceTree = "<group>";
+		};
+		889143A720450EAE00A08ACC /* mj 自定义动画 */ = {
+			isa = PBXGroup;
+			children = (
+				889143A820450EBF00A08ACC /* HSGifHeader.h */,
+				889143A920450EBF00A08ACC /* HSGifHeader.m */,
+			);
+			path = "mj 自定义动画";
+			sourceTree = "<group>";
+		};
+		889143AB20450ECE00A08ACC /* WKRequest */ = {
+			isa = PBXGroup;
+			children = (
+				889143AD20450EE300A08ACC /* WKBaseModel.h */,
+				889143AE20450EE300A08ACC /* WKBaseModel.m */,
+				889143AC20450EE300A08ACC /* WKRequest.h */,
+				889143AF20450EE300A08ACC /* WKRequest.m */,
+			);
+			path = WKRequest;
+			sourceTree = "<group>";
+		};
+		889143B220450EFD00A08ACC /* TabbarAndNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				889143B720450F1D00A08ACC /* WKNavigationController.h */,
+				889143B320450F1C00A08ACC /* WKNavigationController.m */,
+				889143B520450F1D00A08ACC /* WKTabbarController.h */,
+				889143B620450F1D00A08ACC /* WKTabbarController.m */,
+				889143B420450F1C00A08ACC /* YukiConfig.h */,
+				889143B820450F1D00A08ACC /* YukiHelp.h */,
+				889143B920450F1D00A08ACC /* PrefixHeader.pch */,
+			);
+			path = TabbarAndNavBar;
 			sourceTree = "<group>";
 		};
 		88A4BAED2015DB1100558559 /* Dome */ = {
@@ -424,7 +427,7 @@
 				88A94C0F1FB44BBF0048B4C2 /* Info.plist */,
 				88A94C101FB44BBF0048B4C2 /* main.m */,
 				88A94C331FB44C060048B4C2 /* Images.xcassets */,
-				8865CC521FB96BFC0032B484 /* YukiTools */,
+				8891438420450C1D00A08ACC /* Tools */,
 			);
 			path = YukiFramework;
 			sourceTree = "<group>";
@@ -630,16 +633,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		88C5F5F81FBADE430025D9CA /* mj 自定义动画 */ = {
-			isa = PBXGroup;
-			children = (
-				88C5F5F91FBADE580025D9CA /* HSGifHeader.h */,
-				88C5F5FA1FBADE580025D9CA /* HSGifHeader.m */,
-			);
-			name = "mj 自定义动画";
-			path = "../mj 自定义动画";
 			sourceTree = "<group>";
 		};
 		8D8E5D7F9A1817AC3F9E2DED /* Pods */ = {
@@ -857,48 +850,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8865CC691FB97E720032B484 /* WKTabbarController.m in Sources */,
 				88A94C521FB44E410048B4C2 /* YukiShoppingCartViewController.m in Sources */,
+				889143BB20450F1D00A08ACC /* WKTabbarController.m in Sources */,
+				8891439620450E1000A08ACC /* TitleScrollHelper.m in Sources */,
+				889143A220450E5D00A08ACC /* NSTimer+addition.m in Sources */,
+				889143BA20450F1D00A08ACC /* WKNavigationController.m in Sources */,
 				88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */,
-				8821819A201191E0002CE791 /* YukiWebViewController.m in Sources */,
+				8891439820450E1000A08ACC /* UIView+Frame.m in Sources */,
 				88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */,
 				8819EF8B2015F19800E416D4 /* WKAttributdeLblViewController.m in Sources */,
 				88A4BAEB2015D5D300558559 /* YukiDemoListViewController.m in Sources */,
-				88C5F5FB1FBADE580025D9CA /* HSGifHeader.m in Sources */,
 				88A4BAF32015DBA000558559 /* YukiCollectionSuspensionViewController.m in Sources */,
+				889143B120450EE300A08ACC /* WKRequest.m in Sources */,
+				8891438B20450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m in Sources */,
+				8891439720450E1000A08ACC /* TitleScrollView.m in Sources */,
+				8891438820450DB100A08ACC /* AttributedLbl.m in Sources */,
+				889143A020450E5D00A08ACC /* YukiWebProgressLayer.m in Sources */,
+				889143A620450E9B00A08ACC /* YukiBaseViewController.m in Sources */,
 				88A94C4D1FB44E2C0048B4C2 /* YukuClassViewController.m in Sources */,
-				8865CC791FB97F610032B484 /* WKBaseModel.m in Sources */,
+				889143B020450EE300A08ACC /* WKBaseModel.m in Sources */,
 				88C5F5CB1FBABBAF0025D9CA /* YKShoppingTableViewCell.m in Sources */,
 				8819EF7D2015EED600E416D4 /* WKChildViewController.m in Sources */,
 				88C5F5E21FBAC79E0025D9CA /* YKShopHeadView.m in Sources */,
-				8819EF742015ED7900E416D4 /* UIView+Frame.m in Sources */,
+				889143AA20450EBF00A08ACC /* HSGifHeader.m in Sources */,
 				88224D421FBC1545003ADDBA /* YKPost.m in Sources */,
-				882181A02011999E002CE791 /* NSTimer+addition.m in Sources */,
-				8865CC661FB97E720032B484 /* YukiBaseViewController.m in Sources */,
+				889143A120450E5D00A08ACC /* YukiWebViewController.m in Sources */,
 				88C5F5DF1FBAC3C60025D9CA /* YKShopModel.m in Sources */,
 				88224D3C1FBC0F53003ADDBA /* DogModel.m in Sources */,
-				8819EF752015ED7900E416D4 /* DCPagerProgressView.m in Sources */,
 				88A4BAF62015DC4100558559 /* YukiCollectionViewFlowLayout.m in Sources */,
 				8819EF7A2015EE1D00E416D4 /* YukiTitleScorllViewController.m in Sources */,
-				8865CC651FB97E720032B484 /* WKNavigationController.m in Sources */,
 				88224D451FBC168F003ADDBA /* YKUser.m in Sources */,
 				88A94C481FB44E1D0048B4C2 /* YukiHomeViewController.m in Sources */,
 				88A4BAFF2015DD2F00558559 /* WKCateSectionHeadCollectionReusableView.m in Sources */,
 				88C5F5F11FBAD1630025D9CA /* YKShopListModel.m in Sources */,
 				88A94C571FB44E510048B4C2 /* YukiUserCenterViewController.m in Sources */,
-				8821819D2011942D002CE791 /* YukiWebProgressLayer.m in Sources */,
+				8891439520450E1000A08ACC /* DCPagerProgressView.m in Sources */,
 				88A4BAFA2015DCFA00558559 /* WKCategoryCollectionViewCell.m in Sources */,
 				88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */,
 				88C5F5E81FBACB410025D9CA /* YKShopListViewController.m in Sources */,
 				88A94C111FB44BBF0048B4C2 /* main.m in Sources */,
-				8819EF762015ED7900E416D4 /* TitleScrollHelper.m in Sources */,
-				8819EF862015F0F000E416D4 /* UILabel+YBAttributeTextTapAction.m in Sources */,
 				882181A32011BFBE002CE791 /* YukiShowPhotoWebViewController.m in Sources */,
 				88C5F5ED1FBACD0D0025D9CA /* YKShopStepTableViewCell.m in Sources */,
-				8865CC761FB97F490032B484 /* WKRequest.m in Sources */,
 				88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */,
-				8819EF872015F0F000E416D4 /* AttributedLbl.m in Sources */,
-				8819EF772015ED7900E416D4 /* TitleScrollView.m in Sources */,
 				88C5F5C71FBA95270025D9CA /* HomeModel.m in Sources */,
 				88A94C031FB44BBF0048B4C2 /* AppDelegate.m in Sources */,
 			);
@@ -1069,7 +1062,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UNEFE2V3S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YukiFramework/YukiTools/TabbarAndNavBar/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YukiFramework/Tools/TabbarAndNavBar/PrefixHeader.pch";
 				INFOPLIST_FILE = YukiFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1092,7 +1085,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8UNEFE2V3S;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YukiFramework/YukiTools/TabbarAndNavBar/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YukiFramework/Tools/TabbarAndNavBar/PrefixHeader.pch";
 				INFOPLIST_FILE = YukiFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -65,6 +65,7 @@
             web.progressColor                              = NavColor;
             [self.navigationController pushViewController:web animated:YES];
         }else if (indexPath.row == 2){
+            //TitleScorllView
             YukiTitleScorllViewController *titleScorll     = [YukiTitleScorllViewController new];
             [self.navigationController pushViewController:titleScorll animated:YES];
         }
@@ -74,6 +75,7 @@
             YukiShoppingCartViewController *shopping       = [YukiShoppingCartViewController new];
             [self.navigationController pushViewController:shopping animated:YES];
         }else if (indexPath.row == 1){
+            //富文本
             WKAttributdeLblViewController *att             = [WKAttributdeLblViewController new];
             [self.navigationController pushViewController:att animated:YES];
         }
