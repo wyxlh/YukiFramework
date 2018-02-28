@@ -12,6 +12,7 @@
 #import "YukiShowPhotoWebViewController.h"
 #import "YukiTitleScorllViewController.h"
 #import "WKAttributdeLblViewController.h"
+#import "YukiStaticLibraryViewController.h"
 @interface YukiDemoListViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataArr;
@@ -26,7 +27,7 @@
 
 -(void)setup{
     self.title                              = @"Dome列表";
-    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置"]];
+    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置",@"制作静态庫"]];
     [self.tableView reloadData];
 }
 
@@ -78,6 +79,10 @@
             //富文本
             WKAttributdeLblViewController *att             = [WKAttributdeLblViewController new];
             [self.navigationController pushViewController:att animated:YES];
+        }else if (indexPath.row == 2){
+            //制作静态庫
+            YukiStaticLibraryViewController *library       = [YukiStaticLibraryViewController new];
+            [self.navigationController pushViewController:library animated:YES];
         }
     }
 }

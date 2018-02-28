@@ -9,3 +9,4 @@
 * 新增 TitleScorllView
 * TableView 动画
 * 富文本设置
+* 新增制作静态庫

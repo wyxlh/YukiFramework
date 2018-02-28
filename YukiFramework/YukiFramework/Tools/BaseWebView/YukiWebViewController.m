@@ -39,7 +39,7 @@
 #pragma mark webView
 -(WKWebView *)webView{
     if (!_webView) {
-        _webView                                = [[WKWebView alloc]initWithFrame:self.view.bounds];
+        _webView                                = [[WKWebView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight-NavHeight)];
         _webView.navigationDelegate             = self;
         _webView.UIDelegate                     = self;
         _webView.backgroundColor                = [UIColor whiteColor];
@@ -57,6 +57,10 @@
         _webProgressLayer.strokeColor            = self.progressColor == nil ? [UIColor blueColor].CGColor : self.progressColor.CGColor;
     }
     return _webProgressLayer;
+}
+
+-(void)setProgressColor:(UIColor *)progressColor{
+    self.webProgressLayer.strokeColor            = progressColor == nil ? [UIColor blueColor].CGColor : progressColor.CGColor;
 }
 
 -(void)backButtonClick:(UIButton *)sender{

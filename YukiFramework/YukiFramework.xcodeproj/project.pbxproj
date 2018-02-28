@@ -72,6 +72,8 @@
 		88C5F5F11FBAD1630025D9CA /* YKShopListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5F01FBAD1630025D9CA /* YKShopListModel.m */; };
 		88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5F31FBAD8B30025D9CA /* YKShopListHeadView.m */; };
 		88C5F5F61FBAD8BC0025D9CA /* YKShopListHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5F51FBAD8BC0025D9CA /* YKShopListHeadView.xib */; };
+		88CA6E162046A76600DECFF3 /* libStaticText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CA6E152046A76600DECFF3 /* libStaticText.a */; };
+		88CA6E192046A7AE00DECFF3 /* YukiStaticLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6E182046A7AE00DECFF3 /* YukiStaticLibraryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +212,10 @@
 		88C5F5F21FBAD8B30025D9CA /* YKShopListHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShopListHeadView.h; sourceTree = "<group>"; };
 		88C5F5F31FBAD8B30025D9CA /* YKShopListHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShopListHeadView.m; sourceTree = "<group>"; };
 		88C5F5F51FBAD8BC0025D9CA /* YKShopListHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShopListHeadView.xib; sourceTree = "<group>"; };
+		88CA6E142046A76500DECFF3 /* StaticText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticText.h; sourceTree = "<group>"; };
+		88CA6E152046A76600DECFF3 /* libStaticText.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticText.a; sourceTree = "<group>"; };
+		88CA6E172046A7AE00DECFF3 /* YukiStaticLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiStaticLibraryViewController.h; sourceTree = "<group>"; };
+		88CA6E182046A7AE00DECFF3 /* YukiStaticLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiStaticLibraryViewController.m; sourceTree = "<group>"; };
 		B776A9DD4D2D5C7D54CA6F17 /* Pods-YukiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,6 +224,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CA6E162046A76600DECFF3 /* libStaticText.a in Frameworks */,
 				39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +257,7 @@
 		8891438420450C1D00A08ACC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				88CA6E132046A6FA00DECFF3 /* StaticLibrary */,
 				889143B220450EFD00A08ACC /* TabbarAndNavBar */,
 				889143AB20450ECE00A08ACC /* WKRequest */,
 				889143A720450EAE00A08ACC /* mj 自定义动画 */,
@@ -378,15 +386,10 @@
 		88A4BAF02015DB3600558559 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				88A4BAF12015DBA000558559 /* YukiCollectionSuspensionViewController.h */,
-				88A4BAF22015DBA000558559 /* YukiCollectionSuspensionViewController.m */,
-				8819EF782015EE1D00E416D4 /* YukiTitleScorllViewController.h */,
-				8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */,
-				8819EF7B2015EED600E416D4 /* WKChildViewController.m */,
-				8819EF7C2015EED600E416D4 /* WKChildViewController.h */,
-				8819EF882015F19700E416D4 /* WKAttributdeLblViewController.h */,
-				8819EF892015F19700E416D4 /* WKAttributdeLblViewController.m */,
-				8819EF8A2015F19700E416D4 /* WKAttributdeLblViewController.xib */,
+				88CA6E122046A6D000DECFF3 /* 制作静态庫 */,
+				88CA6E112046827F00DECFF3 /* 富文本 */,
+				88CA6E102046822600DECFF3 /* TitleScorll */,
+				88CA6E0F2046820300DECFF3 /* CollectionView 头部悬浮 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -635,6 +638,54 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		88CA6E0F2046820300DECFF3 /* CollectionView 头部悬浮 */ = {
+			isa = PBXGroup;
+			children = (
+				88A4BAF12015DBA000558559 /* YukiCollectionSuspensionViewController.h */,
+				88A4BAF22015DBA000558559 /* YukiCollectionSuspensionViewController.m */,
+			);
+			path = "CollectionView 头部悬浮";
+			sourceTree = "<group>";
+		};
+		88CA6E102046822600DECFF3 /* TitleScorll */ = {
+			isa = PBXGroup;
+			children = (
+				8819EF782015EE1D00E416D4 /* YukiTitleScorllViewController.h */,
+				8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */,
+				8819EF7B2015EED600E416D4 /* WKChildViewController.m */,
+				8819EF7C2015EED600E416D4 /* WKChildViewController.h */,
+			);
+			path = TitleScorll;
+			sourceTree = "<group>";
+		};
+		88CA6E112046827F00DECFF3 /* 富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				8819EF882015F19700E416D4 /* WKAttributdeLblViewController.h */,
+				8819EF892015F19700E416D4 /* WKAttributdeLblViewController.m */,
+				8819EF8A2015F19700E416D4 /* WKAttributdeLblViewController.xib */,
+			);
+			path = "富文本";
+			sourceTree = "<group>";
+		};
+		88CA6E122046A6D000DECFF3 /* 制作静态庫 */ = {
+			isa = PBXGroup;
+			children = (
+				88CA6E172046A7AE00DECFF3 /* YukiStaticLibraryViewController.h */,
+				88CA6E182046A7AE00DECFF3 /* YukiStaticLibraryViewController.m */,
+			);
+			path = "制作静态庫";
+			sourceTree = "<group>";
+		};
+		88CA6E132046A6FA00DECFF3 /* StaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				88CA6E152046A76600DECFF3 /* libStaticText.a */,
+				88CA6E142046A76500DECFF3 /* StaticText.h */,
+			);
+			path = StaticLibrary;
+			sourceTree = "<group>";
+		};
 		8D8E5D7F9A1817AC3F9E2DED /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -860,6 +911,7 @@
 				88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */,
 				8819EF8B2015F19800E416D4 /* WKAttributdeLblViewController.m in Sources */,
 				88A4BAEB2015D5D300558559 /* YukiDemoListViewController.m in Sources */,
+				88CA6E192046A7AE00DECFF3 /* YukiStaticLibraryViewController.m in Sources */,
 				88A4BAF32015DBA000558559 /* YukiCollectionSuspensionViewController.m in Sources */,
 				889143B120450EE300A08ACC /* WKRequest.m in Sources */,
 				8891438B20450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m in Sources */,
@@ -1066,6 +1118,10 @@
 				INFOPLIST_FILE = YukiFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YukiFramework/Tools/StaticLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "YukiFramework/UI/UserCenter/Controller/YukiFramework-Bridging-Header.h";
@@ -1089,6 +1145,10 @@
 				INFOPLIST_FILE = YukiFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YukiFramework/Tools/StaticLibrary",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "YukiFramework/UI/UserCenter/Controller/YukiFramework-Bridging-Header.h";
