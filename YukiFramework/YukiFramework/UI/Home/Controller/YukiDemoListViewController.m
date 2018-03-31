@@ -13,6 +13,7 @@
 #import "YukiTitleScorllViewController.h"
 #import "WKAttributdeLblViewController.h"
 #import "YukiStaticLibraryViewController.h"
+#import "YKLiveCommentViewController.h"
 @interface YukiDemoListViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataArr;
@@ -27,7 +28,7 @@
 
 -(void)setup{
     self.title                              = @"Dome列表";
-    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置",@"制作静态庫"]];
+    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置",@"制作静态庫",@"仿直播间评论效果"]];
     [self.tableView reloadData];
 }
 
@@ -83,6 +84,10 @@
             //制作静态庫
             YukiStaticLibraryViewController *library       = [YukiStaticLibraryViewController new];
             [self.navigationController pushViewController:library animated:YES];
+        }else if (indexPath.row == 3){
+            //仿直播间评论效果
+            YKLiveCommentViewController *live              = [YKLiveCommentViewController new];
+            [self.navigationController pushViewController:live animated:YES];
         }
     }
 }

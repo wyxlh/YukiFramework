@@ -22,6 +22,7 @@
 {
     //拦截 url
     NSString *urlString =navigationAction.request.URL.absoluteString;
+    NSString *title = [urlString stringByRemovingPercentEncoding];
     DLog(@"%@",urlString);
     if ([urlString containsString:@"PostDetail/ProductDetail/ProductId="]) {
         decisionHandler(WKNavigationActionPolicyCancel);

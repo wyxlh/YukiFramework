@@ -87,7 +87,6 @@ static NSTimeInterval const ProgressTimeInterval = 0.03;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(timer * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         if (timer == 45.0) {
             [self closeTimer];
-            
         }
         self.hidden = YES;
         [self removeFromSuperlayer];

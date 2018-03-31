@@ -17,6 +17,9 @@
 		88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3E1FBC10B3003ADDBA /* YKPerson.m */; };
 		88224D421FBC1545003ADDBA /* YKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D411FBC1545003ADDBA /* YKPost.m */; };
 		88224D451FBC168F003ADDBA /* YKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D441FBC168F003ADDBA /* YKUser.m */; };
+		884C29C2206F6E2800769E34 /* YKLiveCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C29C1206F6E2800769E34 /* YKLiveCommentViewController.m */; };
+		884C29C6206F6F4800769E34 /* YKSubtitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C29C4206F6F4800769E34 /* YKSubtitleTableViewCell.m */; };
+		884C29C7206F6F4800769E34 /* YKSubtitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884C29C5206F6F4800769E34 /* YKSubtitleTableViewCell.xib */; };
 		8891438820450DB100A08ACC /* AttributedLbl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438620450DB100A08ACC /* AttributedLbl.m */; };
 		8891438B20450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438920450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m */; };
 		8891439520450E1000A08ACC /* DCPagerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438D20450E0F00A08ACC /* DCPagerProgressView.m */; };
@@ -113,6 +116,11 @@
 		88224D411FBC1545003ADDBA /* YKPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPost.m; sourceTree = "<group>"; };
 		88224D431FBC168F003ADDBA /* YKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKUser.h; sourceTree = "<group>"; };
 		88224D441FBC168F003ADDBA /* YKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKUser.m; sourceTree = "<group>"; };
+		884C29C0206F6E2800769E34 /* YKLiveCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKLiveCommentViewController.h; sourceTree = "<group>"; };
+		884C29C1206F6E2800769E34 /* YKLiveCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKLiveCommentViewController.m; sourceTree = "<group>"; };
+		884C29C3206F6F4800769E34 /* YKSubtitleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKSubtitleTableViewCell.h; sourceTree = "<group>"; };
+		884C29C4206F6F4800769E34 /* YKSubtitleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKSubtitleTableViewCell.m; sourceTree = "<group>"; };
+		884C29C5206F6F4800769E34 /* YKSubtitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKSubtitleTableViewCell.xib; sourceTree = "<group>"; };
 		8891438620450DB100A08ACC /* AttributedLbl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLbl.m; sourceTree = "<group>"; };
 		8891438720450DB100A08ACC /* AttributedLbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLbl.h; sourceTree = "<group>"; };
 		8891438920450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
@@ -254,6 +262,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		884C29BF206F6AEB00769E34 /* 仿直播间评论效果 */ = {
+			isa = PBXGroup;
+			children = (
+				884C29C0206F6E2800769E34 /* YKLiveCommentViewController.h */,
+				884C29C1206F6E2800769E34 /* YKLiveCommentViewController.m */,
+			);
+			path = "仿直播间评论效果";
+			sourceTree = "<group>";
+		};
 		8891438420450C1D00A08ACC /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,6 +389,9 @@
 				88A4BAFC2015DD2E00558559 /* WKCateSectionHeadCollectionReusableView.h */,
 				88A4BAFD2015DD2E00558559 /* WKCateSectionHeadCollectionReusableView.m */,
 				88A4BAFE2015DD2E00558559 /* WKCateSectionHeadCollectionReusableView.xib */,
+				884C29C3206F6F4800769E34 /* YKSubtitleTableViewCell.h */,
+				884C29C4206F6F4800769E34 /* YKSubtitleTableViewCell.m */,
+				884C29C5206F6F4800769E34 /* YKSubtitleTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -386,6 +406,7 @@
 		88A4BAF02015DB3600558559 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				884C29BF206F6AEB00769E34 /* 仿直播间评论效果 */,
 				88CA6E122046A6D000DECFF3 /* 制作静态庫 */,
 				88CA6E112046827F00DECFF3 /* 富文本 */,
 				88CA6E102046822600DECFF3 /* TitleScorll */,
@@ -819,6 +840,7 @@
 				88A4BAEC2015D5D300558559 /* YukiDemoListViewController.xib in Resources */,
 				88A94C491FB44E1D0048B4C2 /* YukiHomeViewController.xib in Resources */,
 				88C5F5CC1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib in Resources */,
+				884C29C7206F6F4800769E34 /* YKSubtitleTableViewCell.xib in Resources */,
 				88C5F5E91FBACB410025D9CA /* YKShopListViewController.xib in Resources */,
 				88A4BB002015DD2F00558559 /* WKCateSectionHeadCollectionReusableView.xib in Resources */,
 				88C5F5E41FBAC7A60025D9CA /* YKShopHeadView.xib in Resources */,
@@ -919,8 +941,10 @@
 				8891438820450DB100A08ACC /* AttributedLbl.m in Sources */,
 				889143A020450E5D00A08ACC /* YukiWebProgressLayer.m in Sources */,
 				889143A620450E9B00A08ACC /* YukiBaseViewController.m in Sources */,
+				884C29C6206F6F4800769E34 /* YKSubtitleTableViewCell.m in Sources */,
 				88A94C4D1FB44E2C0048B4C2 /* YukuClassViewController.m in Sources */,
 				889143B020450EE300A08ACC /* WKBaseModel.m in Sources */,
+				884C29C2206F6E2800769E34 /* YKLiveCommentViewController.m in Sources */,
 				88C5F5CB1FBABBAF0025D9CA /* YKShoppingTableViewCell.m in Sources */,
 				8819EF7D2015EED600E416D4 /* WKChildViewController.m in Sources */,
 				88C5F5E21FBAC79E0025D9CA /* YKShopHeadView.m in Sources */,

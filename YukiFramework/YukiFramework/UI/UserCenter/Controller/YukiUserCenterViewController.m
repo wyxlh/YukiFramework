@@ -120,7 +120,7 @@
     photo.title = @"网页图片";
     photo.hidesBottomBarWhenPushed = YES;
 //    photo.progressColor = [UIColor redColor];
-    photo.urlString = @"https://www.baidu.com";
+    photo.urlString = @"http://zs.besurejuice.com/haiAir/#/property/payment/18651325065";
     [self.navigationController pushViewController:photo animated:YES];
 }
 
