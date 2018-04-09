@@ -114,6 +114,16 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)goBack;
 
 /**
+ 隐藏导航栏
+ */
+-(void)hiddenNavBar;
+
+/**
+  显示导航栏
+ */
+-(void)showNavBar;
+
+/**
  选的那个 tabbar
 
  @param index 选中第几个

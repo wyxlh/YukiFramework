@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     if ([self.navigationController viewControllers].count>1) {
         [self addBackItem];
     }
@@ -219,6 +220,20 @@
         [self dismissViewControllerAnimated:YES completion:nil];
     }
     
+}
+
+/**
+ 隐藏导航栏
+ */
+-(void)hiddenNavBar{
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
+/**
+ 显示导航栏
+ */
+-(void)showNavBar{
+    [self.navigationController setNavigationBarHidden: NO animated:YES];
 }
 
 -(void)leftTitleButtonClick:(UIButton *)sender{

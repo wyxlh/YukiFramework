@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */; };
+		8800C29E2074AE2300E6043A /* YKGCDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8800C29D2074AE2300E6043A /* YKGCDDetailViewController.m */; };
 		8819EF7A2015EE1D00E416D4 /* YukiTitleScorllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */; };
 		8819EF7D2015EED600E416D4 /* WKChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF7B2015EED600E416D4 /* WKChildViewController.m */; };
 		8819EF8B2015F19800E416D4 /* WKAttributdeLblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF892015F19700E416D4 /* WKAttributdeLblViewController.m */; };
@@ -99,6 +100,8 @@
 /* Begin PBXFileReference section */
 		140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YukiFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B319400642AAD808E5D75F4 /* Pods-YukiFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.release.xcconfig"; sourceTree = "<group>"; };
+		8800C29C2074AE2300E6043A /* YKGCDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKGCDDetailViewController.h; sourceTree = "<group>"; };
+		8800C29D2074AE2300E6043A /* YKGCDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKGCDDetailViewController.m; sourceTree = "<group>"; };
 		8819EF782015EE1D00E416D4 /* YukiTitleScorllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiTitleScorllViewController.h; sourceTree = "<group>"; };
 		8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiTitleScorllViewController.m; sourceTree = "<group>"; };
 		8819EF7B2015EED600E416D4 /* WKChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKChildViewController.m; sourceTree = "<group>"; };
@@ -262,6 +265,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8800C29B2074ADC400E6043A /* GCD 详解 */ = {
+			isa = PBXGroup;
+			children = (
+				8800C29C2074AE2300E6043A /* YKGCDDetailViewController.h */,
+				8800C29D2074AE2300E6043A /* YKGCDDetailViewController.m */,
+			);
+			path = "GCD 详解";
+			sourceTree = "<group>";
+		};
 		884C29BF206F6AEB00769E34 /* 仿直播间评论效果 */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +418,7 @@
 		88A4BAF02015DB3600558559 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8800C29B2074ADC400E6043A /* GCD 详解 */,
 				884C29BF206F6AEB00769E34 /* 仿直播间评论效果 */,
 				88CA6E122046A6D000DECFF3 /* 制作静态庫 */,
 				88CA6E112046827F00DECFF3 /* 富文本 */,
@@ -933,6 +946,7 @@
 				88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */,
 				8819EF8B2015F19800E416D4 /* WKAttributdeLblViewController.m in Sources */,
 				88A4BAEB2015D5D300558559 /* YukiDemoListViewController.m in Sources */,
+				8800C29E2074AE2300E6043A /* YKGCDDetailViewController.m in Sources */,
 				88CA6E192046A7AE00DECFF3 /* YukiStaticLibraryViewController.m in Sources */,
 				88A4BAF32015DBA000558559 /* YukiCollectionSuspensionViewController.m in Sources */,
 				889143B120450EE300A08ACC /* WKRequest.m in Sources */,

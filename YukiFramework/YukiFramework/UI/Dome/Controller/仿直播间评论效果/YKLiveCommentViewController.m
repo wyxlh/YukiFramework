@@ -54,7 +54,6 @@
     [self.tableView beginUpdates];
     [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationTop];
     [self.tableView endUpdates];
-    
 }
 
 #pragma mark tableView懒加载
