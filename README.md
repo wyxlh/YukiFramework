@@ -11,6 +11,8 @@
 * 富文本设置
 * 新增制作静态庫
 * 新增仿直播评论功能
+* 新增 GCD 详细讲解
+* 新增制作 FrameWork功能
 
 ![仿直播评论功能效果图](https://github.com/wyxlh/YukiFramework/blob/master/aaa.gif)
 
