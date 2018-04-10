@@ -29,7 +29,7 @@
 
 -(void)setup{
     self.title                              = @"Dome列表";
-    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置",@"制作静态庫",@"仿直播间评论效果"],@[@"GCD详解"]];
+    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置",@"制作静态庫.a文件",@"制作静态库FrameWork",@"仿直播间评论效果"],@[@"GCD详解"]];
     [self.tableView reloadData];
 }
 
@@ -82,16 +82,23 @@
             WKAttributdeLblViewController *att             = [WKAttributdeLblViewController new];
             [self.navigationController pushViewController:att animated:YES];
         }else if (indexPath.row == 2){
-            //制作静态庫
+            //制作静态庫.a
             YukiStaticLibraryViewController *library       = [YukiStaticLibraryViewController new];
             [self.navigationController pushViewController:library animated:YES];
         }else if (indexPath.row == 3){
+            //制作静态庫FrameWork
+            YukiWebViewController *web                     = [YukiWebViewController new];
+            web.title                                      = @"制作FrameWork";
+            web.urlString                                  = @"https://www.jianshu.com/p/1523400f8613";
+            [self.navigationController pushViewController:web animated:YES];
+        }else if (indexPath.row == 4){
             //仿直播间评论效果
             YKLiveCommentViewController *live              = [YKLiveCommentViewController new];
             [self.navigationController pushViewController:live animated:YES];
         }
     }else if (indexPath.section == 2){
         if (indexPath.row == 0) {
+            //GCD 详解
             YKGCDDetailViewController *gcd                 = [YKGCDDetailViewController new];
             [self.navigationController pushViewController:gcd animated:YES];
         }
