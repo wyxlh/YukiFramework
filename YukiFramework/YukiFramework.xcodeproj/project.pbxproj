@@ -18,6 +18,8 @@
 		88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3E1FBC10B3003ADDBA /* YKPerson.m */; };
 		88224D421FBC1545003ADDBA /* YKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D411FBC1545003ADDBA /* YKPost.m */; };
 		88224D451FBC168F003ADDBA /* YKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D441FBC168F003ADDBA /* YKUser.m */; };
+		8827E63D207DB359004F1807 /* YKGCDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8827E63B207DB359004F1807 /* YKGCDTableViewCell.m */; };
+		8827E63E207DB359004F1807 /* YKGCDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8827E63C207DB359004F1807 /* YKGCDTableViewCell.xib */; };
 		884C29C2206F6E2800769E34 /* YKLiveCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C29C1206F6E2800769E34 /* YKLiveCommentViewController.m */; };
 		884C29C6206F6F4800769E34 /* YKSubtitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C29C4206F6F4800769E34 /* YKSubtitleTableViewCell.m */; };
 		884C29C7206F6F4800769E34 /* YKSubtitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884C29C5206F6F4800769E34 /* YKSubtitleTableViewCell.xib */; };
@@ -36,6 +38,8 @@
 		889143B120450EE300A08ACC /* WKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143AF20450EE300A08ACC /* WKRequest.m */; };
 		889143BA20450F1D00A08ACC /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143B320450F1C00A08ACC /* WKNavigationController.m */; };
 		889143BB20450F1D00A08ACC /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889143B620450F1D00A08ACC /* WKTabbarController.m */; };
+		88A48E31207DF73B00650A81 /* YKGCDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A48E30207DF73B00650A81 /* YKGCDViewModel.m */; };
+		88A48E35207DF79400650A81 /* YKGCDUIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A48E34207DF79400650A81 /* YKGCDUIService.m */; };
 		88A4BAEB2015D5D300558559 /* YukiDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A4BAE92015D5D300558559 /* YukiDemoListViewController.m */; };
 		88A4BAEC2015D5D300558559 /* YukiDemoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A4BAEA2015D5D300558559 /* YukiDemoListViewController.xib */; };
 		88A4BAF32015DBA000558559 /* YukiCollectionSuspensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A4BAF22015DBA000558559 /* YukiCollectionSuspensionViewController.m */; };
@@ -119,6 +123,9 @@
 		88224D411FBC1545003ADDBA /* YKPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPost.m; sourceTree = "<group>"; };
 		88224D431FBC168F003ADDBA /* YKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKUser.h; sourceTree = "<group>"; };
 		88224D441FBC168F003ADDBA /* YKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKUser.m; sourceTree = "<group>"; };
+		8827E63A207DB359004F1807 /* YKGCDTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKGCDTableViewCell.h; sourceTree = "<group>"; };
+		8827E63B207DB359004F1807 /* YKGCDTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKGCDTableViewCell.m; sourceTree = "<group>"; };
+		8827E63C207DB359004F1807 /* YKGCDTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKGCDTableViewCell.xib; sourceTree = "<group>"; };
 		884C29C0206F6E2800769E34 /* YKLiveCommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKLiveCommentViewController.h; sourceTree = "<group>"; };
 		884C29C1206F6E2800769E34 /* YKLiveCommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKLiveCommentViewController.m; sourceTree = "<group>"; };
 		884C29C3206F6F4800769E34 /* YKSubtitleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKSubtitleTableViewCell.h; sourceTree = "<group>"; };
@@ -157,6 +164,10 @@
 		889143B720450F1D00A08ACC /* WKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationController.h; sourceTree = "<group>"; };
 		889143B820450F1D00A08ACC /* YukiHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YukiHelp.h; sourceTree = "<group>"; };
 		889143B920450F1D00A08ACC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		88A48E2F207DF73B00650A81 /* YKGCDViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKGCDViewModel.h; sourceTree = "<group>"; };
+		88A48E30207DF73B00650A81 /* YKGCDViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKGCDViewModel.m; sourceTree = "<group>"; };
+		88A48E33207DF79400650A81 /* YKGCDUIService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKGCDUIService.h; sourceTree = "<group>"; };
+		88A48E34207DF79400650A81 /* YKGCDUIService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKGCDUIService.m; sourceTree = "<group>"; };
 		88A4BAE82015D5D300558559 /* YukiDemoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiDemoListViewController.h; sourceTree = "<group>"; };
 		88A4BAE92015D5D300558559 /* YukiDemoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiDemoListViewController.m; sourceTree = "<group>"; };
 		88A4BAEA2015D5D300558559 /* YukiDemoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YukiDemoListViewController.xib; sourceTree = "<group>"; };
@@ -380,10 +391,22 @@
 			path = TabbarAndNavBar;
 			sourceTree = "<group>";
 		};
+		88A48E32207DF74D00650A81 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88A48E2F207DF73B00650A81 /* YKGCDViewModel.h */,
+				88A48E30207DF73B00650A81 /* YKGCDViewModel.m */,
+				88A48E33207DF79400650A81 /* YKGCDUIService.h */,
+				88A48E34207DF79400650A81 /* YKGCDUIService.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		88A4BAED2015DB1100558559 /* Dome */ = {
 			isa = PBXGroup;
 			children = (
 				88A4BAF02015DB3600558559 /* Controller */,
+				88A48E32207DF74D00650A81 /* ViewModel */,
 				88A4BAEF2015DB2E00558559 /* Model */,
 				88A4BAEE2015DB2600558559 /* View */,
 			);
@@ -404,6 +427,9 @@
 				884C29C3206F6F4800769E34 /* YKSubtitleTableViewCell.h */,
 				884C29C4206F6F4800769E34 /* YKSubtitleTableViewCell.m */,
 				884C29C5206F6F4800769E34 /* YKSubtitleTableViewCell.xib */,
+				8827E63A207DB359004F1807 /* YKGCDTableViewCell.h */,
+				8827E63B207DB359004F1807 /* YKGCDTableViewCell.m */,
+				8827E63C207DB359004F1807 /* YKGCDTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -839,6 +865,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8827E63E207DB359004F1807 /* YKGCDTableViewCell.xib in Resources */,
 				88A4BAFB2015DCFA00558559 /* WKCategoryCollectionViewCell.xib in Resources */,
 				88C5F5F61FBAD8BC0025D9CA /* YKShopListHeadView.xib in Resources */,
 				88A94C0E1FB44BBF0048B4C2 /* LaunchScreen.storyboard in Resources */,
@@ -963,6 +990,7 @@
 				8819EF7D2015EED600E416D4 /* WKChildViewController.m in Sources */,
 				88C5F5E21FBAC79E0025D9CA /* YKShopHeadView.m in Sources */,
 				889143AA20450EBF00A08ACC /* HSGifHeader.m in Sources */,
+				88A48E31207DF73B00650A81 /* YKGCDViewModel.m in Sources */,
 				88224D421FBC1545003ADDBA /* YKPost.m in Sources */,
 				889143A120450E5D00A08ACC /* YukiWebViewController.m in Sources */,
 				88C5F5DF1FBAC3C60025D9CA /* YKShopModel.m in Sources */,
@@ -978,10 +1006,12 @@
 				88A4BAFA2015DCFA00558559 /* WKCategoryCollectionViewCell.m in Sources */,
 				88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */,
 				88C5F5E81FBACB410025D9CA /* YKShopListViewController.m in Sources */,
+				88A48E35207DF79400650A81 /* YKGCDUIService.m in Sources */,
 				88A94C111FB44BBF0048B4C2 /* main.m in Sources */,
 				882181A32011BFBE002CE791 /* YukiShowPhotoWebViewController.m in Sources */,
 				88C5F5ED1FBACD0D0025D9CA /* YKShopStepTableViewCell.m in Sources */,
 				88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */,
+				8827E63D207DB359004F1807 /* YKGCDTableViewCell.m in Sources */,
 				88C5F5C71FBA95270025D9CA /* HomeModel.m in Sources */,
 				88A94C031FB44BBF0048B4C2 /* AppDelegate.m in Sources */,
 			);

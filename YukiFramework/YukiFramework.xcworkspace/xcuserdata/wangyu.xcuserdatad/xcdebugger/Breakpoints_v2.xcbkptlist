@@ -233,22 +233,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "YukiFramework/UI/UserCenter/Controller/YukiShowPhotoWebViewController.m"
-            timestampString = "542687730.905497"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "-webView:decidePolicyForNavigationAction:decisionHandler:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "YukiFramework/UI/Dome/Controller/&#x4eff;&#x76f4;&#x64ad;&#x95f4;&#x8bc4;&#x8bba;&#x6548;&#x679c;/YKLiveCommentViewController.m"
             timestampString = "544175567.257839"
             startingColumnNumber = "9223372036854775807"
