@@ -13,7 +13,7 @@
 //获取设备的物理宽度
 #define ScreenWidth  [UIScreen mainScreen].bounds.size.width
 // Tabbar 高度
-#define TabbarHeight (ScreenHeight > 736 ? 83.0f : 49.0f)
+#define TabbarHeight (ScreenHeight == 812.0 ? 83.0f : 49.0f)
 
 //导航栏高度
 #define NavHeight (ScreenHeight == 812.0 ? 88.0f : 64.0f)
@@ -48,4 +48,5 @@
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
 #define HOST_URL  @"http://v.juhe.cn"
+//#define HOST_URL  @"http://192.168.1.123:8080/tmsapp"
 #endif /* YukiHelp_h */

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YKVoicePlaybackViewController">
+            <connections>
+                <outlet property="textView" destination="Fec-Bh-TNz" id="bvT-Tc-HFA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="白色的云朵越来越多，越来越亮，却始终不见太阳的踪迹。湖堤的柳树显出了轮廓，随风摇曳，让人的眼球为之清爽，为之所迷。正陶醉于岸边风景的我，突然发现东方隐约出现道赤光。透着云雾看着，光越来越大，宛如条巨龙从天际冲向大地，东方一片寂静，除了红色的巨龙向我冲来。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fec-Bh-TNz">
+                    <rect key="frame" x="54" y="150" width="268" height="180"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="HI7-Ex-dpc"/>
+                        <constraint firstAttribute="width" constant="268" id="ehm-VH-WGV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpt-8H-KLN">
+                    <rect key="frame" x="93" y="362" width="31" height="30"/>
+                    <state key="normal" title="暂停"/>
+                    <connections>
+                        <action selector="clickStop:" destination="-1" eventType="touchUpInside" id="hBd-ta-QRh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y7B-AC-bbW">
+                    <rect key="frame" x="249" y="362" width="31" height="30"/>
+                    <state key="normal" title="播放"/>
+                    <connections>
+                        <action selector="clickStart:" destination="-1" eventType="touchUpInside" id="tZG-pf-9SM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hpt-8H-KLN" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="93" id="9qm-YK-698"/>
+                <constraint firstItem="hpt-8H-KLN" firstAttribute="centerY" secondItem="y7B-AC-bbW" secondAttribute="centerY" id="EMf-gB-PWs"/>
+                <constraint firstItem="Fec-Bh-TNz" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="130" id="lz9-iC-9cz"/>
+                <constraint firstItem="Fec-Bh-TNz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nee-E3-PFC"/>
+                <constraint firstItem="hpt-8H-KLN" firstAttribute="top" secondItem="Fec-Bh-TNz" secondAttribute="bottom" constant="32" id="vaH-c1-9EI"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="y7B-AC-bbW" secondAttribute="trailing" constant="95" id="wIv-Qc-a8j"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-104.5" y="22.5"/>
+        </view>
+    </objects>
+</document>

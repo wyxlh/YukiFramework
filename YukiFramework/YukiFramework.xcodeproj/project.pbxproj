@@ -23,6 +23,10 @@
 		884C29C2206F6E2800769E34 /* YKLiveCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C29C1206F6E2800769E34 /* YKLiveCommentViewController.m */; };
 		884C29C6206F6F4800769E34 /* YKSubtitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 884C29C4206F6F4800769E34 /* YKSubtitleTableViewCell.m */; };
 		884C29C7206F6F4800769E34 /* YKSubtitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884C29C5206F6F4800769E34 /* YKSubtitleTableViewCell.xib */; };
+		885D3289209AA250006F2855 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D3288209AA250006F2855 /* NotificationService.m */; };
+		885D328D209AA250006F2855 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 885D3285209AA250006F2855 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		887A61D9209047440082C193 /* YKVoicePlaybackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887A61D7209047440082C193 /* YKVoicePlaybackViewController.m */; };
+		887A61DA209047440082C193 /* YKVoicePlaybackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887A61D8209047440082C193 /* YKVoicePlaybackViewController.xib */; };
 		8891438820450DB100A08ACC /* AttributedLbl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438620450DB100A08ACC /* AttributedLbl.m */; };
 		8891438B20450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438920450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m */; };
 		8891439520450E1000A08ACC /* DCPagerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438D20450E0F00A08ACC /* DCPagerProgressView.m */; };
@@ -85,6 +89,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		885D328B209AA250006F2855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A94BF61FB44BBF0048B4C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885D3284209AA250006F2855;
+			remoteInfo = NotificationService;
+		};
 		88A94C171FB44BBF0048B4C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 88A94BF61FB44BBF0048B4C2 /* Project object */;
@@ -100,6 +111,20 @@
 			remoteInfo = YukiFramework;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		885D3291209AA250006F2855 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				885D328D209AA250006F2855 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		140A9E1D73BA201E617FF81A /* libPods-YukiFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YukiFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +156,13 @@
 		884C29C3206F6F4800769E34 /* YKSubtitleTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKSubtitleTableViewCell.h; sourceTree = "<group>"; };
 		884C29C4206F6F4800769E34 /* YKSubtitleTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKSubtitleTableViewCell.m; sourceTree = "<group>"; };
 		884C29C5206F6F4800769E34 /* YKSubtitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKSubtitleTableViewCell.xib; sourceTree = "<group>"; };
+		885D3285209AA250006F2855 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		885D3287209AA250006F2855 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		885D3288209AA250006F2855 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		885D328A209AA250006F2855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887A61D6209047440082C193 /* YKVoicePlaybackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKVoicePlaybackViewController.h; sourceTree = "<group>"; };
+		887A61D7209047440082C193 /* YKVoicePlaybackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKVoicePlaybackViewController.m; sourceTree = "<group>"; };
+		887A61D8209047440082C193 /* YKVoicePlaybackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKVoicePlaybackViewController.xib; sourceTree = "<group>"; };
 		8891438620450DB100A08ACC /* AttributedLbl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLbl.m; sourceTree = "<group>"; };
 		8891438720450DB100A08ACC /* AttributedLbl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLbl.h; sourceTree = "<group>"; };
 		8891438920450DD600A08ACC /* UILabel+YBAttributeTextTapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YBAttributeTextTapAction.m"; sourceTree = "<group>"; };
@@ -242,6 +274,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		885D3282209AA250006F2855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88A94BFB1FB44BBF0048B4C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +331,26 @@
 				884C29C1206F6E2800769E34 /* YKLiveCommentViewController.m */,
 			);
 			path = "仿直播间评论效果";
+			sourceTree = "<group>";
+		};
+		885D3286209AA250006F2855 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				885D3287209AA250006F2855 /* NotificationService.h */,
+				885D3288209AA250006F2855 /* NotificationService.m */,
+				885D328A209AA250006F2855 /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		887A61D22090468D0082C193 /* 语音播放文字内容 */ = {
+			isa = PBXGroup;
+			children = (
+				887A61D6209047440082C193 /* YKVoicePlaybackViewController.h */,
+				887A61D7209047440082C193 /* YKVoicePlaybackViewController.m */,
+				887A61D8209047440082C193 /* YKVoicePlaybackViewController.xib */,
+			);
+			path = "语音播放文字内容";
 			sourceTree = "<group>";
 		};
 		8891438420450C1D00A08ACC /* Tools */ = {
@@ -444,6 +503,7 @@
 		88A4BAF02015DB3600558559 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				887A61D22090468D0082C193 /* 语音播放文字内容 */,
 				8800C29B2074ADC400E6043A /* GCD 详解 */,
 				884C29BF206F6AEB00769E34 /* 仿直播间评论效果 */,
 				88CA6E122046A6D000DECFF3 /* 制作静态庫 */,
@@ -460,6 +520,7 @@
 				88A94C001FB44BBF0048B4C2 /* YukiFramework */,
 				88A94C191FB44BBF0048B4C2 /* YukiFrameworkTests */,
 				88A94C241FB44BBF0048B4C2 /* YukiFrameworkUITests */,
+				885D3286209AA250006F2855 /* NotificationService */,
 				88A94BFF1FB44BBF0048B4C2 /* Products */,
 				8D8E5D7F9A1817AC3F9E2DED /* Pods */,
 				0D1591883255E7B200D21670 /* Frameworks */,
@@ -472,6 +533,7 @@
 				88A94BFE1FB44BBF0048B4C2 /* YukiFramework.app */,
 				88A94C161FB44BBF0048B4C2 /* YukiFrameworkTests.xctest */,
 				88A94C211FB44BBF0048B4C2 /* YukiFrameworkUITests.xctest */,
+				885D3285209AA250006F2855 /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -758,6 +820,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		885D3284209AA250006F2855 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885D3290209AA250006F2855 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				885D3281209AA250006F2855 /* Sources */,
+				885D3282209AA250006F2855 /* Frameworks */,
+				885D3283209AA250006F2855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 885D3285209AA250006F2855 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		88A94BFD1FB44BBF0048B4C2 /* YukiFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88A94C2A1FB44BBF0048B4C2 /* Build configuration list for PBXNativeTarget "YukiFramework" */;
@@ -768,10 +847,12 @@
 				88A94BFC1FB44BBF0048B4C2 /* Resources */,
 				1DBD8E85F4D7061C5F328207 /* [CP] Embed Pods Frameworks */,
 				E7849E6D2B06A49A3B675D93 /* [CP] Copy Pods Resources */,
+				885D3291209AA250006F2855 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				885D328C209AA250006F2855 /* PBXTargetDependency */,
 			);
 			name = YukiFramework;
 			productName = YukiFramework;
@@ -823,10 +904,19 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = wy;
 				TargetAttributes = {
+					885D3284209AA250006F2855 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					88A94BFD1FB44BBF0048B4C2 = {
 						CreatedOnToolsVersion = 9.1;
 						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					88A94C151FB44BBF0048B4C2 = {
 						CreatedOnToolsVersion = 9.1;
@@ -856,11 +946,19 @@
 				88A94BFD1FB44BBF0048B4C2 /* YukiFramework */,
 				88A94C151FB44BBF0048B4C2 /* YukiFrameworkTests */,
 				88A94C201FB44BBF0048B4C2 /* YukiFrameworkUITests */,
+				885D3284209AA250006F2855 /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		885D3283209AA250006F2855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88A94BFC1FB44BBF0048B4C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -885,6 +983,7 @@
 				88A4BB002015DD2F00558559 /* WKCateSectionHeadCollectionReusableView.xib in Resources */,
 				88C5F5E41FBAC7A60025D9CA /* YKShopHeadView.xib in Resources */,
 				88C5F5EE1FBACD0D0025D9CA /* YKShopStepTableViewCell.xib in Resources */,
+				887A61DA209047440082C193 /* YKVoicePlaybackViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -959,6 +1058,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		885D3281209AA250006F2855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885D3289209AA250006F2855 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88A94BFA1FB44BBF0048B4C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1005,6 +1112,7 @@
 				8891439520450E1000A08ACC /* DCPagerProgressView.m in Sources */,
 				88A4BAFA2015DCFA00558559 /* WKCategoryCollectionViewCell.m in Sources */,
 				88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */,
+				887A61D9209047440082C193 /* YKVoicePlaybackViewController.m in Sources */,
 				88C5F5E81FBACB410025D9CA /* YKShopListViewController.m in Sources */,
 				88A48E35207DF79400650A81 /* YKGCDUIService.m in Sources */,
 				88A94C111FB44BBF0048B4C2 /* main.m in Sources */,
@@ -1036,6 +1144,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		885D328C209AA250006F2855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885D3284209AA250006F2855 /* NotificationService */;
+			targetProxy = 885D328B209AA250006F2855 /* PBXContainerItemProxy */;
+		};
 		88A94C181FB44BBF0048B4C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 88A94BFD1FB44BBF0048B4C2 /* YukiFramework */;
@@ -1068,6 +1181,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		885D328E209AA250006F2855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		885D328F209AA250006F2855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		88A94C281FB44BBF0048B4C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1282,6 +1425,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		885D3290209AA250006F2855 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885D328E209AA250006F2855 /* Debug */,
+				885D328F209AA250006F2855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		88A94BF91FB44BBF0048B4C2 /* Build configuration list for PBXProject "YukiFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

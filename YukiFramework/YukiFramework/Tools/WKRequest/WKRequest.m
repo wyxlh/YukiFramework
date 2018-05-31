@@ -57,13 +57,20 @@
                  success:(SuccessBlock)successBlock
                  failure:(FailureBlock)failureBlock{
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/plain", @"text/html",@"application/javascript",@"application/json", nil];
+    
+    NSString *header = @"WX9Esmbfey5t9jTDZAsPGERxUMwKsgmim/oZO0k+yCYHoeRZjiYoNzaBmkCBRe7+ytuv2VD7F31nzPVKxZMIHh3Qk0sqGoVOrprTiGtHZu9iM9pbphMgHA==";
+    [manager.requestSerializer setValue:header forHTTPHeaderField:@"token"];
+    
     //可以接受的类型
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     //请求超时的时间
     manager.requestSerializer.timeoutInterval = TIMEOUT;
     //请求url
-//    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",HOST_URL,urlString];
-    [manager POST:urlString parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",HOST_URL,urlString];
+    
+    [manager POST:hostUrl parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (successBlock) {
             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableLeaves error:nil];
             WKBaseModel *baseModel = [[WKBaseModel alloc]initWithJsonObject:dic];

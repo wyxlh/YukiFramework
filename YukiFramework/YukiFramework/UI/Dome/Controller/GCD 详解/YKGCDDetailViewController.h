@@ -9,5 +9,4 @@
 #import "YukiBaseViewController.h"
 
 @interface YKGCDDetailViewController : YukiBaseViewController
-
 @end

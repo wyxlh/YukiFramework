@@ -11,6 +11,7 @@
 #import "YKGCDUIService.h"
 #import "YKGCDViewModel.h"
 @interface YKGCDDetailViewController ()
+
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) YKGCDViewModel *viewModel;
 @property (nonatomic, strong) YKGCDUIService *service;
@@ -37,7 +38,7 @@
 #pragma mark tableView
 -(UITableView *)tableView{
     if (!_tableView) {
-        _tableView                          = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight-TabbarHeight) style:UITableViewStylePlain];
+        _tableView                          = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight-NavHeight) style:UITableViewStylePlain];
         _tableView.delegate                 = self.service;
         _tableView.dataSource               = self.service;
         _tableView.estimatedRowHeight       = 60;

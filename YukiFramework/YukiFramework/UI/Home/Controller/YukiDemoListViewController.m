@@ -15,6 +15,7 @@
 #import "YukiStaticLibraryViewController.h"
 #import "YKLiveCommentViewController.h"
 #import "YKGCDDetailViewController.h"
+#import "YKVoicePlaybackViewController.h"
 @interface YukiDemoListViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataArr;
@@ -29,7 +30,7 @@
 
 -(void)setup{
     self.title                              = @"Dome列表";
-    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置",@"制作静态庫.a文件",@"制作静态库FrameWork",@"仿直播间评论效果"],@[@"GCD详解"]];
+    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置",@"制作静态庫.a文件",@"制作静态库FrameWork",@"仿直播间评论效果"],@[@"GCD详解",@"语音播放文字内容"]];
     [self.tableView reloadData];
 }
 
@@ -101,6 +102,9 @@
             //GCD 详解
             YKGCDDetailViewController *gcd                 = [YKGCDDetailViewController new];
             [self.navigationController pushViewController:gcd animated:YES];
+        }else if (indexPath.row == 1){
+            YKVoicePlaybackViewController *voice           = [YKVoicePlaybackViewController new];
+            [self.navigationController pushViewController:voice animated:YES];
         }
     }
 }

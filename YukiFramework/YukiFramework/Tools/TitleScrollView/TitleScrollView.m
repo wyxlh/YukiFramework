@@ -24,7 +24,7 @@
  *  @param defaultColor   默认颜色
  *  @param selectBlock    点击标题回调方法
  *
- *  @return <#return value description#>
+ *  @return
  */
 -(instancetype)initWithFrame:(CGRect)frame
                   TitleArray:(NSArray *)titleArray
