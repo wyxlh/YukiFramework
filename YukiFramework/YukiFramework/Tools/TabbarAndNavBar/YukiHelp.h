@@ -8,6 +8,21 @@
 
 #ifndef YukiHelp_h
 #define YukiHelp_h
+
+// 银联支付的环境   00正式01测试
+#define YinLianCeShi  @"01"
+#define YinLianZhengShi  @"00"
+
+//微信的Key
+#define WXAppId          @"wx692ec46fc9acc2b0"
+#define WXappSecret      @"833b9e6d48f9bb209cec4b2b11aab100"
+#define WeiXinPartnerId  @"1481778242"
+#define WeiXinPartnerKey @"wx692ec46fc9acc2b012345678987654"
+
+//友盟APPKey
+#define UmengAppKey   @"5b04c2bdf43e4858b8000157"
+#define UmengURL      @"http://www.umeng.com/social"
+
 //获取设备的物理高度
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 //获取设备的物理宽度

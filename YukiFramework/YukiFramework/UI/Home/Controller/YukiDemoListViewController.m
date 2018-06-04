@@ -16,6 +16,8 @@
 #import "YKLiveCommentViewController.h"
 #import "YKGCDDetailViewController.h"
 #import "YKVoicePlaybackViewController.h"
+#import "YKPlayTypeViewController.h"
+#import "YKShareViewController.h"
 @interface YukiDemoListViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataArr;
@@ -30,7 +32,7 @@
 
 -(void)setup{
     self.title                              = @"Dome列表";
-    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView"],@[@"TableView动画",@"富文本设置",@"制作静态庫.a文件",@"制作静态库FrameWork",@"仿直播间评论效果"],@[@"GCD详解",@"语音播放文字内容"]];
+    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView",@"自定义分享"],@[@"TableView动画",@"富文本设置",@"制作静态庫.a文件",@"制作静态库FrameWork",@"仿直播间评论效果"],@[@"GCD详解",@"语音播放文字内容"],@[@"支付方式"]];
     [self.tableView reloadData];
 }
 
@@ -72,6 +74,9 @@
             //TitleScorllView
             YukiTitleScorllViewController *titleScorll     = [YukiTitleScorllViewController new];
             [self.navigationController pushViewController:titleScorll animated:YES];
+        }else{
+            YKShareViewController *share                   = [YKShareViewController new];
+            [self.navigationController pushViewController:share animated:YES];
         }
     }else if (indexPath.section == 1){
         if (indexPath.row == 0) {
@@ -103,8 +108,14 @@
             YKGCDDetailViewController *gcd                 = [YKGCDDetailViewController new];
             [self.navigationController pushViewController:gcd animated:YES];
         }else if (indexPath.row == 1){
+            //文字合成语音播放
             YKVoicePlaybackViewController *voice           = [YKVoicePlaybackViewController new];
             [self.navigationController pushViewController:voice animated:YES];
+        }
+    }else if (indexPath.section == 3){
+        if (indexPath.row == 0) {
+            YKPlayTypeViewController *payType              = [YKPlayTypeViewController new];
+            [self.navigationController pushViewController:payType animated:YES];
         }
     }
 }

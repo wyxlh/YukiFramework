@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '34213DB441373E0FD4115C5528C6D4D1'
+               BlueprintIdentifier = '6B9B680BAB5FE0D4C70759DEAF942C7B'
                BlueprintName = 'Pods-YukiFramework'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-YukiFramework.a'>
