@@ -7,20 +7,13 @@
 //
 
 #import "YukiDemoListViewController.h"
-#import "YukiCollectionSuspensionViewController.h"
-#import "YukiShoppingCartViewController.h"
-#import "YukiShowPhotoWebViewController.h"
-#import "YukiTitleScorllViewController.h"
-#import "WKAttributdeLblViewController.h"
-#import "YukiStaticLibraryViewController.h"
-#import "YKLiveCommentViewController.h"
-#import "YKGCDDetailViewController.h"
-#import "YKVoicePlaybackViewController.h"
-#import "YKPlayTypeViewController.h"
-#import "YKShareViewController.h"
-@interface YukiDemoListViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+#import "YKDemoListService.h"
+#import "YKDemoListViewModel.h"
+@interface YukiDemoListViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) NSArray *dataArr;
+@property (nonatomic, strong) YKDemoListService *service;
+@property (nonatomic, strong) YKDemoListViewModel *viewModel;
 @end
 
 @implementation YukiDemoListViewController
@@ -31,100 +24,40 @@
 }
 
 -(void)setup{
-    self.title                              = @"Dome列表";
-    self.dataArr                            = @[@[@"CollectionView头部悬浮",@"加载网页的进度条",@"TitleScorllView",@"自定义分享"],@[@"TableView动画",@"富文本设置",@"制作静态庫.a文件",@"制作静态库FrameWork",@"仿直播间评论效果"],@[@"GCD详解",@"语音播放文字内容"],@[@"支付方式"]];
-    [self.tableView reloadData];
+    self.title                  = @"Dome列表";
+    
+    self.tableView.delegate     = self.service;
+    self.tableView.dataSource   = self.service;
+    
+    @weakify(self)
+    [self.viewModel setUIWithSuccess:^{
+        @strongify(self)
+        [self.tableView reloadData];
+    }];
+    
 }
 
-#pragma mark UITableViewDelegate,UITableViewDataSource
--(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return self.dataArr.count;
-}
-
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return [self.dataArr[section] count];
-}
-
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    static NSString *ideitifier             = @"aCell";
-    UITableViewCell *cell                   = [tableView dequeueReusableCellWithIdentifier:ideitifier];
-    if (!cell) {
-        cell                                = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ideitifier];
+#pragma mark service
+-(YKDemoListService *)service{
+    if (!_service) {
+        _service                 = [[YKDemoListService alloc]init];
+        _service.viewModel       = self.viewModel;
     }
-    cell.accessoryType                      = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.text                     = self.dataArr[indexPath.section][indexPath.row];
-    return cell;
+    return _service;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    if (indexPath.section == 0) {
-        if (indexPath.row == 0) {
-            //CollectionView头部悬浮
-            YukiCollectionSuspensionViewController *suspen = [YukiCollectionSuspensionViewController new];
-            [self.navigationController pushViewController:suspen animated:YES];
-        }else if (indexPath.row == 1){
-            //加载网页的进度条
-            YukiShowPhotoWebViewController *web            = [YukiShowPhotoWebViewController new];
-            web.title                                      = @"网页进度条";
-            web.urlString                                  = @"https://www.baidu.com";
-            web.progressColor                              = NavColor;
-            [self.navigationController pushViewController:web animated:YES];
-        }else if (indexPath.row == 2){
-            //TitleScorllView
-            YukiTitleScorllViewController *titleScorll     = [YukiTitleScorllViewController new];
-            [self.navigationController pushViewController:titleScorll animated:YES];
-        }else{
-            YKShareViewController *share                   = [YKShareViewController new];
-            [self.navigationController pushViewController:share animated:YES];
-        }
-    }else if (indexPath.section == 1){
-        if (indexPath.row == 0) {
-            //TableView动画
-            YukiShoppingCartViewController *shopping       = [YukiShoppingCartViewController new];
-            [self.navigationController pushViewController:shopping animated:YES];
-        }else if (indexPath.row == 1){
-            //富文本
-            WKAttributdeLblViewController *att             = [WKAttributdeLblViewController new];
-            [self.navigationController pushViewController:att animated:YES];
-        }else if (indexPath.row == 2){
-            //制作静态庫.a
-            YukiStaticLibraryViewController *library       = [YukiStaticLibraryViewController new];
-            [self.navigationController pushViewController:library animated:YES];
-        }else if (indexPath.row == 3){
-            //制作静态庫FrameWork
-            YukiWebViewController *web                     = [YukiWebViewController new];
-            web.title                                      = @"制作FrameWork";
-            web.urlString                                  = @"https://www.jianshu.com/p/1523400f8613";
-            [self.navigationController pushViewController:web animated:YES];
-        }else if (indexPath.row == 4){
-            //仿直播间评论效果
-            YKLiveCommentViewController *live              = [YKLiveCommentViewController new];
-            [self.navigationController pushViewController:live animated:YES];
-        }
-    }else if (indexPath.section == 2){
-        if (indexPath.row == 0) {
-            //GCD 详解
-            YKGCDDetailViewController *gcd                 = [YKGCDDetailViewController new];
-            [self.navigationController pushViewController:gcd animated:YES];
-        }else if (indexPath.row == 1){
-            //文字合成语音播放
-            YKVoicePlaybackViewController *voice           = [YKVoicePlaybackViewController new];
-            [self.navigationController pushViewController:voice animated:YES];
-        }
-    }else if (indexPath.section == 3){
-        if (indexPath.row == 0) {
-            YKPlayTypeViewController *payType              = [YKPlayTypeViewController new];
-            [self.navigationController pushViewController:payType animated:YES];
-        }
+#pragma mark viewModel
+-(YKDemoListViewModel *)viewModel{
+    if (!_viewModel) {
+        _viewModel               = [[YKDemoListViewModel alloc]init];
+        @weakify(self)
+        _viewModel.jumpBlock     = ^(UIViewController *viewCtrl){
+            @strongify(self)
+            [self.navigationController pushViewController:viewCtrl animated:YES];
+        };
     }
+    return _viewModel;
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
-    return 15.0f;
-}
 
--(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-    return 0.01f;
-}
 @end

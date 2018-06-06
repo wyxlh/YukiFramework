@@ -59,7 +59,6 @@
 		886C3AAB20C0F06400E580B5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C3AAA20C0F06400E580B5 /* libsqlite3.0.tbd */; };
 		886C3AAE20C0F24A00E580B5 /* WXApiRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C3AAC20C0F24A00E580B5 /* WXApiRequestHandler.m */; };
 		886C3AB120C112F400E580B5 /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = 886C3AB020C112F400E580B5 /* WXUtil.mm */; };
-		886C3AB720C11DE500E580B5 /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C3AB620C11DE500E580B5 /* libPaymentControl.a */; };
 		887A61D9209047440082C193 /* YKVoicePlaybackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887A61D7209047440082C193 /* YKVoicePlaybackViewController.m */; };
 		887A61DA209047440082C193 /* YKVoicePlaybackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 887A61D8209047440082C193 /* YKVoicePlaybackViewController.xib */; };
 		8891438820450DB100A08ACC /* AttributedLbl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8891438620450DB100A08ACC /* AttributedLbl.m */; };
@@ -106,6 +105,10 @@
 		88A94C581FB44E510048B4C2 /* YukiUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C561FB44E510048B4C2 /* YukiUserCenterViewController.xib */; };
 		88A94C6A1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */; };
 		88A94C6B1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */; };
+		88AE9B5B20C76C800015A4FA /* YKDemoListService.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE9B5A20C76C800015A4FA /* YKDemoListService.m */; };
+		88AE9B5E20C76C960015A4FA /* YKDemoListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE9B5D20C76C960015A4FA /* YKDemoListViewModel.m */; };
+		88AE9B6220C777BB0015A4FA /* YKShortVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE9B6120C777BB0015A4FA /* YKShortVideoViewController.m */; };
+		88AE9B6520C778790015A4FA /* YKScorllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE9B6420C778790015A4FA /* YKScorllView.m */; };
 		88C5F5C71FBA95270025D9CA /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C61FBA95270025D9CA /* HomeModel.m */; };
 		88C5F5CB1FBABBAF0025D9CA /* YKShoppingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C91FBABBAF0025D9CA /* YKShoppingTableViewCell.m */; };
 		88C5F5CC1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5CA1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib */; };
@@ -121,6 +124,7 @@
 		88C5F5F61FBAD8BC0025D9CA /* YKShopListHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5F51FBAD8BC0025D9CA /* YKShopListHeadView.xib */; };
 		88CA6E162046A76600DECFF3 /* libStaticText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CA6E152046A76600DECFF3 /* libStaticText.a */; };
 		88CA6E192046A7AE00DECFF3 /* YukiStaticLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CA6E182046A7AE00DECFF3 /* YukiStaticLibraryViewController.m */; };
+		88DB83B720C692B20044DFEB /* libPaymentControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DB83B620C692B10044DFEB /* libPaymentControl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -319,8 +323,6 @@
 		886C3AAD20C0F24A00E580B5 /* WXApiRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiRequestHandler.h; sourceTree = "<group>"; };
 		886C3AAF20C112C500E580B5 /* WXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
 		886C3AB020C112F400E580B5 /* WXUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WXUtil.mm; sourceTree = "<group>"; };
-		886C3AB420C11DE500E580B5 /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
-		886C3AB620C11DE500E580B5 /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
 		887A61D6209047440082C193 /* YKVoicePlaybackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKVoicePlaybackViewController.h; sourceTree = "<group>"; };
 		887A61D7209047440082C193 /* YKVoicePlaybackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKVoicePlaybackViewController.m; sourceTree = "<group>"; };
 		887A61D8209047440082C193 /* YKVoicePlaybackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKVoicePlaybackViewController.xib; sourceTree = "<group>"; };
@@ -406,6 +408,14 @@
 		88A94C671FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeFourChooseTableViewCell.xib; sourceTree = "<group>"; };
 		88A94C681FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeFourChooseTableViewCell.h; sourceTree = "<group>"; };
 		88A94C691FB46E370048B4C2 /* WKHomeFourChooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeFourChooseTableViewCell.m; sourceTree = "<group>"; };
+		88AE9B5920C76C800015A4FA /* YKDemoListService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKDemoListService.h; sourceTree = "<group>"; };
+		88AE9B5A20C76C800015A4FA /* YKDemoListService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKDemoListService.m; sourceTree = "<group>"; };
+		88AE9B5C20C76C960015A4FA /* YKDemoListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKDemoListViewModel.h; sourceTree = "<group>"; };
+		88AE9B5D20C76C960015A4FA /* YKDemoListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKDemoListViewModel.m; sourceTree = "<group>"; };
+		88AE9B6020C777BB0015A4FA /* YKShortVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShortVideoViewController.h; sourceTree = "<group>"; };
+		88AE9B6120C777BB0015A4FA /* YKShortVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShortVideoViewController.m; sourceTree = "<group>"; };
+		88AE9B6320C778790015A4FA /* YKScorllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKScorllView.h; sourceTree = "<group>"; };
+		88AE9B6420C778790015A4FA /* YKScorllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKScorllView.m; sourceTree = "<group>"; };
 		88C5F5C51FBA95270025D9CA /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		88C5F5C61FBA95270025D9CA /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		88C5F5C81FBABBAF0025D9CA /* YKShoppingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShoppingTableViewCell.h; sourceTree = "<group>"; };
@@ -431,6 +441,8 @@
 		88CA6E152046A76600DECFF3 /* libStaticText.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticText.a; sourceTree = "<group>"; };
 		88CA6E172046A7AE00DECFF3 /* YukiStaticLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiStaticLibraryViewController.h; sourceTree = "<group>"; };
 		88CA6E182046A7AE00DECFF3 /* YukiStaticLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiStaticLibraryViewController.m; sourceTree = "<group>"; };
+		88DB83B420C692B10044DFEB /* UPPaymentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPaymentControl.h; sourceTree = "<group>"; };
+		88DB83B620C692B10044DFEB /* libPaymentControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentControl.a; sourceTree = "<group>"; };
 		B776A9DD4D2D5C7D54CA6F17 /* Pods-YukiFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YukiFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -454,7 +466,7 @@
 				881BF14120BFDD080062AB17 /* libc++.1.tbd in Frameworks */,
 				881BF13F20BFDCF80062AB17 /* CoreText.framework in Frameworks */,
 				881BF13D20BFDCF20062AB17 /* CoreTelephony.framework in Frameworks */,
-				886C3AB720C11DE500E580B5 /* libPaymentControl.a in Frameworks */,
+				88DB83B720C692B20044DFEB /* libPaymentControl.a in Frameworks */,
 				881BF13B20BFDCE90062AB17 /* CoreMotion.framework in Frameworks */,
 				881BF13920BFDCE10062AB17 /* CoreGraphics.framework in Frameworks */,
 				881BF13720BFDCD80062AB17 /* QuartzCore.framework in Frameworks */,
@@ -566,7 +578,7 @@
 		881BF0C620BFC4D60062AB17 /* UnionPay */ = {
 			isa = PBXGroup;
 			children = (
-				886C3AB220C11DE500E580B5 /* paymentcontrol */,
+				88DB83B220C692B10044DFEB /* paymentcontrol */,
 			);
 			path = UnionPay;
 			sourceTree = "<group>";
@@ -714,31 +726,6 @@
 				885D328A209AA250006F2855 /* Info.plist */,
 			);
 			path = NotificationService;
-			sourceTree = "<group>";
-		};
-		886C3AB220C11DE500E580B5 /* paymentcontrol */ = {
-			isa = PBXGroup;
-			children = (
-				886C3AB320C11DE500E580B5 /* inc */,
-				886C3AB520C11DE500E580B5 /* libs */,
-			);
-			path = paymentcontrol;
-			sourceTree = "<group>";
-		};
-		886C3AB320C11DE500E580B5 /* inc */ = {
-			isa = PBXGroup;
-			children = (
-				886C3AB420C11DE500E580B5 /* UPPaymentControl.h */,
-			);
-			path = inc;
-			sourceTree = "<group>";
-		};
-		886C3AB520C11DE500E580B5 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				886C3AB620C11DE500E580B5 /* libPaymentControl.a */,
-			);
-			path = libs;
 			sourceTree = "<group>";
 		};
 		887A61D22090468D0082C193 /* 语音播放文字内容 */ = {
@@ -903,6 +890,7 @@
 		88A4BAF02015DB3600558559 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				88AE9B5F20C771C90015A4FA /* 仿短视频效果 */,
 				881251AD20C0D9C8008293EF /* 自定义分享 */,
 				881BF0BF20BFBDA30062AB17 /* 支付 */,
 				887A61D22090468D0082C193 /* 语音播放文字内容 */,
@@ -989,11 +977,34 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		88AE9B5820C76C5F0015A4FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				88AE9B5920C76C800015A4FA /* YKDemoListService.h */,
+				88AE9B5A20C76C800015A4FA /* YKDemoListService.m */,
+				88AE9B5C20C76C960015A4FA /* YKDemoListViewModel.h */,
+				88AE9B5D20C76C960015A4FA /* YKDemoListViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		88AE9B5F20C771C90015A4FA /* 仿短视频效果 */ = {
+			isa = PBXGroup;
+			children = (
+				88AE9B6020C777BB0015A4FA /* YKShortVideoViewController.h */,
+				88AE9B6120C777BB0015A4FA /* YKShortVideoViewController.m */,
+				88AE9B6320C778790015A4FA /* YKScorllView.h */,
+				88AE9B6420C778790015A4FA /* YKScorllView.m */,
+			);
+			path = "仿短视频效果";
+			sourceTree = "<group>";
+		};
 		88C5F5CD1FBAC25E0025D9CA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				88C5F5D01FBAC2800025D9CA /* View */,
+				88AE9B5820C76C5F0015A4FA /* ViewModel */,
 				88C5F5CF1FBAC2730025D9CA /* Controller */,
+				88C5F5D01FBAC2800025D9CA /* View */,
 				88C5F5CE1FBAC2650025D9CA /* Model */,
 			);
 			path = Home;
@@ -1208,6 +1219,31 @@
 				88CA6E142046A76500DECFF3 /* StaticText.h */,
 			);
 			path = StaticLibrary;
+			sourceTree = "<group>";
+		};
+		88DB83B220C692B10044DFEB /* paymentcontrol */ = {
+			isa = PBXGroup;
+			children = (
+				88DB83B320C692B10044DFEB /* inc */,
+				88DB83B520C692B10044DFEB /* libs */,
+			);
+			path = paymentcontrol;
+			sourceTree = "<group>";
+		};
+		88DB83B320C692B10044DFEB /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				88DB83B420C692B10044DFEB /* UPPaymentControl.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		88DB83B520C692B10044DFEB /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				88DB83B620C692B10044DFEB /* libPaymentControl.a */,
+			);
+			path = libs;
 			sourceTree = "<group>";
 		};
 		8D8E5D7F9A1817AC3F9E2DED /* Pods */ = {
@@ -1481,6 +1517,7 @@
 				88A94C521FB44E410048B4C2 /* YukiShoppingCartViewController.m in Sources */,
 				889143BB20450F1D00A08ACC /* WKTabbarController.m in Sources */,
 				881BF0D520BFC55D0062AB17 /* openssl_wrapper.m in Sources */,
+				88AE9B5B20C76C800015A4FA /* YKDemoListService.m in Sources */,
 				8891439620450E1000A08ACC /* TitleScrollHelper.m in Sources */,
 				889143A220450E5D00A08ACC /* NSTimer+addition.m in Sources */,
 				880FBB6220C538C500DBAE29 /* YFShareView.m in Sources */,
@@ -1489,10 +1526,12 @@
 				88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */,
 				8891439820450E1000A08ACC /* UIView+Frame.m in Sources */,
 				88C5F5F41FBAD8B30025D9CA /* YKShopListHeadView.m in Sources */,
+				88AE9B5E20C76C960015A4FA /* YKDemoListViewModel.m in Sources */,
 				886C3AB120C112F400E580B5 /* WXUtil.mm in Sources */,
 				8819EF8B2015F19800E416D4 /* WKAttributdeLblViewController.m in Sources */,
 				88A4BAEB2015D5D300558559 /* YukiDemoListViewController.m in Sources */,
 				8800C29E2074AE2300E6043A /* YKGCDDetailViewController.m in Sources */,
+				88AE9B6520C778790015A4FA /* YKScorllView.m in Sources */,
 				88CA6E192046A7AE00DECFF3 /* YukiStaticLibraryViewController.m in Sources */,
 				88A4BAF32015DBA000558559 /* YukiCollectionSuspensionViewController.m in Sources */,
 				889143B120450EE300A08ACC /* WKRequest.m in Sources */,
@@ -1522,6 +1561,7 @@
 				8819EF7A2015EE1D00E416D4 /* YukiTitleScorllViewController.m in Sources */,
 				88224D451FBC168F003ADDBA /* YKUser.m in Sources */,
 				88A94C481FB44E1D0048B4C2 /* YukiHomeViewController.m in Sources */,
+				88AE9B6220C777BB0015A4FA /* YKShortVideoViewController.m in Sources */,
 				88A4BAFF2015DD2F00558559 /* WKCateSectionHeadCollectionReusableView.m in Sources */,
 				88C5F5F11FBAD1630025D9CA /* YKShopListModel.m in Sources */,
 				881BF0CE20BFC5410062AB17 /* APOrderInfo.m in Sources */,
