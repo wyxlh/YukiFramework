@@ -18,6 +18,7 @@
     // 使导航条有效
     self.navigationBar.translucent = NO;
     self.navigationBar.barTintColor = UIColorFromRGB(0xE26B1C);//设置导航栏背景颜色
+//    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"navBg"] forBarMetrics:UIBarMetricsDefault];
     [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];// 设置字体颜色
     
 }

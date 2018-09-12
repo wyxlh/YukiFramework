@@ -52,6 +52,8 @@
 		884C29C7206F6F4800769E34 /* YKSubtitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884C29C5206F6F4800769E34 /* YKSubtitleTableViewCell.xib */; };
 		885D3289209AA250006F2855 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D3288209AA250006F2855 /* NotificationService.m */; };
 		885D328D209AA250006F2855 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 885D3285209AA250006F2855 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		885DA390212C02F100AC1CDC /* YFHomeNearTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 885DA38D212C02F000AC1CDC /* YFHomeNearTableViewCell.m */; };
+		885DA391212C02F100AC1CDC /* YFHomeNearTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 885DA38E212C02F000AC1CDC /* YFHomeNearTableViewCell.xib */; };
 		886C3AA420C0EFFE00E580B5 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C3AA020C0EFFD00E580B5 /* libWeChatSDK.a */; };
 		886C3AA520C0EFFE00E580B5 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 886C3AA320C0EFFE00E580B5 /* README.txt */; };
 		886C3AA720C0F04000E580B5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886C3AA620C0F04000E580B5 /* Security.framework */; };
@@ -311,6 +313,9 @@
 		885D3287209AA250006F2855 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		885D3288209AA250006F2855 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
 		885D328A209AA250006F2855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885DA38D212C02F000AC1CDC /* YFHomeNearTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFHomeNearTableViewCell.m; sourceTree = "<group>"; };
+		885DA38E212C02F000AC1CDC /* YFHomeNearTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YFHomeNearTableViewCell.xib; sourceTree = "<group>"; };
+		885DA38F212C02F000AC1CDC /* YFHomeNearTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFHomeNearTableViewCell.h; sourceTree = "<group>"; };
 		886C3A9F20C0EFFD00E580B5 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		886C3AA020C0EFFD00E580B5 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		886C3AA120C0EFFD00E580B5 /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
@@ -1072,6 +1077,9 @@
 		88C5F5D41FBAC2E30025D9CA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				885DA38F212C02F000AC1CDC /* YFHomeNearTableViewCell.h */,
+				885DA38D212C02F000AC1CDC /* YFHomeNearTableViewCell.m */,
+				885DA38E212C02F000AC1CDC /* YFHomeNearTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1404,6 +1412,7 @@
 				8827E63E207DB359004F1807 /* YKGCDTableViewCell.xib in Resources */,
 				88A4BAFB2015DCFA00558559 /* WKCategoryCollectionViewCell.xib in Resources */,
 				880FBB6420C538C500DBAE29 /* YFShareButton.xib in Resources */,
+				885DA391212C02F100AC1CDC /* YFHomeNearTableViewCell.xib in Resources */,
 				88C5F5F61FBAD8BC0025D9CA /* YKShopListHeadView.xib in Resources */,
 				88A94C0E1FB44BBF0048B4C2 /* LaunchScreen.storyboard in Resources */,
 				88A94C6A1FB46E380048B4C2 /* WKHomeFourChooseTableViewCell.xib in Resources */,
@@ -1522,6 +1531,7 @@
 				889143A220450E5D00A08ACC /* NSTimer+addition.m in Sources */,
 				880FBB6220C538C500DBAE29 /* YFShareView.m in Sources */,
 				889143BA20450F1D00A08ACC /* WKNavigationController.m in Sources */,
+				885DA390212C02F100AC1CDC /* YFHomeNearTableViewCell.m in Sources */,
 				881251B420C0DA38008293EF /* YKShareViewController.m in Sources */,
 				88A94C061FB44BBF0048B4C2 /* ViewController.m in Sources */,
 				8891439820450E1000A08ACC /* UIView+Frame.m in Sources */,
@@ -1781,7 +1791,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				DEVELOPMENT_TEAM = TT969ZMW52;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1832,7 +1842,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				DEVELOPMENT_TEAM = TT969ZMW52;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

@@ -18,13 +18,13 @@ SKSingleM(YKAlipayTool)
 
 #pragma mark  支付宝支付
 - (void)gopayForAlipay{
-    NSString *appID = @"2018012302042945";
+    NSString *appID = @"2018062760427268";
     // 如下私钥，rsa2PrivateKey 或者 rsaPrivateKey 只需要填入一个
     // 如果商户两个都设置了，优先使用 rsa2PrivateKey
     // rsa2PrivateKey 可以保证商户交易在更加安全的环境下进行，建议使用 rsa2PrivateKey
     // 获取 rsa2PrivateKey，建议使用支付宝提供的公私钥生成工具生成，
     // 工具地址：https://doc.open.alipay.com/docs/doc.htm?treeId=291&articleId=106097&docType=1
-    NSString *rsa2PrivateKey = @"MIIEowIBAAKCAQEAvZMfVqSHDaMixszcdyVEW5IEj4PTFEQjL6QFYzAdWstVNKfFvRNL60AShCSHTFQhbqI5xXNT8pKG7QiTVtg76ES5otZU9o47/Cw6mkXLI7zgCdh2Cn+TkdNy+/oG8VM1rUOyqwTtD3OaXzffvIsEytVptUtNjeSkqu5yVVpxhunco3/peWo+XqYIzgiWz6IMXe2kOnyvb2yJO2r6V3+IIVy/nQxQwGZs1T+4WfU+Rnk/B6XDMfIFOuvmreaqLMaafIxLp9xIiFUsAPDmFhwXZTy+tXGha8AZrd9eGsC9HhZGiRdpaHth2gFV0zaXJUDzSiou6NQqOOJuMwkG5TfXNQIDAQABAoIBAQCxJGO5O34zQQhDCbTM5JbulhAK5tx7aHwUjUi3eYNEjxGsZUVBu2FKjxF+Rv/iVA71aUNgfLapyT+pCEVddirsjCOGxI6Z4SiuJ8oO1D7QwzH6ITmT78g+EH62c9i+8ckLgWHXqn+124kZhoVbke/FdQwU6yup9kfkrXFKznuc2xg7ldiPmnfSZvIB88KI1LfAkfF6pXGIOsh1foHV3N3WYKf9zo4ofyoAoPHa7PXgZ72/wpihLsneIDfySJaeph4x5DrbBw6HUAntuWBlJesISfr51Fe5IySidJtHHySaNT6DnFXaOKG1tDzyqaK3kb54ih4+0MRUa0FIojckhLVhAoGBAOao7+MgZPua1ETbb12F0FCecg8sN9UEoTjopxMB+r4aK/SQ8OHkXGKqZ8ZiNuhV4MJ1Tnft0oPpL0V3uii0xi5DfGlpf/aAYHVKBerJWECFYqohzh4SA1HHNzW9iNGOE1qfQT+4e01qzPTEzpXOIQfCZ5UDXOFnQqSUh7Hj6Vz9AoGBANJmtS3Xe/Fw6nLZdGnw3m9dEgUg1Y0C2UGqdesAuuWHkAt+Yxe2Molq+F/Pm9pWjkkyg3hhnAVHz/WW+LydjPMlyOLJNPbgjcallKtrcGUQUIVa05fT+bKhAMPslwL2b0O/SRY+DgAqrBsIIiEUsFJKUbdRYJSVJQusWB+IAZSZAoGAAc42un9pavLGUJerIn9GpyrmV6oP8dHsdSaVEDgGv3AzAeIUkKAZ/Qe6cjoYle7+KGeEqrmo2TF9Fj0eruzjVD9g/O4/ey18E871huX2k+K3Z/+FvoSDlCNMElaeeI11J1Nxzk7iYDPC0POtbkzDw2zJJMh29Ki7Q9CJ02GmVP0CgYAUiKmN+8XA3oBDDS3rWPKcc7zae0XcKTcCzZwMf1m+JOjN9lu9aK6t8p6i2yQevuvMAP4LtZsAeO22zjEgV0/2Ou3MFE7y+R9dD7PetvGVK25wVVjpLGrmIAhvFpv2Ug6x0e1UGmJLad66FKUgDWDX5yDqfyqp1ZRz+zHugduFoQKBgAdmY3KQY5m+fl0XSjuoAird/+OxqsEz041d2sFGUgObhZgy84RVsnznLH9GdPvHeXTRUgD/pCKpb7okknenNjpp9a/Rh5c8JdwAIdUZGjbT1ucvTFiswYq7Eh6BjZVE92OuB/vNjdCQlcihu31dPPNdzidq5py1rdGcVQRq+3v2";
+    NSString *rsa2PrivateKey = @"MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDZX+31s5eP6gQIzDniCOtyhqQU4JG4Rcv+L6g1ClXZHP4thO4cZOZ1H47OwOWXNJQuo8VtKvCZW1KpzAWPFkUGwsgJZZXznc2/w5eGs/rsXw1Ef8vGkX1KU5P9R1YQJnPqu/7nxBeYUMwqiqWtKQSYB8mYZhSYVqbqmEszUczlk6dkWIdbUbdqKu4v3PO1wY+QMXZFuq0tC2t9LvccEdc6/+PTb+MHKHlYX/KiU0zCLOAvi4lmzr15bG0gVl8K64yTF9kJBjIxi2wqhnLZhCr0s1XINCPihRyGDhpFgU5B+w5c33V8rnwxAYPDILoJY6DZfuQpl2WGMXe2Gm4pmlczAgMBAAECggEBAMFrrabibetdtMdLSfoKK88VZS06gg9w88ozB75ieu8c8EL6tJFJaxMuyHjKhcCcxXoWudagzcP30b9Kzmt6ymLwsORDo0FJ2klXNh5jSdRH49tex6jhzpVzdwx5DGiEfsKRE4mRH9mlk3YLNs603+STkVttAchn2lCGwOtiTyq7KhGCedyZwYkrl0OwwXdzs8yjhD81uNtBKACDRx42hnRDrCMyHa73dooVdnnYfV0zXc/hzAgaM7nZmKX/0fkgcAGrAP/2YTPittTlq2WVk/9nMG6du+4o46L2eta+GT9S4HQFiVo55eel+Vmb7sNw1z8ppj3ImPPPAS8rnHUWakECgYEA++Lfd2H4hF51bz4s2ZWPF3BLmXk4ERq7hClN5gkUPoKPaSHV4S7Fye1nW4mE8gPYOS/5RYyW0ACniJoOI77ZKdTx+dKWGQzNYHD9AcmU3kKvANa7BT6jHLGcGR1xMeQ7LCiXcZ4nu2twZhDpnNORp35K0VQbQCdi8tPM15X2aBMCgYEA3OzD6xAe7BUe1vGeGSH6jabDvErgBMxd8inbebucNhsD4h8gGCr0l4DePUFUcdGEFND153ZCHPHH9YUSpwN8j3wUQaqOCFZuvhlVCrobYGSm6PSo1OgyFOt6mLW1mU1nu/+5kF7kT6LLaiCFNa69H4bhJmcFdL5GcZyA9gY8eGECgYEA3Q/eyZqdDicMb6YknI1KuOpgHwCo+TH58mKBsGq1bqsNC9qbJ/bxtWd6d3a4y+Id6Qq2fZiGX2TDo/p4gFyloLX37CYqfy+iK4reMaxlz668gkLyfgbcBnnGIrCZQI0qdXXme9uuySjgy2L6dB2mTlZjeVWUWPh4Od8yft5pFCsCgYEAwP1LgHJKsO0aTaYv98CJAWjmn/vAijCE+OC7yzGqmlErKUMLZFFR7W8ztMr3G55tBUotJg9WXbaQeNfQnXkcPLOldl+pR3tJrmKuuXouJByI+gOP4L0d0syKAhDqHItTzRTtY0KhqzeI/qJ9+5EzwPCwij2AtKTrIKAYv9JezMECgYEA2Ic/7cVLleZ7fpMfCVg7iVp66sT2P2NYRu8orplqshLmGKC2jPY0BXRanDkd7gHXH2ouBUJh29PxZVboxgo+5LzibAeFZ1BqXfZMcU1Hsv/1gByTuJCB9HiK1ilJ46ggG8bk7l1WH6Dpm4c+JfeASNJIiSxrP43Vz3Z86s9C2ws=";
     NSString *rsaPrivateKey = @"";
     
     //partner和seller获取失败,提示
@@ -99,8 +99,9 @@ SKSingleM(YKAlipayTool)
         NSString *appScheme = @"com.wangyu.cn.YukiFramework";
         
         // NOTE: 将签名成功字符串格式化为订单字符串,请严格按照该格式
-        NSString *orderString = [NSString stringWithFormat:@"%@&sign=%@",
-                                 orderInfoEncoded, signedString];
+//        NSString *orderString = [NSString stringWithFormat:@"%@&sign=%@",
+//                                 orderInfoEncoded, signedString];
+        NSString *orderString = @"alipay_sdk=alipay-sdk-java-dynamicVersionNo&app_id=2018062760427268&biz_content=%7B%22body%22%3A%22%E6%88%91%E6%98%AF%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE%22%2C%22out_trade_no%22%3A%2212345678910%22%2C%22product_code%22%3A%22QUICK_MSECURITY_PAY%22%2C%22subject%22%3A%22App%E6%94%AF%E4%BB%98%E6%B5%8B%E8%AF%95Java%22%2C%22timeout_express%22%3A%2230m%22%2C%22total_amount%22%3A%220.01%22%7D&charset=utf-8&format=json&method=alipay.trade.app.pay&notify_url=http%3A%2F%2Fnotifytest.free.ngrok.cc%2Ftmsapp%2Fv111%2Falipay%2Fnotify.do&sign=drEpUn2rvnrllb3KfqHdbV8WlTK8N2qgoOgv88ydejiqXGV2yC6YFVbugqDWHPBp4XfLCLQWmgNGfAhf4zk6MyRghFpy3RoYsOSaef6wNOkbZK4aUrowE%2BX3Q9p8dQ4gKWIaCPtqymIcxM17A7BphE%2B7ZisvY0YIFVDq5SWnsaKlHGrTz8zVPHlOEPRg6fUr1WI%2B1Kcd94gXEyompe7KN9eH5f3m1T2qXbioG0xv2gmWqYTd%2BBcAoPMd8gdk0pBqk0EmI%2BNYJQgMEMWB1%2BoiXNBpxtyIwxTDVl5fdPyo68ccBPI%2FvMlQesivzeLIU%2FvA83phRI8u3tE2dXW2c%2BeW%2BA%3D%3D&sign_type=RSA2&timestamp=2018-07-03+11%3A51%3A23&version=1.0";
         
         // NOTE: 调用支付结果开始支付
         [[AlipaySDK defaultService] payOrder:orderString fromScheme:appScheme callback:^(NSDictionary *resultDic) {
