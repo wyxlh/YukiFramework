@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBar.translucent = YES;
     self.view.backgroundColor                       = [UIColor whiteColor];
     self.title                                      = @"首页";
     [self setup];
@@ -70,6 +71,33 @@
     YukuClassViewController *view                    = [YukuClassViewController new];
     view.hidesBottomBarWhenPushed                    = YES;
     [self.navigationController pushViewController:view animated:YES];
+}
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+
+{
+    [self.navigationController.navigationBar setBackgroundImage:[self imageWithBgColor:[UIColor colorWithRed:1 green:0 blue:0 alpha:self.tableView.contentOffset.y / 200]] forBarMetrics:UIBarMetricsDefault];
+    
+}
+
+-(UIImage *)imageWithBgColor:(UIColor *)color {
+    
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    
+    UIGraphicsBeginImageContext(rect.size);
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return image;
+    
 }
 
 #pragma mark  demo 列表

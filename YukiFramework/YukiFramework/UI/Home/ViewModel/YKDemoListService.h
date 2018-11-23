@@ -10,4 +10,5 @@
 #import "YKDemoListViewModel.h"
 @interface YKDemoListService : NSObject <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) YKDemoListViewModel *viewModel;
+@property (nonatomic, strong) YukiBaseViewController *superVC;
 @end

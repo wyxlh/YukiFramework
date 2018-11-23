@@ -16,6 +16,7 @@
 		880FBB6420C538C500DBAE29 /* YFShareButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880FBB6120C538C500DBAE29 /* YFShareButton.xib */; };
 		881251B420C0DA38008293EF /* YKShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881251B220C0DA38008293EF /* YKShareViewController.m */; };
 		881251B520C0DA38008293EF /* YKShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881251B320C0DA38008293EF /* YKShareViewController.xib */; };
+		8816FF42217ED24900C8F83E /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8816FF41217ED24900C8F83E /* libstdc++.6.0.9.tbd */; };
 		8819EF7A2015EE1D00E416D4 /* YukiTitleScorllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */; };
 		8819EF7D2015EED600E416D4 /* WKChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF7B2015EED600E416D4 /* WKChildViewController.m */; };
 		8819EF8B2015F19800E416D4 /* WKAttributdeLblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF892015F19700E416D4 /* WKAttributdeLblViewController.m */; };
@@ -182,6 +183,7 @@
 		881251B120C0DA38008293EF /* YKShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShareViewController.h; sourceTree = "<group>"; };
 		881251B220C0DA38008293EF /* YKShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShareViewController.m; sourceTree = "<group>"; };
 		881251B320C0DA38008293EF /* YKShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShareViewController.xib; sourceTree = "<group>"; };
+		8816FF41217ED24900C8F83E /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
 		8819EF782015EE1D00E416D4 /* YukiTitleScorllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiTitleScorllViewController.h; sourceTree = "<group>"; };
 		8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiTitleScorllViewController.m; sourceTree = "<group>"; };
 		8819EF7B2015EED600E416D4 /* WKChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKChildViewController.m; sourceTree = "<group>"; };
@@ -482,6 +484,7 @@
 				881BF12F20BFDCBA0062AB17 /* CFNetwork.framework in Frameworks */,
 				881BF0E020BFD1890062AB17 /* libssl.a in Frameworks */,
 				881BF0E120BFD1890062AB17 /* libcrypto.a in Frameworks */,
+				8816FF42217ED24900C8F83E /* libstdc++.6.0.9.tbd in Frameworks */,
 				88CA6E162046A76600DECFF3 /* libStaticText.a in Frameworks */,
 				39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */,
 			);
@@ -946,6 +949,7 @@
 				88A94C0C1FB44BBF0048B4C2 /* LaunchScreen.storyboard */,
 				88A94C0F1FB44BBF0048B4C2 /* Info.plist */,
 				88A94C101FB44BBF0048B4C2 /* main.m */,
+				8816FF41217ED24900C8F83E /* libstdc++.6.0.9.tbd */,
 				88A94C331FB44C060048B4C2 /* Images.xcassets */,
 				8891438420450C1D00A08ACC /* Tools */,
 			);
@@ -1500,7 +1504,6 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1791,7 +1794,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TT969ZMW52;
+				DEVELOPMENT_TEAM = 3K7Q9D2L32;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1824,6 +1827,7 @@
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/Alipay",
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/wechat",
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/UnionPay/paymentcontrol/libs",
+					"$(PROJECT_DIR)/YukiFramework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1842,7 +1846,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TT969ZMW52;
+				DEVELOPMENT_TEAM = 3K7Q9D2L32;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1875,6 +1879,7 @@
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/Alipay",
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/wechat",
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/UnionPay/paymentcontrol/libs",
+					"$(PROJECT_DIR)/YukiFramework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";

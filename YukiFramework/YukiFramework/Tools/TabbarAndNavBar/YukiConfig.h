@@ -21,4 +21,5 @@
 #import <YYModel.h>
 #import <SDCycleScrollView.h>
 #import "UIView+Frame.h"
+#import "YukiBaseViewController.h"
 #endif /* YukiConfig_h */
