@@ -16,7 +16,6 @@
 		880FBB6420C538C500DBAE29 /* YFShareButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880FBB6120C538C500DBAE29 /* YFShareButton.xib */; };
 		881251B420C0DA38008293EF /* YKShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881251B220C0DA38008293EF /* YKShareViewController.m */; };
 		881251B520C0DA38008293EF /* YKShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 881251B320C0DA38008293EF /* YKShareViewController.xib */; };
-		8816FF42217ED24900C8F83E /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8816FF41217ED24900C8F83E /* libstdc++.6.0.9.tbd */; };
 		8819EF7A2015EE1D00E416D4 /* YukiTitleScorllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */; };
 		8819EF7D2015EED600E416D4 /* WKChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF7B2015EED600E416D4 /* WKChildViewController.m */; };
 		8819EF8B2015F19800E416D4 /* WKAttributdeLblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819EF892015F19700E416D4 /* WKAttributdeLblViewController.m */; };
@@ -41,6 +40,7 @@
 		881BF13F20BFDCF80062AB17 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BF13E20BFDCF80062AB17 /* CoreText.framework */; };
 		881BF14120BFDD080062AB17 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BF14020BFDD080062AB17 /* libc++.1.tbd */; };
 		881BF14320BFDD190062AB17 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BF14220BFDD190062AB17 /* libz.tbd */; };
+		8820DC8B227C90B70061CCA9 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8820DC89227C8F720061CCA9 /* libstdc++.6.0.9.tbd */; };
 		882181A32011BFBE002CE791 /* YukiShowPhotoWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882181A22011BFBE002CE791 /* YukiShowPhotoWebViewController.m */; };
 		88224D3C1FBC0F53003ADDBA /* DogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3B1FBC0F53003ADDBA /* DogModel.m */; };
 		88224D3F1FBC10B3003ADDBA /* YKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 88224D3E1FBC10B3003ADDBA /* YKPerson.m */; };
@@ -112,6 +112,8 @@
 		88AE9B5E20C76C960015A4FA /* YKDemoListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE9B5D20C76C960015A4FA /* YKDemoListViewModel.m */; };
 		88AE9B6220C777BB0015A4FA /* YKShortVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE9B6120C777BB0015A4FA /* YKShortVideoViewController.m */; };
 		88AE9B6520C778790015A4FA /* YKScorllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AE9B6420C778790015A4FA /* YKScorllView.m */; };
+		88C26500223A2E8C008F5123 /* YKPayAlipayOrderStringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C264FF223A2E8C008F5123 /* YKPayAlipayOrderStringView.m */; };
+		88C26502223A2E96008F5123 /* YKPayAlipayOrderStringView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C26501223A2E96008F5123 /* YKPayAlipayOrderStringView.xib */; };
 		88C5F5C71FBA95270025D9CA /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C61FBA95270025D9CA /* HomeModel.m */; };
 		88C5F5CB1FBABBAF0025D9CA /* YKShoppingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C5F5C91FBABBAF0025D9CA /* YKShoppingTableViewCell.m */; };
 		88C5F5CC1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88C5F5CA1FBABBAF0025D9CA /* YKShoppingTableViewCell.xib */; };
@@ -183,7 +185,6 @@
 		881251B120C0DA38008293EF /* YKShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShareViewController.h; sourceTree = "<group>"; };
 		881251B220C0DA38008293EF /* YKShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShareViewController.m; sourceTree = "<group>"; };
 		881251B320C0DA38008293EF /* YKShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKShareViewController.xib; sourceTree = "<group>"; };
-		8816FF41217ED24900C8F83E /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
 		8819EF782015EE1D00E416D4 /* YukiTitleScorllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiTitleScorllViewController.h; sourceTree = "<group>"; };
 		8819EF792015EE1D00E416D4 /* YukiTitleScorllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiTitleScorllViewController.m; sourceTree = "<group>"; };
 		8819EF7B2015EED600E416D4 /* WKChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKChildViewController.m; sourceTree = "<group>"; };
@@ -293,6 +294,7 @@
 		881BF14020BFDD080062AB17 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		881BF14220BFDD190062AB17 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		881BF14520BFDEF00062AB17 /* SKSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSingle.h; sourceTree = "<group>"; };
+		8820DC89227C8F720061CCA9 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = "libstdc++.6.0.9.tbd"; sourceTree = "<group>"; };
 		882181A12011BFBE002CE791 /* YukiShowPhotoWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YukiShowPhotoWebViewController.h; sourceTree = "<group>"; };
 		882181A22011BFBE002CE791 /* YukiShowPhotoWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YukiShowPhotoWebViewController.m; sourceTree = "<group>"; };
 		88224D3A1FBC0F53003ADDBA /* DogModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogModel.h; sourceTree = "<group>"; };
@@ -423,6 +425,9 @@
 		88AE9B6120C777BB0015A4FA /* YKShortVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKShortVideoViewController.m; sourceTree = "<group>"; };
 		88AE9B6320C778790015A4FA /* YKScorllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKScorllView.h; sourceTree = "<group>"; };
 		88AE9B6420C778790015A4FA /* YKScorllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKScorllView.m; sourceTree = "<group>"; };
+		88C264FE223A2E8C008F5123 /* YKPayAlipayOrderStringView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKPayAlipayOrderStringView.h; sourceTree = "<group>"; };
+		88C264FF223A2E8C008F5123 /* YKPayAlipayOrderStringView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKPayAlipayOrderStringView.m; sourceTree = "<group>"; };
+		88C26501223A2E96008F5123 /* YKPayAlipayOrderStringView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YKPayAlipayOrderStringView.xib; sourceTree = "<group>"; };
 		88C5F5C51FBA95270025D9CA /* HomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
 		88C5F5C61FBA95270025D9CA /* HomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		88C5F5C81FBABBAF0025D9CA /* YKShoppingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YKShoppingTableViewCell.h; sourceTree = "<group>"; };
@@ -484,7 +489,7 @@
 				881BF12F20BFDCBA0062AB17 /* CFNetwork.framework in Frameworks */,
 				881BF0E020BFD1890062AB17 /* libssl.a in Frameworks */,
 				881BF0E120BFD1890062AB17 /* libcrypto.a in Frameworks */,
-				8816FF42217ED24900C8F83E /* libstdc++.6.0.9.tbd in Frameworks */,
+				8820DC8B227C90B70061CCA9 /* libstdc++.6.0.9.tbd in Frameworks */,
 				88CA6E162046A76600DECFF3 /* libStaticText.a in Frameworks */,
 				39F97A6C2D0881FB1BF93EC3 /* libPods-YukiFramework.a in Frameworks */,
 			);
@@ -566,6 +571,9 @@
 				881BF0C020BFBDEA0062AB17 /* YKPlayTypeViewController.h */,
 				881BF0C120BFBDEA0062AB17 /* YKPlayTypeViewController.m */,
 				881BF0C220BFBDEA0062AB17 /* YKPlayTypeViewController.xib */,
+				88C264FE223A2E8C008F5123 /* YKPayAlipayOrderStringView.h */,
+				88C264FF223A2E8C008F5123 /* YKPayAlipayOrderStringView.m */,
+				88C26501223A2E96008F5123 /* YKPayAlipayOrderStringView.xib */,
 			);
 			path = "支付";
 			sourceTree = "<group>";
@@ -949,7 +957,7 @@
 				88A94C0C1FB44BBF0048B4C2 /* LaunchScreen.storyboard */,
 				88A94C0F1FB44BBF0048B4C2 /* Info.plist */,
 				88A94C101FB44BBF0048B4C2 /* main.m */,
-				8816FF41217ED24900C8F83E /* libstdc++.6.0.9.tbd */,
+				8820DC89227C8F720061CCA9 /* libstdc++.6.0.9.tbd */,
 				88A94C331FB44C060048B4C2 /* Images.xcassets */,
 				8891438420450C1D00A08ACC /* Tools */,
 			);
@@ -1295,7 +1303,6 @@
 				88A94BFA1FB44BBF0048B4C2 /* Sources */,
 				88A94BFB1FB44BBF0048B4C2 /* Frameworks */,
 				88A94BFC1FB44BBF0048B4C2 /* Resources */,
-				1DBD8E85F4D7061C5F328207 /* [CP] Embed Pods Frameworks */,
 				E7849E6D2B06A49A3B675D93 /* [CP] Copy Pods Resources */,
 				885D3291209AA250006F2855 /* Embed App Extensions */,
 			);
@@ -1424,6 +1431,7 @@
 				88A94C4E1FB44E2C0048B4C2 /* YukuClassViewController.xib in Resources */,
 				88A94C341FB44C060048B4C2 /* Images.xcassets in Resources */,
 				88A94C0B1FB44BBF0048B4C2 /* Assets.xcassets in Resources */,
+				88C26502223A2E96008F5123 /* YKPayAlipayOrderStringView.xib in Resources */,
 				881251B520C0DA38008293EF /* YKShareViewController.xib in Resources */,
 				8819EF8C2015F19800E416D4 /* WKAttributdeLblViewController.xib in Resources */,
 				88A94C581FB44E510048B4C2 /* YukiUserCenterViewController.xib in Resources */,
@@ -1460,21 +1468,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1DBD8E85F4D7061C5F328207 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YukiFramework/Pods-YukiFramework-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9AA91D6761D691A201581E13 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1504,6 +1497,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1570,6 +1564,7 @@
 				881BF0DB20BFC8E10062AB17 /* YKAlipayTool.m in Sources */,
 				88C5F5DF1FBAC3C60025D9CA /* YKShopModel.m in Sources */,
 				88224D3C1FBC0F53003ADDBA /* DogModel.m in Sources */,
+				88C26500223A2E8C008F5123 /* YKPayAlipayOrderStringView.m in Sources */,
 				88A4BAF62015DC4100558559 /* YukiCollectionViewFlowLayout.m in Sources */,
 				8819EF7A2015EE1D00E416D4 /* YukiTitleScorllViewController.m in Sources */,
 				88224D451FBC168F003ADDBA /* YKUser.m in Sources */,
@@ -1656,9 +1651,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				DEVELOPMENT_TEAM = 3K7Q9D2L32;
 				INFOPLIST_FILE = NotificationService/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1671,9 +1666,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8UNEFE2V3S;
+				DEVELOPMENT_TEAM = 3K7Q9D2L32;
 				INFOPLIST_FILE = NotificationService/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1732,7 +1727,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1781,6 +1776,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1793,9 +1789,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K7Q9D2L32;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/Alipay",
@@ -1829,8 +1826,10 @@
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/UnionPay/paymentcontrol/libs",
 					"$(PROJECT_DIR)/YukiFramework",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "YukiFramework/UI/UserCenter/Controller/YukiFramework-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -1845,9 +1844,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3K7Q9D2L32;
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/Alipay",
@@ -1881,8 +1881,10 @@
 					"$(PROJECT_DIR)/YukiFramework/Tools/payType/UnionPay/paymentcontrol/libs",
 					"$(PROJECT_DIR)/YukiFramework",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wangyu.cn.YukiFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "YukiFramework/UI/UserCenter/Controller/YukiFramework-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

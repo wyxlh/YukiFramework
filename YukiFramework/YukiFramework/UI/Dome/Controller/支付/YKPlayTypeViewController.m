@@ -7,9 +7,11 @@
 //
 
 #import "YKPlayTypeViewController.h"
+#import "YKPayAlipayOrderStringView.h"
 #import "YKAlipayTool.h"
 @interface YKPlayTypeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong, nullable) YKPayAlipayOrderStringView *alipayView;
 @property (nonatomic, strong, nullable) NSArray *dataArr,*imgArr;
 @end
 
@@ -23,6 +25,12 @@
     self.tableView.estimatedRowHeight             = 0;
     self.tableView.estimatedSectionFooterHeight   = 0;
     self.tableView.estimatedSectionHeaderHeight   = 0;
+    
+    [self addRightTitleBtn:@"结束"];
+}
+
+- (void)rightTitleButtonClick:(UIButton *)sender {
+    [self.view endEditing:YES];
 }
 
 #pragma mark UITableViewDelegate,UITableViewDataSource
@@ -57,10 +65,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.section == 0) {
-        [[YKAlipayTool sharedYKAlipayTool] gopayByPayType:@"支付宝" orderNum:@"" totalPrice:@"" currentViewController:self];
+//        [[YKAlipayTool sharedYKAlipayTool] gopayByPayType:@"支付宝" orderNum:@"" totalPrice:@"" currentViewController:self];
+        [self.view addSubview:self.alipayView];
         
     }else if (indexPath.section == 1){
-        [[YKAlipayTool sharedYKAlipayTool] gopayByPayType:@"微信" orderNum:@"" totalPrice:@"0.01" currentViewController:self];
+//        [[YKAlipayTool sharedYKAlipayTool] gopayByPayType:@"微信" orderNum:@"" totalPrice:@"0.01" currentViewController:self];
+        [self.view addSubview:self.alipayView];
     }else if (indexPath.section == 2){
         [[YKAlipayTool sharedYKAlipayTool] gopayByPayType:@"银联" orderNum:@"" totalPrice:@"0.01" currentViewController:self];
     }
@@ -71,6 +81,30 @@
         DLog(@"失败");
     };
    
+}
+
+
+- (YKPayAlipayOrderStringView *)alipayView {
+    if (!_alipayView) {
+        _alipayView = [[[NSBundle mainBundle] loadNibNamed:@"YKPayAlipayOrderStringView" owner:nil options:nil] firstObject];
+        _alipayView.frame = self.view.bounds;
+        WS(weakSelf)
+        _alipayView.payAliPayBlock = ^{
+            [weakSelf gotoPay];
+        };
+    }
+    return _alipayView;
+}
+
+- (void)gotoPay {
+    DLog(@"%@",self.alipayView.textView.text);
+    [[YKAlipayTool sharedYKAlipayTool] gopayByPayType:@"微信" orderNum:self.alipayView.textView.text totalPrice:@"" currentViewController:self];
+    [YKAlipayTool sharedYKAlipayTool].paySuccess = ^{
+        DLog(@"成功");
+    };
+    [YKAlipayTool sharedYKAlipayTool].payFailed  = ^{
+        DLog(@"失败");
+    };
 }
 
 

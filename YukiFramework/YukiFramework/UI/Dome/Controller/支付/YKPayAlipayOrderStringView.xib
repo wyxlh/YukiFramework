@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YKPayAlipayOrderStringView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="wx01131821681826070dbb1a412233025637" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QJg-5r-JkZ">
+                    <rect key="frame" x="0.0" y="70" width="375" height="450"/>
+                    <color key="backgroundColor" red="0.95294117649999999" green="0.76862745099999996" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="450" id="SFB-9g-DMX"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ac6-He-3dg">
+                    <rect key="frame" x="157.5" y="555" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.95294117649999999" green="0.76862745099999996" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="eN2-Kp-evj"/>
+                    </constraints>
+                    <state key="normal" title="支付">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="clickBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="T8F-hU-0Lm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QJg-5r-JkZ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="50" id="3RI-py-8Sf"/>
+                <constraint firstItem="QJg-5r-JkZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4eJ-6L-UZr"/>
+                <constraint firstItem="ac6-He-3dg" firstAttribute="top" secondItem="QJg-5r-JkZ" secondAttribute="bottom" constant="35" id="bV4-X5-GFn"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QJg-5r-JkZ" secondAttribute="trailing" id="dRO-VC-u96"/>
+                <constraint firstItem="ac6-He-3dg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="voe-nr-UXa"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="textView" destination="QJg-5r-JkZ" id="E4f-J1-ZG4"/>
+            </connections>
+            <point key="canvasLocation" x="-170.40000000000001" y="136.28185907046478"/>
+        </view>
+    </objects>
+</document>

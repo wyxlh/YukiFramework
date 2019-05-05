@@ -14,10 +14,14 @@
 #define YinLianZhengShi  @"00"
 
 //微信的Key
-#define WXAppId          @"wx692ec46fc9acc2b0"
-#define WXappSecret      @"833b9e6d48f9bb209cec4b2b11aab100"
-#define WeiXinPartnerId  @"1481778242"
-#define WeiXinPartnerKey @"wx692ec46fc9acc2b012345678987654"
+//#define WXAppId          @"wx692ec46fc9acc2b0"
+//#define WXappSecret      @"833b9e6d48f9bb209cec4b2b11aab100"
+//#define WeiXinPartnerId  @"1481778242"
+//#define WeiXinPartnerKey @"wx692ec46fc9acc2b012345678987654"
+#define WXAppId            @"wx55cdec5c462c13af"
+#define WXappSecret        @"0d47df340f75baf8950db58bb39afa58"
+#define WeiXinPartnerId    @"1503466011"
+#define WeiXinPartnerKey   @"12AsdAsd88888273hashdjdhASHDSHDD"
 
 //友盟APPKey
 #define UmengAppKey   @"5b04c2bdf43e4858b8000157"
